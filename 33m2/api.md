@@ -1,10 +1,12 @@
 # 33m2 API 카탈로그 (역추출)
 
-> 출처: JS 번들 35청크(2.5MB) 경로 문자열 마이닝 + 실호출 검증 + 네트워크 관찰.
-> `✅` = 실호출로 응답 확인 · `👁` = 네트워크에서 관찰 · `🔍` = 번들에서 경로만 발견(미검증)
+> 출처: **안드로이드 APK 정적 분석(jadx 디컴파일)** + 웹 JS 번들 + 실호출 검증 + 네트워크 관찰.
+> `✅` = 실호출로 응답 확인 · `👁` = 네트워크 관찰 · `📦` = **APK 코드에 경로 상수 존재(확실)** · `🔍` = 웹 번들 경로만
+>
+> **전체 엔드포인트 목록은 `33m2/api-endpoints.md` (159개, APK 추출)를 참조.** 이 문서는 규약·의미 중심.
 
-**Base**: `https://web.33m2.co.kr`
-**네임스페이스**: `/v1/use-auth/…` (인증 사용) · `/v1/no-auth/…` (비인증) · `/v2/…` (신규) · `/api/…` (Next.js 라우트 핸들러)
+**Base**: `https://web.33m2.co.kr` (웹) — 앱도 동일 `/v1/`·`/v2/` REST 사용
+**네임스페이스**: `/v1/…` · `/v2/…` (신규) · 웹은 인증 게이팅을 `/v1/use-auth/`·`/v1/no-auth/` 프리픽스로 추가 표기
 
 ---
 
@@ -12,16 +14,17 @@
 
 | 계층 | 방식 |
 |---|---|
-| **조회(Read)** | REST `/v1/use-auth/…` + **RSC 서버 렌더링** (페이지 데이터 대부분) |
-| **변경(Write)** | **Next.js Server Actions** — 번들에서 `createServerReference` 94곳, 액션 ID 71개 확인. REST 쓰기 엔드포인트가 아님 |
-| **실시간(채팅)** | **Firebase Realtime Database** (`onValue` 34, `onChildAdded`, `limitToLast`) |
-| **푸시** | **Firebase Cloud Messaging** (`getToken`, `onMessage`, service worker) |
-| **인증** | Firebase Auth → 자체 JWT (`/api/auth/session`, `/api/auth/refresh`, `/api/auth/sign-out`) |
-| **본인인증** | **MOK** (드림시큐리티) — `/v1/cert/mok/terms` |
-| **결제 PG** | **토스페이먼츠** — `/payments/toss/widget-info` |
+| **조회(Read)** | REST `/v1/…` + 웹은 **RSC 서버 렌더링** 병행 |
+| **변경(Write)** | ✅ **REST** (APK에서 확정) — 웹은 이를 Server Action으로 래핑하나 **본질은 REST API**. 앱은 REST 직접 호출 |
+| **실시간(채팅 메시지)** | **Firebase Realtime Database** — REST(`/v1/chat/*`)가 메타·액션, RDB가 메시지 스트림 |
+| **푸시** | **Firebase Cloud Messaging** (`getToken`, `onMessage`) |
+| **인증** | Firebase Auth → 자체 JWT. `/v1/user/login`·`/v1/user/refresh`·`/v1/user/logout`·`/v1/user/me/firebase-token` |
+| **본인인증** | **MOK**(드림시큐리티) `/v1/cert/mok/*` + 이메일 `/v1/cert/email/*` + 여권 OCR `/v1/cert/passport/ocr` |
+| **결제 PG** | **토스페이먼츠** `/payments/toss/widget-info` |
 
-> ⚠️ **쓰기 API를 REST로 기대하지 마세요.** 계약 요청·승인·취소·리뷰 작성 등은 모두 서버 액션입니다.
-> 새 서비스가 웹+앱(2차) 구조라면 **앱에서도 쓸 수 있도록 REST로 설계**하는 편이 낫습니다.
+> ✅ **정정(APK 분석 반영)**: 이전 문서는 "쓰기 = Server Action(비-REST)"으로 기록했으나,
+> **APK에 계약요청·승인·거절·취소·환불·리뷰 등 쓰기 경로가 REST 상수로 전부 존재**함을 확인했습니다.
+> 웹의 Server Action은 이 REST API를 감싸는 얇은 래퍼입니다. → **새 서비스도 REST로 설계하면 웹·앱 공용 가능.**
 
 ---
 

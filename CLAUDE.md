@@ -71,6 +71,10 @@
    15일 전: 무료/10%/20% · 8일 전: 20%/30%/50% · 1일 전: 40%/50%/70% · 당일 이후: 취소 불가
 33m2 매물 사진         = 최소 6장 / 최대 20장
 Airbnb 사진            = 최소 5장
+33m2 앱 REST API   = 159 엔드포인트 (APK 추출, 33m2/api-endpoints.md)
+33m2 데이터 모델    = 179 DTO / 1,045 필드 (APK @SerializedName, 33m2/data-model.md)
+33m2 쓰기 API       = REST (웹 Server Action은 REST 래퍼) — 계약요청/승인/거절/취소/환불/퇴실확인/리뷰답글
+33m2 앱 = 네이티브 Kotlin+OkHttp · Airbnb 앱 = Apollo GraphQL
 Airbnb 건물 유형       = 31종 · 33m2 = 12종
 ```
 

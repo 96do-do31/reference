@@ -211,9 +211,34 @@ Google 지도 (TextureView, 전체 화면)
 
 ---
 
-## 5. 한계
+## 5. APK 정적 분석 (jadx 디컴파일) ★
 
-- 앱 **네트워크 트래픽 미캡처** (HTTPS 인터셉트에는 프록시 CA 설치 필요 — 사용자 기기 설정 변경이라 수행하지 않음)
-- 따라서 **앱 전용 API**가 웹과 다른지는 미확인 (동일 `/v1/` REST 사용 추정 ❓)
+네트워크 MITM(위험·기기변경) 대신 **APK를 디컴파일**해 앱이 가진 API·모델을 통째로 추출했습니다.
+
+| | 33m2 | Airbnb |
+|---|---|---|
+| 패키지 | `com.samsamm2.mobileapp` (66MB) | `com.airbnb.android` (126MB) |
+| 프레임워크 | **네이티브 Kotlin** + OkHttp(253) | 네이티브 + **Apollo GraphQL**(5,261) |
+| 네트워크 | **REST** (Retrofit, R8로 어노테이션 제거되나 경로 상수 잔존) | GraphQL persisted query |
+| 추출 성과 | **API 159개 + DTO 179클래스/1,045필드** ✅ | REST 소수(`/v2/authentications` 등) + GraphQL(웹과 동일) |
+
+### 33m2 — 최대 수확
+- **전체 REST 엔드포인트 159개** → `33m2/api-endpoints.md`
+  웹에서 Server Action에 가려 못 봤던 **쓰기 API 전부** (계약 요청/승인/거절/취소/환불, 퇴실확인, 리뷰 답글, 임차인→임대인 전환 등)
+- **데이터 모델 179 DTO / 1,045 필드** → `33m2/data-model.md`
+  `@SerializedName`(231곳)으로 JSON 필드명·타입·널러블이 코드 그대로. 웹 Zod(463필드)를 크게 상회.
+- 웹 Server Action은 **이 REST를 감싸는 얇은 래퍼**임이 확정됨 → 새 서비스는 REST로 두면 웹·앱 공용
+
+### Airbnb — 아키텍처 확인
+- 앱도 **Apollo GraphQL** (웹과 동일 프레젠테이션 API 공유 재확인)
+- REST는 인증/검증 소수만: `/v2/authentications`, `/v2/post_verifications`, `/v2/get_verifications`, `/users/passwordless_login`, `/users/set_password`, `/v2/auth_flows`, `/resume-payment`
+- 결제: `TokenizeCreditCard`(GraphQL), Razorpay/Klarna SDK 흔적 (지역별 PG)
+- 참고 대상이므로 앱 심화는 여기서 종료
+
+## 6. 한계
+
+- 앱 **네트워크 트래픽(실 페이로드) 미캡처** — HTTPS 인터셉트에는 프록시 CA 설치가 필요(기기 전체 TLS 노출 + Airbnb 피닝으로 실패 가능). **정적 분석으로 상위 대체**했으므로 불필요.
+- HTTP 메서드는 R8이 정수 상수화 → RESTful 규약으로 추론(경로·모델은 확실)
+- Firebase RDB **경로 스키마**는 여전히 미상 (실 메시지 스트림 관찰 필요)
 - 알림 권한 다이얼로그는 **선택하지 않고 뒤로** 처리 (기기 설정 변경 회피)
-- Airbnb 앱은 resource-id가 없어 33m2만큼 상세 추출 불가
+- Airbnb 앱은 난독화 심함(85K 파일) + GraphQL이라 33m2만큼 상세 추출 불가
