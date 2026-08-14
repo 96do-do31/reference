@@ -22,22 +22,37 @@ Claude Code가 이 문서들을 입력으로 새 서비스를 구현하는 것�
 ```
 CLAUDE.md                        ← 사용법 · ID 체계 · 확정 수치 · 금지사항
 _synthesis/
+  GAP-ANALYSIS.md                완성도 감사 + 보완 계획 + 실행 결과
   comparison.md                  두 서비스 대조 + 강약점 + 가져올것/버릴것/새로만들것
   permissions.md                 권한 모델 (PERM-01~08)
-  api-observed.md                관찰된 API 명세 + 새 서비스 API 권장
+  api-observed.md                API 명세 · 에러 엔벨로프 · 검색 계약
 33m2/
   ARCHITECTURE.md                기술 스택 · API 표면 · 도메인 어휘
+  DOMAIN.md                      ★ 계약 도메인 — 상태머신 · 서브플로우 · 규칙
+  auth-and-account.md            인증 · 계정 · 본인인증 · 접근 경계
+  design-system.md               타이포 22종 · 컬러 73종 · 브레이크포인트
+  enums.md                       Enum 카탈로그 52그룹 + 에러코드 103개
+  zod-schemas.md                 클라이언트 Zod 스키마 44종 / 463필드
+  i18n-reference.md              전체 UI 문구 79 네임스페이스 / 1,876키
   guest/
     screens.md                   화면 인벤토리 (라우트 17종, SCR-G01~17)
-    flows.md                     유저 플로우 · 계약 상태 머신 · 요금 산식 · 환불 정책
-    entities.md                  데이터 모델 (ENT-001 Room 56필드, Host, ReviewTag, ListItem)
+    flows.md                     유저 플로우 · 요금 산식 · 환불 정책
+    entities.md                  Room 엔티티 · Host · ReviewTag · ListItem
   host/
     screens-and-model.md         호스트 화면 · 등록 위저드 5단계 · 정산 · 수수료 역산
 airbnb/
+  design-system.md               DLS 토큰 — 팔레트 349 · 타이포 104 · CSS변수 1,615
   guest/
-    screens-and-api.md           GraphQL 아키텍처 · 검색 · PDP 28섹션 · 체크아웃 · 여행/메시지/계정
+    screens-and-api.md           GraphQL 아키텍처 · 검색 · PDP · 여행/메시지/계정
+    listing-entity.md            ★ node.pdpPresentation 27필드 (Room 대응)
+    pdp-sections.md              PDP 28섹션 스키마
+    search-filters.md            검색 필터 카탈로그 112개 파라미터 매핑
+    checkout.md                  ★ stayCheckout — 결제·요금·식별자 모델
   host/
     listing-wizard.md            등록 위저드 16단계 중 1~7 · 접근 제약
+_shared/captures/                기계 판독용 원본 JSON
+  33m2.i18n.ko.json · 33m2.room.4684.json · 33m2.design-tokens.json
+  airbnb.pdp.sections.json · airbnb.search.json · airbnb.design-tokens.json
 ```
 
 ## 방법론
