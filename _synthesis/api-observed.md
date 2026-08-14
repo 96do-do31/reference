@@ -12,13 +12,76 @@
 **네임스페이스**: `/v1/use-auth/…` (인증 컨텍스트 사용) · `/v1/no-auth/…` (비인증, 규약상 추정 ❓)
 
 ### 공통 응답 엔벨로프 ✅
+
+**성공**
 ```jsonc
-{
-  "code": "SCSS_001",     // 성공 코드. 에러 코드 체계 미확인
-  "data": { /* 페이로드 */ }
-}
+{ "code": "SCSS_001", "data": { /* 페이로드 */ } }
 ```
 페이지네이션 응답은 Spring `Page` 형태: `data.content[]` (+ page/size/totalElements 동반 추정 ❓)
+
+**에러** — 실측으로 확정 ✅
+```jsonc
+{
+  "code": "ROOM_001",
+  "message": { "type": "ALERT", "content": "존재하지 않는 방입니다" },
+  "data": { "month": "올바른 월을 입력해주세요" }    // 필드별 검증 에러 (선택)
+}
+```
+| 상황 | HTTP | code | message.content |
+|---|---|---|---|
+| 존재하지 않는 방 | 400 | `ROOM_001` | 존재하지 않는 방입니다 |
+| 타입 불일치 (`rid=abc`) | 400 | `VLD_001` | `For input string: "abc"` |
+| 값 범위 위반 (`month=99`) | 400 | `VLD_001` | 올바른 월을 입력해주세요 (+ `data.month`) |
+| 없는 경로 | 404 | — | (빈 본문) |
+| 필수 파라미터 누락 | 200 | `SCSS_001` | (기본값 적용, 에러 아님) |
+
+> `message.type` = `ALERT` 관찰. 다른 값(TOAST 등) 존재 가능 ❓.
+> **비즈니스/검증 오류에 HTTP 400을 사용**하고, 도메인 코드로 세분화합니다.
+
+**에러 코드 도메인 (JS 번들에서 103개 확인)**
+`AUTH_001~012` · `USER_001~020` · `CERT_002~019,099` · `CTR_001~045` · `CARE_001~003` · `ADDR_001` · `VLD_001~002` · `SYS_001` · `SCSS_001`(성공) · `ROOM_001`(실측, 번들에 없음)
+> ⚠️ 서버가 클라이언트보다 많은 코드를 보유합니다. 전체 목록은 `33m2/enums.md` 참조.
+
+---
+
+### 검색 API 계약 ✅ (Zod 스키마 + URL 실측)
+
+`/guest/search` 의 쿼리 파라미터가 그대로 API 필터로 전달됩니다.
+
+```ts
+{
+  // 지도
+  lat: number, lng: number, zoomLevel: number,
+  swLat: number, swLng: number, neLat: number, neLng: number,
+  // 일정
+  startDate?: string,          // YYYY-MM-DD
+  endDate?: string,
+  // 가격 (1주 임대료 + 관리비 기준)
+  minUsingFee: number | null,
+  maxUsingFee: number | null,
+  // 다중 선택 필터 (배열)
+  roomCounts:        RoomCount[],        // ONE | TWO | THREE_PLUS
+  propertyTypes:     PropertyType[],     // OFFICETEL | APARTMENT | STUDIO | VILLA | DETACHED
+                                         // | MIXED_USE | GUEST_HOUSE | HOTEL | MOTEL
+                                         // | VACATION_HOME | GOSIWON | SHARE_HOUSE
+  pyeongSizes:       PyeongSize[],       // UNDER_FIVE | FROM_FIVE_TO_TEN | RANGE_TEN
+                                         // | RANGE_TWENTY | RANGE_THIRTY | OVER_FORTY
+  floors:            FloorFilter[],      // SEMI_BASEMENT | FIRST_FLOOR
+                                         // | FROM_SECOND_TO_NINE | OVER_TEN
+  popularOptions:    PopularOption[],    // PARKING | ELEVATOR | PET_ALLOWED | DUPLEX_STRUCTURE
+  basicOptions:      BasicOption[],      // REFRIGERATOR | WASHING_MACHINE | …(9)
+  additionalOptions: AdditionalOption[], // DOOR_LOCK | CCTV | …(21)
+  roomDiscounts:     RoomDiscount[],     // LONG_TERM | EARLY
+  // 페이지네이션
+  page: number, size: number
+}
+```
+**실측 URL 예**: `/guest/search?lat=…&lng=…&zoomLevel=14&roomCounts=TWO&propertyTypes=OFFICETEL&pyeongSizes=RANGE_TEN`
+→ 배열은 **반복 키**가 아니라 **콤마 없는 단일 키 반복/단일값** 형태. Zod `preprocess`로 문자열→배열 강제 변환.
+
+**지도 응답 부가 필드**: `nextZoomLevel`, `sameGpsCnt` (동일 좌표 매물 수 → 클러스터 표시)
+
+**정렬** (`SortOrder`): `RECENT | OLDEST | START_DATE_ASC | START_DATE_DESC | END_DATE_ASC | END_DATE_DESC`
 
 ---
 
