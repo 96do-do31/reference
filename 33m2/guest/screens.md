@@ -14,17 +14,67 @@
 | SCR-G05 | `/guest/contract` | 계약 목록 | ✅ 확인 (빈 상태) |
 | SCR-G06 | `/guest/chat` | 채팅 | ✅ 확인 (빈 상태) |
 | SCR-G07 | `/guest/notification` | 알림 | ✅ 확인 (빈 상태) |
-| SCR-G08 | `/guest/my/account` | 계정 정보 | 미탐색 |
-| SCR-G09 | `/guest/my/favorite-room` | 찜한 방 | 미탐색 |
-| SCR-G10 | `/guest/my/recent-room` | 최근 본 방 | 미탐색 |
-| SCR-G11 | `/guest/my/review` | 후기 관리 | 미탐색 |
-| SCR-G12 | `/guest/my/notification` | 알림 설정 | 미탐색 |
-| SCR-G13 | `/guest/support` | 고객센터 | 미탐색 |
-| SCR-G14 | `/guest/support/faq` | 임차인 FAQ | 미탐색 |
-| SCR-G15 | `/guest/notice` | 공지사항 | 미탐색 |
-| SCR-G16 | `/guest/campaign/event` | 이벤트/제휴 | 미탐색 |
-| SCR-G17 | `/guest/campaign/article` | 단기임대 이야기 (콘텐츠 마케팅) | 미탐색 |
-| — | `/terms/using`, `/terms/privacy-policy` | 약관 | 공통 |
+| SCR-G08 | `/guest/my/account` | 계정 정보 | ✅ 확인 |
+| SCR-G09 | `/guest/my/favorite-room` | 찜한 방 | ✅ 확인 |
+| SCR-G10 | `/guest/my/recent-room` | 최근 본 방 | ✅ 확인 |
+| SCR-G11 | `/guest/my/review` | 후기 관리 | ✅ 확인 (빈 상태) |
+| SCR-G12 | `/guest/my/notification` | 알림 설정 | ✅ 확인 |
+| SCR-G13 | `/guest/support` | 고객센터 | ✅ 확인 |
+| SCR-G14 | `/guest/support/faq` | 임차인 FAQ | ✅ 확인 (20건) |
+| SCR-G15 | `/guest/notice` | 공지사항 | ✅ 확인 |
+| SCR-G16 | `/guest/campaign/event` | 이벤트/제휴 | ✅ 확인 |
+| SCR-G17 | `/guest/campaign/article` | 단기임대 이야기 (콘텐츠 마케팅) | ✅ 확인 (10건) |
+| SCR-G18 | `/sign-in` | 로그인 | ✅ 확인 |
+| SCR-G19 | `/sign-up` | 회원가입 (다단계) | ✅ 확인 |
+| SCR-G20 | `/find-id` | 아이디 찾기 | ✅ 확인 |
+| SCR-G21 | `/reset-password` | 비밀번호 재설정 | ✅ 확인 |
+| — | `/terms/using`, `/terms/privacy-policy` | 약관 | ✅ 확인 |
+
+> 인증 화면 상세 → `33m2/auth-and-account.md`
+> FAQ 전문 → `33m2/faq.md`
+
+---
+
+## SCR-G09 찜한 방 `/guest/my/favorite-room` ✅
+
+카드 그리드 + 페이지네이션. 카드 = **[찜하기] 토글** · `{구} {동}의 {건물유형}` · 방 이름 · `방N 화장실N 주방N (거실N)` · **총액원/1주** · `임대료 X원 관리비 Y원` · 할인 배지(`장기계약~N%할인`, `즉시입주~N만 원할인`)
+
+## SCR-G10 최근 본 방 `/guest/my/recent-room` ✅
+
+찜한 방과 동일 카드 + **[삭제하기]** 액션 추가 (개별 제거).
+관련 API: `GET /v1/use-auth/rooms/recent-views`, `POST …/rooms/recent/view`
+
+## SCR-G11 후기 관리 `/guest/my/review` ✅
+
+탭: `전체 / 작성가능 / 작성완료` · "후기 N개" · **[후기 수정/삭제 안내]**
+액션: [상세 후기 작성하기] [후기 수정하기] [더보기]
+빈 상태: "아직 작성한 후기가 없습니다" + [단기임대 찾아보기]
+> 수정/삭제는 **고객센터 1:1 문의로만** 가능. 리뷰 공개 규칙 → `33m2/DOMAIN.md` §6.2
+
+## SCR-G12 알림 설정 `/guest/my/notification` ✅
+
+| 그룹 | 채널 |
+|---|---|
+| **채팅 알림** ("임대인의 채팅 메시지 알림을 받습니다") | 앱 푸시 · **카카오톡** |
+| **마케팅 알림** ("이벤트, 혜택 등") | 앱 푸시 · 문자 · 이메일 |
+| **방해 금지 모드** | `설정 안 함`(모든 시간 수신) / `설정`(시간대 지정) |
+
+> 고지: **"계약 알림, 계정 관련 알림 등 중요한 알림은 설정과 관계없이 발송됩니다."**
+
+## SCR-G13~14 고객센터 · FAQ ✅
+
+- `/guest/support` — 고객센터 (1:1 문의, 운영시간 10:00~18:00, 1877-3670)
+- `/guest/support/faq` — 카테고리 4종: `G01 삼삼엠투 소개`(5) · `G02 계약`(6) · `G03 입주/퇴실`(7) · `G04 보증금`(2)
+- `/ko/host/support/faq` — 임대인 FAQ 20건: 삼삼엠투 소개(8) · 방 등록(10) · 계약(2)
+
+**FAQ 엔티티**: `{id, categoryCode, categoryName, question, answer}`
+
+## SCR-G17 콘텐츠 `/guest/campaign/article` ✅
+
+**Article 엔티티**: `{id, title, description, landingPageCode, link, image, categoryId, categoryName, categoryCode}`
+카테고리: `이용 가이드` · `이용 후기`
+`landingPageCode` 예: `job-relocation-short-term-lease`, `guest_truth`, `deposit_faq`, `guest_pay`, `moving`
+> SEO/콘텐츠 마케팅 축. 10건 관찰.
 
 ---
 

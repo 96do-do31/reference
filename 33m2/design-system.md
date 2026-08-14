@@ -152,6 +152,58 @@ CSS에서 관찰된 실사용 그림자는 거의 없음 (`box-shadow: none` 다
 
 ---
 
+## 8-b. 실사용 클래스 통계 (컴포넌트 스펙)
+
+서버 렌더 페이로드 16개 페이지에서 `className` 문자열을 집계했습니다.
+**고유 클래스 257개 / 고유 조합 194개** — 유틸리티 조합형이므로 이 수치가 곧 디자인 언어입니다.
+
+### 사용 빈도 (실제 무엇을 쓰는가)
+
+| 축 | 순위 |
+|---|---|
+| **타이포** | `label1-reading`(154) > `label1`(99) > `headline2`(95) > `body1-reading`(72) > `body1`(64) > `label2`(34) |
+| **텍스트색** | `gray-900`(176) > `black`(154) > `gray-500`(79) > **`purple-500`(49)** > `gray-600`(18) > `white`(13) |
+| **배경** | `gray-50`(25) > `white`(19) > `gray-100`(14) > `gray-0`(13) + `[#1E1E1E80]`(딤 오버레이) |
+| **반경** | `rounded-lg`(45) 주력 · `rounded-b-lg`(32) · `rounded-sm`(20) |
+| **보더** | `border-b`(154) + **`border-gray-100`(150)** = 표준 구분선 · `border-t-black`(26) |
+| **여백** | `px-4`(176) + `py-[15px]`(176) = 표준 셀 패딩 · `px-5 py-4`(32) |
+| **간격** | `gap-[3px]`(32) · `gap-6`(24) · `gap-4`(14) |
+
+> 💡 **본문 텍스트는 `gray-900`, 강조는 `black`** 을 씁니다(순검정을 강조용으로 아껴 씀).
+> **보라(`purple-500`)는 49회** — 가격·할인·링크 등 포인트에만 절제해서 사용.
+> 구분선은 사실상 `border-gray-100` 하나로 통일.
+
+### 관찰된 컴포넌트 조합 (원문)
+
+**표 셀** ×150
+```
+typo-label1-reading border-b border-gray-100 px-4 py-[15px]
+not-first:border-l not-last:border-r
+```
+
+**리치 텍스트 본문(약관·안내)** ×53
+```
+typo-body1-reading space-y-6 text-gray-900
+[&_ol]:mt-3 [&_ol]:space-y-0.5 [&_ol]:pl-2
+[&_ul]:mt-3 [&_ul]:space-y-0.5 …
+```
+> 자식 선택자(`[&_ol]`)로 서버 HTML 콘텐츠를 스타일링 — 약관/FAQ 렌더링 패턴.
+
+**카드 하단 그라데이션 오버레이** ×32
+```
+absolute bottom-0 left-0 z-2 h-[170px] w-full rounded-b-lg px-5 py-4 backdrop-blur-lg
+```
+
+**카드 텍스트 3단** ×32 each
+```
+라벨  : typo-label1 mb-1 font-medium text-gray-500
+제목  : typo-body1 mb-2 line-clamp-1 font-semibold text-gray-900
+설명  : typo-body2 line-clamp-2 font-normal whitespace-break-spaces text-gray-900
+```
+> `line-clamp-1/2`로 카드 높이를 고정 — 그리드 정렬 안정성 확보.
+
+---
+
 ## 9. 새 서비스 적용 시 권장
 
 1. **타이포 토큰 체계를 그대로 차용** — 특히 `-reading` 변형 아이디어
