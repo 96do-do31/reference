@@ -162,24 +162,41 @@
 
 ---
 
-## 11. 채팅 — Firebase Realtime Database
+## 11. 채팅 — REST(메타) + Firebase RDB(메시지) 하이브리드 ★
 
-REST가 아닙니다.
+### 11.1 REST — 스레드 메타·액션 ✅ 실측
 
+| M | 경로 | 응답 |
+|---|---|---|
+| GET | `/v1/use-auth/chat/{cid}` | `{ roomName, picMain, contract }` |
+| GET | `/v1/use-auth/chat/{cid}/actions` | `{ floatingAction, headerActions[] }` |
+
+> ⭐ **스레드 키가 `cid`(ContractMaster ID)** — 채팅이 **계약 마스터 단위**임이 확정됩니다.
+> 연장으로 계약이 여러 건이 되어도 **스레드는 하나**로 유지됩니다.
+>
+> `actions` 는 상태에 따라 바뀌는 **UI 액션 정의**(플로팅 버튼/헤더 액션)를 서버가 내려주는 구조.
+> 서버 주도 액션 플래그(`isCallAvailable` 등)와 같은 설계 철학.
+
+### 11.2 메시지 스트림 — Firebase Realtime Database
+
+메시지 본문은 REST가 아닙니다. 번들 분석에서 확인:
 ```
-Firebase Realtime Database (project: *-rdb)
-  ├─ onValue()        스레드/메시지 구독
+Firebase Realtime Database (project: *-rdb, databaseURL: *-rtdb.firebaseio.com)
+  ├─ onValue()        (34회)  스레드/메시지 구독
   ├─ onChildAdded()   신규 메시지 수신
   ├─ push()           메시지 발송
-  ├─ limitToLast(n)   최근 N건
-  └─ startAt / endAt  페이지네이션
+  ├─ limitToLast(n)   (6회)   최근 N건
+  └─ startAt / endAt  (14회)  페이지네이션
 ```
-- 인증: Firebase Auth 토큰 (자체 JWT와 별개로 `firebaseToken` 세션에 보관)
-- 첨부: 이미지 (Firebase Storage 추정 🔍)
+- 인증: Firebase Auth 토큰 (세션의 `firebaseToken`)
 - 자동 메시지는 **서버가 발행** (스케줄러) — `33m2/host/screens-and-model.md` §자동 메시지
 
+> ⚠️ RDB 연결은 WebSocket이라 확장 프로그램 네트워크 로그에 잡히지 않았습니다.
+> **RDB 경로 스키마는 미확인** — 실제 메시지 송수신 관찰이 필요합니다.
 > ⚠️ 보안 규칙(Firebase Rules)은 관찰 불가.
-> 새 서비스도 채팅만 별도 실시간 스택을 쓰는 구조는 합리적입니다(RDB/Firestore/Supabase Realtime 등).
+
+> 💡 **역할 분리가 좋은 설계입니다**: 메타데이터·권한·액션은 백엔드 REST가,
+> 고빈도 메시지 스트림은 실시간 DB가 담당. 새 서비스도 채택 권장.
 
 ---
 
