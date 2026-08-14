@@ -1,0 +1,198 @@
+{
+ "source": "web.33m2.co.kr CSS bundle (build live/20260813-074532-d5acc50)",
+ "fontFamily": {
+  "sans": "Pretendard",
+  "fallback": "pretendard Fallback"
+ },
+ "color": {
+  "red-50": "#ffedef",
+  "red-100": "#fee1e5",
+  "red-200": "#ffbcc4",
+  "red-300": "#fe8d9b",
+  "red-400": "#fc6174",
+  "red-500": "#f04459",
+  "red-600": "#e62f45",
+  "red-700": "#d21f35",
+  "red-800": "#aa182a",
+  "red-900": "#8d1624",
+  "orange-50": "#fff0ea",
+  "orange-100": "#fde1d5",
+  "orange-200": "#fdcbb7",
+  "orange-300": "#fbac8d",
+  "orange-400": "#ff8e61",
+  "orange-500": "#fa6c34",
+  "orange-600": "#f55719",
+  "orange-700": "#d8470e",
+  "orange-800": "#b54012",
+  "orange-900": "#98360f",
+  "yellow-50": "#fff8e2",
+  "yellow-100": "#fcf2cf",
+  "yellow-200": "#fcecb5",
+  "yellow-300": "#fadf87",
+  "yellow-400": "#ffd857",
+  "yellow-500": "#ffcd29",
+  "yellow-600": "#feb519",
+  "yellow-700": "#e89e00",
+  "yellow-800": "#b87e00",
+  "yellow-900": "#9f6c00",
+  "green-50": "#eafdf3",
+  "green-100": "#d7f4e5",
+  "green-200": "#b5ebce",
+  "green-300": "#90deb4",
+  "green-400": "#4ccf89",
+  "green-500": "#0db45b",
+  "green-600": "#009d49",
+  "green-700": "#00803c",
+  "green-800": "#015d2c",
+  "green-900": "#004420",
+  "blue-50": "#edf4ff",
+  "blue-100": "#e2ebfb",
+  "blue-200": "#d2e2fc",
+  "blue-300": "#accafb",
+  "blue-400": "#7ba8f1",
+  "blue-500": "#4e90f9",
+  "blue-600": "#2375f6",
+  "blue-700": "#0a58d3",
+  "blue-800": "#023c98",
+  "blue-900": "#022d71",
+  "purple-50": "#f5f1ff",
+  "purple-100": "#e7e2f4",
+  "purple-200": "#ded5f6",
+  "purple-300": "#c6b5f6",
+  "purple-400": "#a78af7",
+  "purple-500": "#895ffc",
+  "purple-600": "#7240fe",
+  "purple-700": "#5227c9",
+  "purple-800": "#380dad",
+  "purple-900": "#280e6e",
+  "gray-50": "#f4f4f4",
+  "gray-100": "#e2e2e2",
+  "gray-200": "#d7d7d7",
+  "gray-300": "#c1c1c1",
+  "gray-400": "#aaa6a6",
+  "gray-500": "#888686",
+  "gray-600": "#696969",
+  "gray-700": "#4e4e4e",
+  "gray-800": "#353535",
+  "gray-900": "#252525",
+  "black": "#000",
+  "white": "#fff",
+  "gray-0": "#f8f8f8"
+ },
+ "typography": {
+  "body1": {
+   "line-height": "24px"
+  },
+  "body1-reading": {
+   "letter-spacing": "-.1px",
+   "font-size": "16px",
+   "line-height": "26px"
+  },
+  "body2": {
+   "line-height": "22px"
+  },
+  "body2-reading": {
+   "letter-spacing": "-.1px",
+   "font-size": "15px",
+   "line-height": "24px"
+  },
+  "caption1": {
+   "letter-spacing": "-.1px",
+   "font-size": "12px",
+   "line-height": "16px"
+  },
+  "caption2": {
+   "letter-spacing": "-.1px",
+   "font-size": "11px",
+   "line-height": "14px"
+  },
+  "caption3": {
+   "letter-spacing": "-.1px",
+   "font-size": "10px",
+   "line-height": "12px"
+  },
+  "display1": {
+   "letter-spacing": "-.4px",
+   "font-size": "56px",
+   "line-height": "72px"
+  },
+  "display2": {
+   "letter-spacing": "-.4px",
+   "font-size": "48px",
+   "line-height": "60px"
+  },
+  "display3": {
+   "letter-spacing": "-.4px",
+   "font-size": "40px",
+   "line-height": "52px"
+  },
+  "headline1": {
+   "letter-spacing": "-.2px",
+   "font-size": "22px",
+   "line-height": "34px"
+  },
+  "headline2": {
+   "letter-spacing": "-.2px",
+   "font-size": "20px",
+   "line-height": "30px"
+  },
+  "headline3": {
+   "letter-spacing": "-.1px",
+   "font-size": "18px",
+   "line-height": "26px"
+  },
+  "label1": {
+   "line-height": "20px"
+  },
+  "label1-reading": {
+   "letter-spacing": "-.1px",
+   "font-size": "14px",
+   "line-height": "22px"
+  },
+  "label2": {
+   "letter-spacing": "-.1px",
+   "font-size": "13px",
+   "line-height": "18px"
+  },
+  "title1": {
+   "letter-spacing": "-.4px",
+   "font-size": "32px",
+   "line-height": "48px"
+  },
+  "title2": {
+   "letter-spacing": "-.3px",
+   "font-size": "28px",
+   "line-height": "40px"
+  },
+  "title3": {
+   "letter-spacing": "-.2px",
+   "font-size": "24px",
+   "line-height": "36px"
+  }
+ },
+ "radius": {
+  "xs": ".125rem",
+  "sm": ".25rem",
+  "md": ".375rem",
+  "lg": ".5rem",
+  "xl": ".75rem",
+  "2xl": "1rem",
+  "3xl": "1.5rem"
+ },
+ "spacing": {
+  "--spacing": ".25rem"
+ },
+ "breakpoints": {
+  "xs": "375px",
+  "sm": "640px",
+  "md": "768px",
+  "lg": "1024px",
+  "xl": "1280px",
+  "2xl": "1536px",
+  "custom": [
+   "480px(max)",
+   "600px"
+  ]
+ },
+ "framework": "Tailwind CSS v4 (@theme tokens)"
+}

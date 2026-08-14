@@ -1,0 +1,708 @@
+{
+ "rid": 4684,
+ "roomName": "강남역 초역세권 역삼동",
+ "propertyType": "STUDIO",
+ "reviewScore": 4.8824,
+ "cid": null,
+ "hasElevator": true,
+ "parkingType": "NONE",
+ "parkingNotice": "",
+ "description": "강남역 5분거리 초역세권 풀옵션 원룸 건물입니다. 관리가 잘 되어있는 화이트 톤의 따뜻한 인테리어입니다. 일주일동안 강남 도심 한 가운데에서 완벽한 인프라를 누려보세요^^\n\n- 퀸사이즈 침대 \n- 정남향\n- 맛집 천국, 쇼핑 천국\n- 강남대로 중심\n- 집 앞 영화관",
+ "additionalDescription": "- 반경 100m 내에 편의점, 음식점, 카페, 다이소 등 다양한 편의시설이 있어 편리합니다.",
+ "usageGuide": "- 계약이 확정되시면 입주안내를 메세지로 보내드립니다. - 계약은 비대면으로 이루어집니다.\n\n*하루 단위도 문의 주세요.",
+ "transportation": "- 강남역 11번출구 5분 거리\n- 서울 모든 곳으로 통하는 버스정류장 5분 거리",
+ "basicOptions": [
+  "REFRIGERATOR",
+  "WASHING_MACHINE",
+  "AIR_CONDITIONER",
+  "WIFI",
+  "SINK",
+  "INDUCTION",
+  "BED"
+ ],
+ "additionalOptions": [
+  "DOOR_LOCK",
+  "CCTV",
+  "MANAGEMENT_OFFICE",
+  "MICROWAVE",
+  "DESK",
+  "CLOSET",
+  "SHOE_RACK",
+  "CURTAINS",
+  "AIR_PURIFIER"
+ ],
+ "missingOptions": [
+  "TV",
+  "GAS_STOVE",
+  "DINING_TABLE",
+  "RICE_COOKER",
+  "WATER_PURIFIER",
+  "SOFA",
+  "VANITY",
+  "BATHTUB",
+  "BIDET",
+  "DRYER",
+  "BALCONY",
+  "DRESSING_ROOM",
+  "CABLE_TV"
+ ],
+ "petAllowed": false,
+ "addrLot": "서울특별시 강남구 역삼동 817-37 주건축물제1동 3층",
+ "addrStreet": "서울특별시 강남구 강남대로98길 22 3층",
+ "state": "서울특별시",
+ "province": "강남구",
+ "town": "역삼동",
+ "lat": 37.50083,
+ "lng": 127.02822,
+ "subwayStations": [
+  "강남역",
+  "신논현역"
+ ],
+ "deposit": 330000,
+ "usingFee": 340000,
+ "mgmtFee": 50000,
+ "longTermDiscounts": [
+  {
+   "weeks": 2,
+   "discountRate": 7,
+   "discountedUsingFee": 316200
+  },
+  {
+   "weeks": 4,
+   "discountRate": 10,
+   "discountedUsingFee": 306000
+  }
+ ],
+ "earlyCheckinDiscounts": [
+  {
+   "days": 1,
+   "discountAmount": 7
+  },
+  {
+   "days": 3,
+   "discountAmount": 5
+  }
+ ],
+ "includeElectricity": true,
+ "includeWater": true,
+ "includeGas": true,
+ "managementFeeDescription": ".",
+ "cleanFee": 30000,
+ "minimumContractWeeks": 1,
+ "refundPolicy": "MIDDLE",
+ "refundTerms": [
+  {
+   "beforeCheckinDays": 15,
+   "cancelFeePercent": 10
+  },
+  {
+   "beforeCheckinDays": 8,
+   "cancelFeePercent": 30
+  },
+  {
+   "beforeCheckinDays": 1,
+   "cancelFeePercent": 50
+  },
+  {
+   "beforeCheckinDays": 0,
+   "cancelFeePercent": null
+  }
+ ],
+ "roomCnt": 1,
+ "bathroomCnt": 1,
+ "cookroomCnt": 1,
+ "sittingroomCnt": 0,
+ "sharedRoom": false,
+ "sharedBathroom": false,
+ "sharedCookroom": false,
+ "duplexStructure": false,
+ "pyeongSize": 5,
+ "squareMeterSize": 16.528950000000002,
+ "roomUrl": "https://web.33m2.co.kr/guest/room/4684",
+ "pictures": "$14:2:props:children:props:children:1:props:children:props:children:0:props:children:props:children:0:props:children:props:images",
+ "like": false,
+ "hostUser": {
+  "uid": 21445,
+  "picProfile": "profile/3dfd9b47-3504-40e0-828a-30e07b812a3c.png",
+  "name": "이윤지",
+  "isSuperHost": true,
+  "isCertificated": true,
+  "introduction": "강남역 초역세권에서 모든 인프라를 누려보세요^^",
+  "reviewCount": 51,
+  "avgScore": 4.9,
+  "firstRoomRegisteredDate": "2022-09-20"
+ },
+ "reviewList": [
+  {
+   "contractId": 438759,
+   "name": "강*나",
+   "score": 5,
+   "review": "전철역도 가깝고 조용하고 깨끗한 숙소 잘쉬다갑니다.",
+   "reviewTime": "2025-12-29T08:05:47",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 516899,
+   "name": "김*준",
+   "score": 5,
+   "review": "최고였어요",
+   "reviewTime": "2025-12-12T08:34:57",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 515297,
+   "name": "*",
+   "score": 5,
+   "review": "인프라도 좋고 집도 잘 관리되어 있습니다. 온수와 난방도 잘 되어 따뜻하게 잘 지내다 갑니다. 감사합니다! \n",
+   "reviewTime": "2025-11-16T09:20:57",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 481181,
+   "name": "강*린",
+   "score": 2,
+   "review": "더러워요ㅜㅜ",
+   "reviewTime": "2025-11-06T20:18:58",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 510166,
+   "name": "이*현",
+   "score": 5,
+   "review": "잘 이용하고 갑니다",
+   "reviewTime": "2025-10-31T10:07:41",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 431857,
+   "name": "송*미",
+   "score": 5,
+   "review": "위치가,넘 좋아요\n깨끗하고,잘 사용후 갑니다.",
+   "reviewTime": "2025-10-14T08:07:47",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 223823,
+   "name": "김*희",
+   "score": 5,
+   "review": "장기투숙 추천이요. 호스트님의 빠른 응대에 감사드립니다!",
+   "reviewTime": "2025-08-31T08:09:00",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 203755,
+   "name": "C********g",
+   "score": 5,
+   "review": "한달 넘게 지냈는데 편하게 잘 지냈습니다. \n연락 드리면 바로바로 답해주셔서 감사합니다. \n위치는 너무너무 좋았고 집에 수납공간이 많아서 좋았습니다. ",
+   "reviewTime": "2025-07-10T22:20:03",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 387007,
+   "name": "박*혁",
+   "score": 5,
+   "review": "가성비 좋은 방입니다  호스트도 친절합니다 ",
+   "reviewTime": "2025-06-05T17:35:56",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 203980,
+   "name": "송*혜",
+   "score": 5,
+   "review": "호스트가 친절하여 마음 편히 잘 있었습니다.^^\n강남역과 신논현역 중간 지점에 있어서 대중교통 이용시 편리합니다.",
+   "reviewTime": "2025-05-19T15:37:59",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 230568,
+   "name": "이*준",
+   "score": 5,
+   "review": "교통도 편리하고 쾌적하게 잘 지내다 갑니다",
+   "reviewTime": "2025-04-17T14:01:54",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 229879,
+   "name": "양*실",
+   "score": 5,
+   "review": "깔끔해서 좋았어요.\n잘 사용하고 갑니다~^^",
+   "reviewTime": "2025-04-06T09:42:59",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 202194,
+   "name": "도*주",
+   "score": 5,
+   "review": "위치가 좋습니다  \n",
+   "reviewTime": "2025-04-01T13:27:28",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 224920,
+   "name": "S*********M",
+   "score": 5,
+   "review": "너무 깔끔하고 아늑한 숙소였습니다. 잘 머물다가 갑니다. ",
+   "reviewTime": "2025-03-15T13:06:17",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 189823,
+   "name": "C************N",
+   "score": 5,
+   "review": "여기서 즐거운 추억 만들었어요.감사합니다!",
+   "reviewTime": "2025-03-08T14:18:37",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 199948,
+   "name": "양*운",
+   "score": 5,
+   "review": "집도 너무 깔끔했고 3주동안 너무 잘 썼습니다!\n",
+   "reviewTime": "2025-02-16T11:09:23",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 179121,
+   "name": "송*영",
+   "score": 5,
+   "review": "위치가 너무 좋아요. 3주동안 지냈는데 집도 아늑하고 혼자 지내기에 매우 편안했습니다. 한파에도 따뜻하게 잘 지냈어요. 다음에도 또 올 것 같아요.",
+   "reviewTime": "2025-01-12T09:11:11",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 156347,
+   "name": "손*윤",
+   "score": 5,
+   "review": "위치가 너무 좋았습니다. 화장실이 유리인게 조금 당황스러웠습니다.",
+   "reviewTime": "2024-12-19T09:15:34",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 137613,
+   "name": "오*랑",
+   "score": 5,
+   "review": "잘 지내다 갑니다. 위치가 좋아요. 감사합니다.",
+   "reviewTime": "2024-11-19T09:54:57",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 158626,
+   "name": "현*지",
+   "score": 5,
+   "review": "너무 좋았습니다!\n",
+   "reviewTime": "2024-11-04T15:47:21",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 79018,
+   "name": "S**********K",
+   "score": 5,
+   "review": "감사히 잘 지내고 갑니다",
+   "reviewTime": "2024-10-24T13:48:19",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 110141,
+   "name": "서*연",
+   "score": 5,
+   "review": "잘 지내다 갑니다",
+   "reviewTime": "2024-10-03T08:10:23",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 109289,
+   "name": "이*은",
+   "score": 5,
+   "review": "위치도 좋구 방도 깔끔해요!! ",
+   "reviewTime": "2024-08-18T20:28:20",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 72856,
+   "name": "S*********I",
+   "score": 5,
+   "review": "두달 넘게 장기 숙박했는데 불편함 없이 잘 지냈습니다. 교통이 매우 좋고 안전하며 택배도 쉽게 받을 수 있고 수납공간도 많아 좋았습니다. ",
+   "reviewTime": "2024-08-03T08:08:40",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 75595,
+   "name": "한*돈",
+   "score": 5,
+   "review": "위치는 완벽하고 장소도 아주 쾌적합니다! \b두명이서 장기 투숙했는데 너무 만족스러워서 연장 계약까지 했습니다. \n\n",
+   "reviewTime": "2024-05-31T09:22:50",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 71354,
+   "name": "서** ",
+   "score": 5,
+   "review": "깔끔하고 교통 좋고 아주 좋아요 ",
+   "reviewTime": "2024-04-08T13:06:41",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 42724,
+   "name": "정*화",
+   "score": 5,
+   "review": "잘 쉬다 갑니다",
+   "reviewTime": "2024-03-31T10:06:18",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 55071,
+   "name": "김*희",
+   "score": 5,
+   "review": "강남역이랑 가까워서 좋아요 호스트님도 친절해요! 잘 지내다갑니당",
+   "reviewTime": "2024-03-09T10:54:04",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 57488,
+   "name": "c**s",
+   "score": 5,
+   "review": "잘있다갑니다",
+   "reviewTime": "2024-01-26T10:18:32",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 52403,
+   "name": "임*지",
+   "score": 4,
+   "review": "위치가 좋아요\n조금 오래되었어요\n",
+   "reviewTime": "2024-01-12T13:29:17",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 49180,
+   "name": "추*지",
+   "score": 5,
+   "review": "편하고 따뜻하게 있다 갑니다",
+   "reviewTime": "2023-12-31T09:32:33",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 47351,
+   "name": "차*영",
+   "score": 5,
+   "review": "좋았습니다",
+   "reviewTime": "2023-12-22T10:15:36",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 49152,
+   "name": "김*곤",
+   "score": 5,
+   "review": "잘 쉬다 갑니다. ",
+   "reviewTime": "2023-12-08T17:50:35",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 37338,
+   "name": "G******e",
+   "score": 4,
+   "review": "가격대비적당해요",
+   "reviewTime": "2023-11-16T09:31:23",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 24609,
+   "name": "유**아",
+   "score": 5,
+   "review": "한달이란 기간을 편안하게 즐기고 갑니다. 집주인분께서 친절히 잘해주셔서 다음에 또 기회가 닿는다면 다시 오고싶습니다 ^^",
+   "reviewTime": "2023-10-23T15:29:45",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 39165,
+   "name": "김*정",
+   "score": 4,
+   "review": "위치가좋습니다",
+   "reviewTime": "2023-09-25T15:46:03",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 25567,
+   "name": "임*범",
+   "score": 5,
+   "review": "모든 것이 좋았습니다. 위치도 좋고, 청결도도 좋고, 만족도가 매우 높은 숙소 입니다. 강남 다시 방문할때 사용할 예정입니다.\n",
+   "reviewTime": "2023-09-19T10:02:59",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 28577,
+   "name": "정*화",
+   "score": 5,
+   "review": ".",
+   "reviewTime": "2023-08-26T10:00:31",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 14070,
+   "name": "박*영",
+   "score": 5,
+   "review": "호스트 친절하시고 편안히 지내다 갑니다. ",
+   "reviewTime": "2023-08-13T08:55:27",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 26487,
+   "name": "최** ",
+   "score": 5,
+   "review": "편하게 지냈습니다.",
+   "reviewTime": "2023-07-03T10:04:08",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 23388,
+   "name": "이*영",
+   "score": 5,
+   "review": "잘 쉬다 갑니다",
+   "reviewTime": "2023-06-20T10:02:20",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 24353,
+   "name": "H******E",
+   "score": 5,
+   "review": "시끄럽지 않고 위치 좋은 방 ",
+   "reviewTime": "2023-06-02T10:10:54",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 14637,
+   "name": "김*희",
+   "score": 5,
+   "review": "아주 아늑하고 좋았습니다",
+   "reviewTime": "2023-05-22T05:12:26",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 19220,
+   "name": "김*철",
+   "score": 5,
+   "review": "조용합니다",
+   "reviewTime": "2023-04-20T17:18:49",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 14106,
+   "name": "정*화",
+   "score": 5,
+   "review": "잘 쉬고 갑니다",
+   "reviewTime": "2023-04-08T10:10:12",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 13979,
+   "name": "한*문",
+   "score": 5,
+   "review": "잘썼어요^^",
+   "reviewTime": "2023-03-26T10:00:47",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 8592,
+   "name": "서*동",
+   "score": 5,
+   "review": "따뜻하고  지하철 역도 가깝고  건물관리가 잘되어 있습니다. ",
+   "reviewTime": "2023-02-15T16:33:21",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 8467,
+   "name": "박*주",
+   "score": 5,
+   "review": "따뜻하고 좋았어요",
+   "reviewTime": "2022-12-29T10:03:38",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 8879,
+   "name": "윤*나",
+   "score": 5,
+   "review": "잘 쉬다갑니다 !",
+   "reviewTime": "2022-11-26T11:42:11",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 9993,
+   "name": "구*승",
+   "score": 5,
+   "review": "잘사용했습니다~감사합니다",
+   "reviewTime": "2022-11-12T11:37:00",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  },
+  {
+   "contractId": 8093,
+   "name": "이*선",
+   "score": 5,
+   "review": "바질이 있어요:) 소중히 다뤄주세오",
+   "reviewTime": "2022-11-03T10:00:52",
+   "replyContents": null,
+   "replyCreatedDate": null,
+   "hostName": null
+  }
+ ],
+ "simpleReviewCounts": [
+  {
+   "simpleReviewTemplateId": 1,
+   "simpleReviewTemplateCode": "FAST_RESPONSE",
+   "content": "신속한 응답",
+   "isForHost": true,
+   "count": 2
+  },
+  {
+   "simpleReviewTemplateId": 2,
+   "simpleReviewTemplateCode": "KIND_HOST",
+   "content": "친절한 임대인",
+   "isForHost": true,
+   "count": 2
+  },
+  {
+   "simpleReviewTemplateId": 3,
+   "simpleReviewTemplateCode": "CONVENIENT_TRANSPORT",
+   "content": "대중교통 이용 편리",
+   "isForHost": false,
+   "count": 2
+  },
+  {
+   "simpleReviewTemplateId": 4,
+   "simpleReviewTemplateCode": "NEAR_AMENITIES",
+   "content": "주변 편의시설 다양",
+   "isForHost": false,
+   "count": 2
+  },
+  {
+   "simpleReviewTemplateId": 5,
+   "simpleReviewTemplateCode": "GOOD_PRICE",
+   "content": "좋은 가성비",
+   "isForHost": false,
+   "count": 2
+  },
+  {
+   "simpleReviewTemplateId": 6,
+   "simpleReviewTemplateCode": "CLEAN_INTERIOR",
+   "content": "깨끗한 내부",
+   "isForHost": false,
+   "count": 2
+  },
+  {
+   "simpleReviewTemplateId": 7,
+   "simpleReviewTemplateCode": "GOOD_INTERIOR",
+   "content": "멋진 인테리어",
+   "isForHost": false,
+   "count": 2
+  },
+  {
+   "simpleReviewTemplateId": 8,
+   "simpleReviewTemplateCode": "GOOD_MOOD",
+   "content": "멋진 동네 분위기",
+   "isForHost": false,
+   "count": 2
+  }
+ ],
+ "otherHostRooms": [],
+ "airbridgeEvent": "$14:1:props:airbridgeEvent",
+ "translationApplied": false
+}
