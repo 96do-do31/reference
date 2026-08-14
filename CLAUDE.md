@@ -20,13 +20,20 @@
 | 목적 | 파일 |
 |---|---|
 | **전체 맥락부터** | `_synthesis/comparison.md` — 두 서비스 대조 + 강약점 + 권장 |
-| 계약/예약 상태 머신 | `33m2/guest/flows.md` §FLOW-G02 |
+| **완성도·한계** | `_synthesis/GAP-ANALYSIS.md` — 무엇이 확실/추정/미확인인지 |
+| 계약 도메인·상태머신·서브플로우 | `33m2/DOMAIN.md` ★ |
 | 요금 계산 산식 | `33m2/guest/flows.md` §FLOW-G03, `_synthesis/comparison.md` §2 |
-| 데이터 모델 | `33m2/guest/entities.md` (ENT-001~004) |
-| 호스트 입력 모델 | `33m2/host/screens-and-model.md` §SCR-H03, `airbnb/host/listing-wizard.md` |
-| API | `_synthesis/api-observed.md` |
+| **데이터 모델 (전체)** | `33m2/data-model.md` ★ (179 DTO/1,045필드) · `33m2/zod-schemas.md` (웹) |
+| **API 엔드포인트 (전체)** | `33m2/api-endpoints.md` ★ (159개) · `33m2/api.md` (규약·의미) |
+| 인증·계정·본인인증 | `33m2/auth-and-account.md` |
+| enum·에러코드 | `33m2/enums.md` |
+| 호스트 입력 모델 | `33m2/host/screens-and-model.md` §SCR-H03 |
 | 권한 | `_synthesis/permissions.md` (PERM-01~08) |
-| 화면 인벤토리 | `33m2/guest/screens.md`, `33m2/host/screens-and-model.md`, `airbnb/guest/screens-and-api.md` |
+| 화면 인벤토리 | `33m2/guest/screens.md`, `33m2/host/screens-and-model.md` |
+| **모바일 앱 (2차 런칭)** | `_synthesis/mobile-apps.md` ★ |
+| 디자인 시스템 | `33m2/design-system.md` · `airbnb/design-system.md` |
+| UI 문구·i18n | `33m2/i18n-reference.md` (79 네임스페이스/1,876키) |
+| Airbnb (참고) | `airbnb/guest/{listing-entity,pdp-sections,search-filters,checkout}.md` |
 
 ---
 
@@ -102,12 +109,13 @@ Airbnb 건물 유형       = 31종 · 33m2 = 12종
 
 ---
 
-## 아직 비어 있는 것
+## 아직 비어 있는 것 (33m2 완성도 ~95%)
 
-`_synthesis/comparison.md` 말미의 "미해결" 절 참조. 특히:
-- **Airbnb 호스트 수수료율** — take rate 비교의 마지막 조각
-- 33m2 퇴실 점검 · 보증금 차감 플로우
-- 33m2 연장 신청 플로우
-- 양 서비스 리뷰 작성 플로우
+원리상 추출 불가하거나 조건이 안 맞는 것들 (`_synthesis/GAP-ANALYSIS.md` 참조):
+- **HTTP 메서드** — 경로·모델은 확실, 메서드는 RESTful 규약 추론 (R8이 상수화)
+- **Firebase RDB 채팅 경로 스키마** — 실 메시지 스트림 관찰 필요
+- **퇴실 점검·보증금 차감 UI** — 해당 상태의 계약이 없어 미관찰 (단, API·플로우는 확보)
+- **토스페이먼츠/MOK 콜백 상세** — 실결제·실인증 필요
+- **Airbnb 호스트 수수료율** — 등록 숙소 0건 조건
 
 새 서비스의 화면/플로우/API 명세는 **아직 작성하지 않았습니다** — 방향성 확정 후 `_synthesis/`에 추가할 예정입니다.
