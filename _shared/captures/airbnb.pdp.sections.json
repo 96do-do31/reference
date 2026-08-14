@@ -1,0 +1,5374 @@
+{
+ "presentation": {
+  "__typename": "RootPresentationContainer",
+  "stayProductDetailPage": {
+   "__typename": "StayPDPPresentationContainer",
+   "sections": {
+    "__typename": "StayPDPSections",
+    "sections": [
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotMTgxNzE1MTI5Mjc0NzM5MzgwMA==",
+      "sectionComponentType": "PDP_DESCRIPTION_MODAL",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "DESCRIPTION_MODAL",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.description_modal",
+       "experiments": null,
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "DESCRIPTION_MODAL",
+      "section": {
+       "__typename": "GeneralListContentSection",
+       "buttons": null,
+       "caption": null,
+       "ctaButton": null,
+       "flip": null,
+       "headingLevel": null,
+       "items": [
+        {
+         "__typename": "BasicListItem",
+         "action": null,
+         "anchor": null,
+         "accessibilityLabel": null,
+         "button": null,
+         "icon": null,
+         "html": {
+          "__typename": "Html",
+          "htmlText": "º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다.<br />- 지하철역까지 도보 3분.<br />- 버스 정류장까지 도보 1분 거리.<br />-인천공항 리무진 버스 정류장도 5분 거리에 위치.<br />- 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치.<br />- 지하철 2호선을 이용하면 강남, 홍대 등 주요 지역으로의 접근성이 <br />  뛰어납니다.<br /><br />º  숙소 앞에는 다양한 편의시설이 가까이에 있습니다:<br />- 편의점 2개(건물 바로 앞)<br />- 커피숍<br />- 서브웨이<br />- KFC<br />- 한솥도시락<br /><br />º  호스트가 상주중인 건물로 요청이나 문의 사항 바로바로 해결할 수 <br />   있습니다.",
+          "readMoreButton": null,
+          "textStyle": null,
+          "recommendedNumberOfLines": null,
+          "minimumNumberOfLinesForTruncation": null
+         },
+         "image": null,
+         "kicker": null,
+         "loggingEventData": null,
+         "media": null,
+         "subtitle": null,
+         "subtitleStyle": null,
+         "title": null,
+         "titleStyle": null
+        },
+        {
+         "__typename": "BasicListItem",
+         "action": null,
+         "anchor": null,
+         "accessibilityLabel": null,
+         "button": null,
+         "icon": null,
+         "html": {
+          "__typename": "Html",
+          "htmlText": "발급 지역: 서울특별시, 관악구<br />허가 유형: 외국인관광도시민박업<br />허가번호: 2024000167",
+          "readMoreButton": null,
+          "textStyle": null,
+          "recommendedNumberOfLines": null,
+          "minimumNumberOfLinesForTruncation": null
+         },
+         "image": null,
+         "kicker": null,
+         "loggingEventData": null,
+         "media": null,
+         "subtitle": null,
+         "subtitleStyle": null,
+         "title": "등록 세부 정보",
+         "titleStyle": null
+        }
+       ],
+       "kickerString": null,
+       "logoData": null,
+       "mediaItems": null,
+       "subtitle": null,
+       "subtitleStyle": null,
+       "title": "숙소 설명",
+       "titleStyle": null
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjo3MzE5NjM5NTc4OTI1MDU3OTQ2",
+      "sectionComponentType": "WHAT_COUNTS_AS_A_PET",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "WHAT_COUNTS_AS_A_PET_MODAL",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.service_animal_disclosure",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "WHAT_COUNTS_AS_A_PET_MODAL",
+      "section": {
+       "__typename": "GeneralContentSection",
+       "button": null,
+       "BasicButtonFragment": null,
+       "icon": null,
+       "mediaItem": {
+        "__typename": "Image",
+        "id": "SW1hZ2U6d2hhdF9jb3VudHNfYXNfYV9wZXQ=",
+        "aspectRatio": null,
+        "orientation": null,
+        "onPressAction": null,
+        "accessibilityLabel": "도우미 반려동물을 동반한 게스트가 호스트의 환영을 받고 있습니다.",
+        "baseUrl": "https://a0.muscache.com/pictures/adafb11b-41e9-49d3-908e-049dfd6934b6.jpg",
+        "displayAspectRatio": null,
+        "imageMetadata": null,
+        "previewEncodedPng": "https://a0.muscache.com/pictures/adafb11b-41e9-49d3-908e-049dfd6934b6.jpg",
+        "overlay": null,
+        "loggingEventData": null
+       },
+       "subtitle": null,
+       "subtitleStyle": null,
+       "title": "보조동물",
+       "titleStyle": null,
+       "headingLevel": null,
+       "html": {
+        "__typename": "Html",
+        "htmlText": "보조동물은 반려동물이 아니므로 여기에 추가할 필요가 없습니다.<br><br>정서적 지원 동물과 함께 여행하시나요? 에어비앤비 <a href=\"https://www.airbnb.com/help/article/1869/assistance-animals\" target=\"_blank\">접근성 정책</a>을 확인해보세요.",
+        "readMoreButton": null,
+        "textStyle": null,
+        "recommendedNumberOfLines": null,
+        "minimumNumberOfLinesForTruncation": null
+       },
+       "kickerBadge": null
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjozNTI3MzQ2NDgzNDc2NTEzMDA1",
+      "sectionComponentType": "LOCATION_PDP",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "LOCATION_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [
+       "TRANSLATE_UGC"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.location_default",
+       "experiments": [
+        {
+         "__typename": "Experiment",
+         "experiment": "map_category_button_experiment_v2_desktop",
+         "treatment": "control",
+         "dontLogOnFormFactor": null
+        }
+       ],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": {
+       "__typename": "UniversalLoggingData",
+       "eventData": "{}",
+       "eventDataSchema": "Pdp.v1.PdpLocationSectionViewportPresentationSession"
+      },
+      "mutationMetadata": null,
+      "pluginPointId": "LOCATION_DEFAULT",
+      "section": {
+       "__typename": "LocationSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotNzQ5MTk5NDg1ODk4MjQ1NjUw",
+      "sectionComponentType": "REVIEWS_DEFAULT",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "REVIEWS_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.reviews_default",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "REVIEWS_DEFAULT",
+      "section": {
+       "__typename": "StayPdpReviewsSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjoxOTY5NjAxNjk1NjYwOTk5MTc0",
+      "sectionComponentType": "AMENITIES_DEFAULT",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "AMENITIES_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [
+       "AMENITIES"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.amenities_default",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "AMENITIES_DEFAULT",
+      "section": {
+       "__typename": "AmenitiesSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjo0MDgxOTg1NzkwNzgwNTE1MzM=",
+      "sectionComponentType": "STAYS_PDP_AVAILABILITY_CALENDAR_INLINE",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "AVAILABILITY_CALENDAR_INLINE",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.availability_calendar_inline",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "AVAILABILITY_CALENDAR_INLINE",
+      "section": {
+       "__typename": "AvailabilityCalendarSection",
+       "title": "날짜 선택",
+       "subtitle": "여행 날짜를 입력하여 정확한 요금을 확인하세요.",
+       "descriptionItems": [
+        {
+         "__typename": "BasicListItem",
+         "title": "임대 호실 전체"
+        },
+        {
+         "__typename": "BasicListItem",
+         "title": "침대 1개"
+        },
+        {
+         "__typename": "BasicListItem",
+         "title": "욕실 1개"
+        }
+       ],
+       "listingTitle": "낙성대역3분거리 역세권숙소 207",
+       "discountCopy": null,
+       "localizedLocation": "서울, 한국",
+       "thumbnail": {
+        "__typename": "Image",
+        "baseUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg"
+       },
+       "maxGuestCapacity": 1,
+       "inlineCalendarLoggingEventData": {
+        "__typename": "CalendarLoggingEventData",
+        "clearDatesButton": {
+         "__typename": "BasicListItem",
+         "title": "날짜 지우기",
+         "loggingEventData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.inlineCalendar.clearDates",
+          "experiments": null,
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": "inlineCalendar",
+          "component": "clearDates"
+         }
+        },
+        "saveDatesButton": null,
+        "datesInputLoggingEventData": null,
+        "selectDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectDate"
+        },
+        "previousMonthLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.monthsNavPrevious",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "monthsNavPrevious"
+        },
+        "nextMonthLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.monthsNavNext",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "monthsNavNext"
+        },
+        "checkInDateInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.checkInInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "checkInInput"
+        },
+        "checkOutDateInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.checkOutInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "checkOutInput"
+        },
+        "guestInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.guestInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "guestInput"
+        },
+        "cancellationPolicyLoggingEventData": null,
+        "changeDatesButtonLoggingEventData": null,
+        "selectCheckOutOnlyDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectCheckOutOnlyDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectCheckOutOnlyDate"
+        },
+        "selectMaxNightsViolationDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectMaxNightsViolationDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectMaxNightsViolationDate"
+        },
+        "selectMinNightsViolationDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectMinNightsViolationDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectMinNightsViolationDate"
+        },
+        "selectUnavailableForCheckInDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectUnavailableForCheckInDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectUnavailableForCheckInDate"
+        },
+        "selectUnavailableForCheckoutDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectUnavailableForCheckoutDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectUnavailableForCheckoutDate"
+        }
+       },
+       "drawerCalendarLoggingEventData": null
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotNTkwMzM1MzgyOTE1NTY0NjAyOA==",
+      "sectionComponentType": "MEET_YOUR_HOST",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "MEET_YOUR_HOST",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp.meetYourHost",
+       "experiments": [
+        {
+         "__typename": "Experiment",
+         "experiment": "meet_your_host_white_background",
+         "treatment": "treatment",
+         "dontLogOnFormFactor": null
+        }
+       ],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": null,
+      "section": {
+       "__typename": "MeetYourHostSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotMTEzMTAxNjMxNDU1NjIxMjcxNw==",
+      "sectionComponentType": "POLICIES_DEFAULT",
+      "sectionContentStatus": "NOT_COMPLETE",
+      "sectionId": "POLICIES_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [
+       "CHECK_IN",
+       "CHECK_OUT",
+       "TRANSLATE_UGC",
+       "BOOKING"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.policies_default",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "POLICIES_DEFAULT",
+      "section": {
+       "__typename": "PoliciesSection",
+       "title": "알아두어야 할 사항",
+       "cancellationPolicyForDisplay": null,
+       "additionalHouseRules": null,
+       "additionalHouseRulesTitle": null,
+       "cancellationPolicyTitle": "환불 정책",
+       "houseRulesTitle": "숙소 이용규칙",
+       "listingExpectationsTitle": null,
+       "safetyAndPropertyTitle": "안전 및 공간",
+       "houseRules": [
+        {
+         "__typename": "BasicListItem",
+         "icon": null,
+         "title": "체크인 시간: 오후 3:00~오후 10:00"
+        },
+        {
+         "__typename": "BasicListItem",
+         "icon": null,
+         "title": "체크아웃 시간: 오전 11:00 전까지"
+        },
+        {
+         "__typename": "BasicListItem",
+         "icon": null,
+         "title": "게스트 정원 1명"
+        }
+       ],
+       "listingExpectations": null,
+       "previewSafetyAndProperties": [
+        {
+         "__typename": "SafetyAndPropertyInfo",
+         "title": "일산화탄소 경보기 설치 여부 정보 없음",
+         "icon": null,
+         "learnMoreButton": null
+        },
+        {
+         "__typename": "SafetyAndPropertyInfo",
+         "title": "부지 내 실외 보안 카메라",
+         "icon": null,
+         "learnMoreButton": null
+        },
+        {
+         "__typename": "SafetyAndPropertyInfo",
+         "title": "화재경보기",
+         "icon": null,
+         "learnMoreButton": null
+        }
+       ],
+       "safetyExpectationsAndAmenities": null,
+       "seeAllSafetyAndPropertyButton": {
+        "__typename": "BasicListItem",
+        "accessibilityLabel": "안전 및 숙소에 관한 자세한 정보",
+        "title": "더 보기",
+        "loggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.policies.showAllSafetyAndProperty",
+         "experiments": [],
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": null,
+         "component": null
+        }
+       },
+       "seeAllHouseRulesButton": {
+        "__typename": "BasicListItem",
+        "accessibilityLabel": "숙소 이용규칙에 관한 자세한 정보",
+        "title": "더 보기",
+        "loggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.policies.showAllRules",
+         "experiments": [],
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": null,
+         "component": null
+        }
+       },
+       "seeCancellationPolicyButton": {
+        "__typename": "BasicListItem",
+        "accessibilityLabel": "환불 정책에 관한 자세한 정보",
+        "title": "더 보기",
+        "loggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.policies.showAllCancellations",
+         "experiments": [],
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": null,
+         "component": null
+        }
+       },
+       "cleaningModal": null,
+       "houseRulesSubtitle": "에어비앤비 숙소는 다른 사람이 실제로 거주하는 집인 경우가 많으니 숙소 시설을 소중히 다뤄주세요.",
+       "houseRulesTranslationDisclaimer": null,
+       "houseRulesSections": [
+        {
+         "__typename": "GeneralListContentSection",
+         "title": "체크인 및 체크아웃",
+         "loggingEventData": null,
+         "items": [
+          {
+           "__typename": "BasicListItem",
+           "title": "체크인 시간: 오후 3:00~오후 10:00",
+           "subtitle": null,
+           "icon": "SYSTEM_CLOCK",
+           "loggingEventData": null,
+           "html": null
+          },
+          {
+           "__typename": "BasicListItem",
+           "title": "체크아웃 시간: 오전 11:00 전까지",
+           "subtitle": null,
+           "icon": "SYSTEM_CLOCK",
+           "loggingEventData": null,
+           "html": null
+          },
+          {
+           "__typename": "BasicListItem",
+           "title": "셀프 체크인: 키패드",
+           "subtitle": null,
+           "icon": "SYSTEM_CHECK_IN",
+           "loggingEventData": null,
+           "html": null
+          }
+         ]
+        },
+        {
+         "__typename": "GeneralListContentSection",
+         "title": "숙박 중",
+         "loggingEventData": null,
+         "items": [
+          {
+           "__typename": "BasicListItem",
+           "title": "게스트 정원 1명",
+           "subtitle": null,
+           "icon": "SYSTEM_FAMILY",
+           "loggingEventData": null,
+           "html": null
+          }
+         ]
+        }
+       ],
+       "safetyAndPropertySubtitle": "나중에 당황하는 일이 없도록 호스트 숙소에 대한 중요 정보를 미리 확인하세요.",
+       "safetyAndPropertiesTranslationDisclaimer": null,
+       "safetyAndPropertiesSections": [
+        {
+         "__typename": "GeneralListContentSection",
+         "title": "안전 장치",
+         "loggingEventData": null,
+         "items": [
+          {
+           "__typename": "BasicListItem",
+           "loggingEventData": null,
+           "title": "부지 내 실외 보안 카메라",
+           "subtitle": "“주차장, 1층현관, 각층 복도”",
+           "icon": "SYSTEM_SURVEILLANCE",
+           "html": null
+          },
+          {
+           "__typename": "BasicListItem",
+           "loggingEventData": null,
+           "title": "일산화탄소 경보기 설치 여부 정보 없음",
+           "subtitle": "호스트가 숙소 내 일산화탄소 경보기 설치 여부 정보를 제공하지 않았습니다. 휴대용 경보기를 챙겨가실 것을 권해드립니다.",
+           "icon": "SYSTEM_NO_DETECTOR_CO2",
+           "html": null
+          },
+          {
+           "__typename": "BasicListItem",
+           "loggingEventData": null,
+           "title": "화재경보기 설치됨",
+           "subtitle": null,
+           "icon": "SYSTEM_DETECTOR_SMOKE",
+           "html": null
+          }
+         ]
+        }
+       ],
+       "importantInformationTitle": null,
+       "importantInformationSubtitles": null,
+       "importantInformationContent": null,
+       "propertyLicenseTextList": null,
+       "enableCombinedThingsToKnowLayout": true,
+       "businessDetails": null,
+       "seeBusinessDetailsCtaCopy": null
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotNTA1NTM1OTkyNjA2ODAwMzk1Ng==",
+      "sectionComponentType": "SBUI_SENTINEL",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "SIMILAR_LISTINGS_CAROUSEL",
+      "errors": null,
+      "sectionDependencies": null,
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": null,
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": null,
+      "section": {
+       "__typename": "SBUISentinelSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotNzgwNTExMTMwMTY4MTIzMDYzMw==",
+      "sectionComponentType": "SEO_LINKS_DEFAULT",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "SEO_LINKS_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": null,
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": null,
+      "section": {
+       "__typename": "SeoLinksSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotNjMxODcwMzA2Njc3Mzk5Njk5",
+      "sectionComponentType": "BOOK_IT_SIDEBAR",
+      "sectionContentStatus": "NOT_COMPLETE",
+      "sectionId": "BOOK_IT_SIDEBAR",
+      "errors": null,
+      "sectionDependencies": [
+       "BOOKING"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.book_it_sidebar",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "BOOK_IT_SIDEBAR",
+      "section": {
+       "__typename": "BookItSection",
+       "subpageIdToOpen": null,
+       "showPriceBreakdown": true,
+       "cancellationPolicyLoggingEventData": {
+        "__typename": "LoggingEventData",
+        "loggingId": "pdp.bookItSidebar.cancellationPolicyInput",
+        "experiments": null,
+        "eventData": null,
+        "eventDataSchemaName": null,
+        "section": null,
+        "component": null
+       },
+       "calendarTitle": "날짜 선택",
+       "calendarSubtitle": "여행 날짜를 입력하여 정확한 요금을 확인하세요.",
+       "descriptionItems": null,
+       "discountCopy": null,
+       "maxGuestCapacity": 1,
+       "maxPlusValue": 16,
+       "tripDetailsLoggingEventData": {
+        "__typename": "CalendarLoggingEventData",
+        "clearDatesButton": {
+         "__typename": "BasicListItem",
+         "title": "날짜 지우기",
+         "loggingEventData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.bookItSidebar.clearDates",
+          "experiments": null,
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": "bookItSidebar",
+          "component": "clearDates"
+         }
+        },
+        "saveDatesButton": {
+         "__typename": "BasicListItem",
+         "title": "닫기",
+         "loggingEventData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.bookItSidebar.saveDates",
+          "experiments": null,
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": "bookItSidebar",
+          "component": "saveDates"
+         }
+        },
+        "datesInputLoggingEventData": null,
+        "selectDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.selectDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "selectDate"
+        },
+        "previousMonthLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.monthsNavPrevious",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "monthsNavPrevious"
+        },
+        "nextMonthLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.monthsNavNext",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "monthsNavNext"
+        },
+        "checkInDateInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.checkInInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "checkInInput"
+        },
+        "checkOutDateInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.checkOutInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "checkOutInput"
+        },
+        "guestInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.guestInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "guestInput"
+        },
+        "cancellationPolicyLoggingEventData": null,
+        "changeDatesButtonLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.changeDatesButton",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "changeDatesButton"
+        },
+        "selectCheckOutOnlyDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.selectCheckOutOnlyDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "selectCheckOutOnlyDate"
+        },
+        "selectMaxNightsViolationDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.selectMaxNightsViolationDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "selectMaxNightsViolationDate"
+        },
+        "selectMinNightsViolationDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.selectMinNightsViolationDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "selectMinNightsViolationDate"
+        },
+        "selectUnavailableForCheckInDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.selectUnavailableForCheckInDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "selectUnavailableForCheckInDate"
+        },
+        "selectUnavailableForCheckoutDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.bookItSidebar.selectUnavailableForCheckoutDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "bookItSidebar",
+         "component": "selectUnavailableForCheckoutDate"
+        }
+       },
+       "reviewItem": null,
+       "available": null,
+       "structuredDisplayPrice": null,
+       "discountData": null,
+       "bookItButtonByPlacement": null,
+       "cancellationPolicies": null,
+       "cancellationPolicyForDisplay": null,
+       "localizedUnavailabilityMessage": null,
+       "localizedUnavailabilityMessagePositionString": null,
+       "priceDisclaimer": null,
+       "selectedDatesLink": null,
+       "selectedNights": null,
+       "bookItButtonLayout": null,
+       "productItemDetail": null,
+       "ratePlanLoggingEventData": {
+        "__typename": "LoggingEventData",
+        "loggingId": "pdp.bookItSidebar.ratePlanInput",
+        "experiments": null,
+        "eventData": null,
+        "eventDataSchemaName": null,
+        "section": null,
+        "component": null
+       },
+       "ratePlanTitle": null,
+       "promotionBanner": null,
+       "guestDisclaimer": null,
+       "petsAllowed": null,
+       "petDetails": null,
+       "adultsPicker": {
+        "__typename": "GuestPickerSection",
+        "title": "성인",
+        "subtitle": "13세 이상"
+       },
+       "childrenPicker": {
+        "__typename": "GuestPickerSection",
+        "title": "어린이",
+        "subtitle": "2~12세"
+       },
+       "infantsPicker": {
+        "__typename": "GuestPickerSection",
+        "title": "유아",
+        "subtitle": "2세 미만"
+       },
+       "canInstantBook": null,
+       "highlightBanner": null,
+       "integratedPillMessageType": null,
+       "integratedPill": null,
+       "initialPillMessageType": null,
+       "initialPill": null,
+       "priceDetailPills": [],
+       "availabilityPriceDetailEntry": null,
+       "priceDetailLoggingEventData": null,
+       "vPoint": null,
+       "bookItPlacement": "SIDEBAR",
+       "priceMerchandisingMessage": null
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjo3NDY2NDU0NDI3Nzk2NzA2ODM4",
+      "sectionComponentType": "REPORT_TO_AIRBNB",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "REPORT_TO_AIRBNB",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.report_to_airbnb",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "REPORT_TO_AIRBNB",
+      "section": {
+       "__typename": "ReportToAirbnbSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotMjI2MTYyNzMwMjA3OTMwMzkyMQ==",
+      "sectionComponentType": "NAV_DEFAULT",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "NAV_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.nav_default",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "NAV_DEFAULT",
+      "section": {
+       "__typename": "NavSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjoxNDYzNTY0MjAxODgzMzY2MjMy",
+      "sectionComponentType": "BOOK_IT_NAV",
+      "sectionContentStatus": "NOT_COMPLETE",
+      "sectionId": "BOOK_IT_NAV",
+      "errors": null,
+      "sectionDependencies": [
+       "BOOKING"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.book_it_nav",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "BOOK_IT_NAV",
+      "section": {
+       "__typename": "BookItSection",
+       "subpageIdToOpen": null,
+       "showPriceBreakdown": false,
+       "cancellationPolicyLoggingEventData": null,
+       "calendarTitle": null,
+       "calendarSubtitle": null,
+       "descriptionItems": null,
+       "discountCopy": null,
+       "maxGuestCapacity": null,
+       "maxPlusValue": null,
+       "tripDetailsLoggingEventData": null,
+       "reviewItem": {
+        "__typename": "BasicListItem",
+        "accessibilityLabel": "후기 24개로부터 5점 만점에 4.75점을 받은 숙소입니다.",
+        "action": null,
+        "icon": "COMPACT_STAR",
+        "subtitle": "후기 24개",
+        "title": "4.75 ·"
+       },
+       "available": null,
+       "structuredDisplayPrice": null,
+       "discountData": null,
+       "bookItButtonByPlacement": null,
+       "cancellationPolicies": null,
+       "cancellationPolicyForDisplay": null,
+       "localizedUnavailabilityMessage": null,
+       "localizedUnavailabilityMessagePositionString": null,
+       "priceDisclaimer": null,
+       "selectedDatesLink": null,
+       "selectedNights": null,
+       "bookItButtonLayout": null,
+       "productItemDetail": null,
+       "ratePlanLoggingEventData": null,
+       "ratePlanTitle": null,
+       "promotionBanner": null,
+       "guestDisclaimer": null,
+       "petsAllowed": null,
+       "petDetails": null,
+       "adultsPicker": null,
+       "childrenPicker": null,
+       "infantsPicker": null,
+       "canInstantBook": null,
+       "highlightBanner": null,
+       "integratedPillMessageType": null,
+       "integratedPill": null,
+       "initialPillMessageType": null,
+       "initialPill": null,
+       "priceDetailPills": null,
+       "availabilityPriceDetailEntry": null,
+       "priceDetailLoggingEventData": null,
+       "vPoint": null,
+       "bookItPlacement": "NAV",
+       "priceMerchandisingMessage": null
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotMTk0NDkzNDQ5NTI2MTU0MTQ3OQ==",
+      "sectionComponentType": "SBUI_SENTINEL",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "OVERVIEW_DEFAULT_V2",
+      "errors": null,
+      "sectionDependencies": null,
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": null,
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": null,
+      "section": {
+       "__typename": "SBUISentinelSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjozMDAxODA5NDUxODgwMzgwNTE5",
+      "sectionComponentType": "SBUI_SENTINEL",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "GUEST_FAVORITE_BANNER",
+      "errors": null,
+      "sectionDependencies": null,
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": null,
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": null,
+      "section": {
+       "__typename": "SBUISentinelSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjo3NzQ0MjUzMjQ1MzA5MzYyMDIx",
+      "sectionComponentType": "MESSAGE_BANNER",
+      "sectionContentStatus": "SHOULD_HIDE",
+      "sectionId": "MESSAGE_BANNER",
+      "errors": null,
+      "sectionDependencies": [
+       "CHECK_IN",
+       "CHECK_OUT",
+       "BOOKING"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.message_banner",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "MESSAGE_BANNER",
+      "section": null
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotNDkyOTUwNzM4MDQ0MTkzOTI5NQ==",
+      "sectionComponentType": "HIGHLIGHTS_COMPACT",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "HIGHLIGHTS_COMPACT",
+      "errors": null,
+      "sectionDependencies": [
+       "BOOKING"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.highlights_compact",
+       "experiments": null,
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "HIGHLIGHTS_COMPACT",
+      "section": {
+       "__typename": "PdpHighlightsCompactSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotODc1MjM3MTk2NjE2MDc4NzU4NQ==",
+      "sectionComponentType": "SBUI_SENTINEL",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "HOST_OVERVIEW_DEFAULT",
+      "errors": null,
+      "sectionDependencies": null,
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": null,
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": null,
+      "section": {
+       "__typename": "SBUISentinelSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotNzk5NzE0ODczNzQwNDcxMzcwOQ==",
+      "sectionComponentType": "DESCRIPTION_DEFAULT",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "DESCRIPTION_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [
+       "TRANSLATE_UGC"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.description_default",
+       "experiments": null,
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "DESCRIPTION_DEFAULT",
+      "section": {
+       "__typename": "PdpDescriptionSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjo4ODYxMzgzNDY1OTE4NTg2OTMz",
+      "sectionComponentType": "TITLE_DEFAULT",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "TITLE_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [
+       "TRANSLATE_UGC"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.title_default",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "TITLE_DEFAULT",
+      "section": {
+       "__typename": "PdpTitleSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjo4MDI0MDQxODA1MTI1Njc1NTU1",
+      "sectionComponentType": "HERO_DEFAULT",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "HERO_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.hero_default",
+       "experiments": null,
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "HERO_DEFAULT",
+      "section": {
+       "__typename": "PdpHeroSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjo1MzI3MzE5MjUwNjM5MDUwMDc=",
+      "sectionComponentType": "BOOK_IT_FLOATING_FOOTER",
+      "sectionContentStatus": "NOT_COMPLETE",
+      "sectionId": "BOOK_IT_FLOATING_FOOTER",
+      "errors": null,
+      "sectionDependencies": [
+       "BOOKING"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.book_it_floating_footer",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "BOOK_IT_FLOATING_FOOTER",
+      "section": {
+       "__typename": "BookItSection",
+       "subpageIdToOpen": null,
+       "showPriceBreakdown": false,
+       "cancellationPolicyLoggingEventData": null,
+       "calendarTitle": null,
+       "calendarSubtitle": null,
+       "descriptionItems": null,
+       "discountCopy": null,
+       "maxGuestCapacity": null,
+       "maxPlusValue": null,
+       "tripDetailsLoggingEventData": null,
+       "reviewItem": null,
+       "available": null,
+       "structuredDisplayPrice": null,
+       "discountData": null,
+       "bookItButtonByPlacement": null,
+       "cancellationPolicies": null,
+       "cancellationPolicyForDisplay": null,
+       "localizedUnavailabilityMessage": null,
+       "localizedUnavailabilityMessagePositionString": null,
+       "priceDisclaimer": null,
+       "selectedDatesLink": {
+        "__typename": "BasicListItem",
+        "title": "10월 20일 ~ 11월 2일",
+        "action": {
+         "__typename": "OpenAvailabilityCalendarAction",
+         "loggingData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.bookItFooter.selectedDatesLink",
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": null,
+          "component": null
+         }
+        }
+       },
+       "selectedNights": null,
+       "bookItButtonLayout": "RIGHT_ALIGNED",
+       "productItemDetail": null,
+       "ratePlanLoggingEventData": null,
+       "ratePlanTitle": null,
+       "promotionBanner": null,
+       "guestDisclaimer": null,
+       "petsAllowed": null,
+       "petDetails": null,
+       "adultsPicker": null,
+       "childrenPicker": null,
+       "infantsPicker": null,
+       "canInstantBook": null,
+       "highlightBanner": null,
+       "integratedPillMessageType": null,
+       "integratedPill": null,
+       "initialPillMessageType": null,
+       "initialPill": null,
+       "priceDetailPills": [],
+       "availabilityPriceDetailEntry": null,
+       "priceDetailLoggingEventData": null,
+       "vPoint": null,
+       "bookItPlacement": "FLOATING_FOOTER",
+       "priceMerchandisingMessage": null
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjo3Mjk3Njg5Nzg3NTI5NjI5NzEx",
+      "sectionComponentType": "NAV_MOBILE",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "NAV_MOBILE",
+      "errors": [],
+      "sectionDependencies": [],
+      "enableDependencies": [],
+      "disableDependencies": [],
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.nav_mobile",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "NAV_MOBILE",
+      "section": {
+       "__typename": "NavMobileSection"
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjoyNTYyMDQxOTQ5Nzk4MzE3NDM=",
+      "sectionComponentType": "CANCELLATION_POLICY_PICKER_MODAL",
+      "sectionContentStatus": "NOT_COMPLETE",
+      "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
+      "errors": null,
+      "sectionDependencies": [
+       "CHECK_IN",
+       "CHECK_OUT",
+       "BOOKING"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.cancellation_policy_picker_modal",
+       "experiments": [],
+       "eventData": {
+        "productId": "U3RheUxpc3Rpbmc6MTQ4MjI2NzMxNjExMzc3ODA1MQ==",
+        "pdpImpressionId": "p3_1786715855_P3_RmQHLgwHkPU35",
+        "pdpContext": {}
+       },
+       "eventDataSchemaName": "Pdp.v5.ClientEventData",
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "CANCELLATION_POLICY_PICKER_MODAL",
+      "section": {
+       "__typename": "CancellationPolicyPickerSection",
+       "title": "환불 정책을 선택하세요",
+       "button": {
+        "__typename": "Button",
+        "title": "계속",
+        "action": null
+       },
+       "optionalityPriceDetail": null
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjoxNDcxNDkwNTMyNDA0ODMzNDEy",
+      "sectionComponentType": "PHOTO_TOUR_SCROLLABLE",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "PHOTO_TOUR_SCROLLABLE_MODAL",
+      "errors": null,
+      "sectionDependencies": null,
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.photo_tour_scrollable_modal",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": null,
+      "section": {
+       "__typename": "PhotoTourModalSection",
+       "title": null,
+       "mediaItems": [
+        {
+         "__typename": "Image",
+         "id": "2285984199",
+         "aspectRatio": 1.3333333333333333,
+         "orientation": "LANDSCAPE",
+         "onPressAction": null,
+         "accessibilityLabel": "리스팅 이미지 1",
+         "baseUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg",
+         "displayAspectRatio": null,
+         "imageMetadata": {
+          "__typename": "ImageMetadata",
+          "caption": null,
+          "imageType": null,
+          "isProfessional": false,
+          "isVerified": null,
+          "localizedCaption": null
+         },
+         "previewEncodedPng": null,
+         "overlay": null,
+         "loggingEventData": null
+        },
+        {
+         "__typename": "Image",
+         "id": "2285984205",
+         "aspectRatio": 1.3333333333333333,
+         "orientation": "LANDSCAPE",
+         "onPressAction": null,
+         "accessibilityLabel": "리스팅 이미지 2",
+         "baseUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/903960fc-a72b-4cc0-a54c-da358091340a.jpeg",
+         "displayAspectRatio": null,
+         "imageMetadata": {
+          "__typename": "ImageMetadata",
+          "caption": null,
+          "imageType": null,
+          "isProfessional": false,
+          "isVerified": null,
+          "localizedCaption": null
+         },
+         "previewEncodedPng": null,
+         "overlay": null,
+         "loggingEventData": null
+        },
+        {
+         "__typename": "Image",
+         "id": "2285984191",
+         "aspectRatio": 1.3333333333333333,
+         "orientation": "LANDSCAPE",
+         "onPressAction": null,
+         "accessibilityLabel": "리스팅 이미지 3",
+         "baseUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/bfe17cff-2f46-424b-900b-5d74bee55b39.jpeg",
+         "displayAspectRatio": null,
+         "imageMetadata": {
+          "__typename": "ImageMetadata",
+          "caption": null,
+          "imageType": null,
+          "isProfessional": false,
+          "isVerified": null,
+          "localizedCaption": null
+         },
+         "previewEncodedPng": null,
+         "overlay": null,
+         "loggingEventData": null
+        },
+        {
+         "__typename": "Image",
+         "id": "2285984198",
+         "aspectRatio": 1.3333333333333333,
+         "orientation": "LANDSCAPE",
+         "onPressAction": null,
+         "accessibilityLabel": "리스팅 이미지 4",
+         "baseUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/fa25580d-89e4-4c8f-aea4-f786a51d2551.jpeg",
+         "displayAspectRatio": null,
+         "imageMetadata": {
+          "__typename": "ImageMetadata",
+          "caption": null,
+          "imageType": null,
+          "isProfessional": false,
+          "isVerified": null,
+          "localizedCaption": null
+         },
+         "previewEncodedPng": null,
+         "overlay": null,
+         "loggingEventData": null
+        },
+        {
+         "__typename": "Image",
+         "id": "2285984197",
+         "aspectRatio": 0.75,
+         "orientation": "PORTRAIT",
+         "onPressAction": null,
+         "accessibilityLabel": "리스팅 이미지 5",
+         "baseUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/117e0356-15e1-4f62-a3d8-46c1889d5611.jpeg",
+         "displayAspectRatio": null,
+         "imageMetadata": {
+          "__typename": "ImageMetadata",
+          "caption": null,
+          "imageType": null,
+          "isProfessional": false,
+          "isVerified": null,
+          "localizedCaption": null
+         },
+         "previewEncodedPng": null,
+         "overlay": null,
+         "loggingEventData": null
+        },
+        {
+         "__typename": "Image",
+         "id": "2285984167",
+         "aspectRatio": 0.75,
+         "orientation": "PORTRAIT",
+         "onPressAction": null,
+         "accessibilityLabel": "리스팅 이미지 6",
+         "baseUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/5112253f-21ad-4a4d-a30e-aaec1fd1602a.jpeg",
+         "displayAspectRatio": null,
+         "imageMetadata": {
+          "__typename": "ImageMetadata",
+          "caption": null,
+          "imageType": null,
+          "isProfessional": false,
+          "isVerified": null,
+          "localizedCaption": null
+         },
+         "previewEncodedPng": null,
+         "overlay": null,
+         "loggingEventData": null
+        }
+       ],
+       "gridImageLoggingEventData": {
+        "__typename": "LoggingEventData",
+        "loggingId": "pdp.photoTour.gridImage",
+        "experiments": null,
+        "eventData": null,
+        "eventDataSchemaName": null,
+        "section": "photoTour",
+        "component": "gridImage"
+       },
+       "carouselImageNavigationLoggingEventData": {
+        "__typename": "LoggingEventData",
+        "loggingId": "pdp.photoTour.carouselImageNavigation",
+        "experiments": null,
+        "eventData": null,
+        "eventDataSchemaName": null,
+        "section": "photoTour",
+        "component": "carouselImageNavigation"
+       },
+       "shareSave": {
+        "__typename": "ShareSave",
+        "entityType": "STAY",
+        "shareButton": {
+         "__typename": "BasicListItem",
+         "title": "공유하기",
+         "subtitle": null,
+         "loggingEventData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.photoTour.share",
+          "experiments": [],
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": "photoTour",
+          "component": "share"
+         }
+        },
+        "saveButton": {
+         "__typename": "BasicListItem",
+         "title": "저장",
+         "subtitle": null,
+         "loggingEventData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.photoTour.save",
+          "experiments": [],
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": "photoTour",
+          "component": "save"
+         }
+        },
+        "unsaveButton": {
+         "__typename": "BasicListItem",
+         "title": "저장 목록",
+         "subtitle": null,
+         "loggingEventData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.photoTour.unsave",
+          "experiments": [],
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": "photoTour",
+          "component": "unsave"
+         }
+        },
+        "embedData": {
+         "__typename": "StayEmbedData",
+         "id": "1482267316113778051",
+         "name": "낙성대역3분거리 역세권숙소 207",
+         "personCapacity": 1,
+         "pictureUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg",
+         "propertyType": "임대 호실 전체",
+         "url": null,
+         "reviewCount": 24,
+         "starRating": 4.75
+        },
+        "sharingConfig": {
+         "__typename": "PdpSharingConfig",
+         "title": "임대 호실 · 서울 · ★4.75 · 침실 1개 · 침대 1개 · 욕실 1개"
+        }
+       },
+       "closeButton": {
+        "__typename": "BasicListItem",
+        "title": "닫기",
+        "anchor": null,
+        "icon": null,
+        "loggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.photoTour.close",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "photoTour",
+         "component": "close"
+        },
+        "action": null
+       },
+       "imageNavigationLoggingEventData": null,
+       "recommendedNumberOfHighlights": null,
+       "roomTourLayoutInfos": [
+        {
+         "__typename": "RoomTourLayoutInfo",
+         "roomTourItems": [
+          {
+           "__typename": "RoomTourItem",
+           "title": null,
+           "imageIds": [
+            "2285984199",
+            "2285984205",
+            "2285984191",
+            "2285984198",
+            "2285984197",
+            "2285984167"
+           ],
+           "mediaBlocks": [
+            {
+             "__typename": "MediaBlockContainer",
+             "flip": "DEFAULT",
+             "format": "ONE_LANDSCAPE",
+             "mediaBlock": {
+              "__typename": "OneLandscapeMediaBlock",
+              "landscapeId": "2285984199"
+             }
+            },
+            {
+             "__typename": "MediaBlockContainer",
+             "flip": "DEFAULT",
+             "format": "TWO_LANDSCAPES",
+             "mediaBlock": {
+              "__typename": "TwoLandscapesMediaBlock",
+              "leftLandscapeId": "2285984205",
+              "rightLandscapeId": "2285984191"
+             }
+            },
+            {
+             "__typename": "MediaBlockContainer",
+             "flip": "DEFAULT",
+             "format": "ONE_LANDSCAPE",
+             "mediaBlock": {
+              "__typename": "OneLandscapeMediaBlock",
+              "landscapeId": "2285984198"
+             }
+            },
+            {
+             "__typename": "MediaBlockContainer",
+             "flip": "DEFAULT",
+             "format": "TWO_PORTRAITS",
+             "mediaBlock": {
+              "__typename": "TwoPortraitsMediaBlock",
+              "leftPortraitId": "2285984197",
+              "rightPortraitId": "2285984167"
+             }
+            }
+           ],
+           "highlights": []
+          }
+         ]
+        }
+       ],
+       "translationDisclaimer": {
+        "__typename": "BasicListItem",
+        "title": null,
+        "subtitle": "한국어로 번역하기",
+        "icon": "COMPACT_NO_TRANSLATION",
+        "loggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.photoTour.translateCaption",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "photoTour",
+         "component": "translateCaption"
+        }
+       },
+       "showOriginalDisclaimer": {
+        "__typename": "BasicListItem",
+        "title": "자동 번역된 내용입니다.",
+        "subtitle": "원문 보기",
+        "icon": "COMPACT_TRANSLATE",
+        "loggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.photoTour.untranslateCaption",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "photoTour",
+         "component": "untranslateCaption"
+        }
+       },
+       "isAutoTranslatedOn": true
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjotMjkzMDY4NTE5Mzk0Mzc3MDg1Mw==",
+      "sectionComponentType": "AVAILABILITY_CALENDAR_DEFAULT",
+      "sectionContentStatus": "COMPLETE",
+      "sectionId": "AVAILABILITY_CALENDAR_DEFAULT",
+      "errors": null,
+      "sectionDependencies": [],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.availability_calendar_default",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "AVAILABILITY_CALENDAR_DEFAULT",
+      "section": {
+       "__typename": "AvailabilityCalendarSection",
+       "title": "날짜 선택",
+       "subtitle": "여행 날짜를 입력하여 정확한 요금을 확인하세요.",
+       "descriptionItems": [
+        {
+         "__typename": "BasicListItem",
+         "title": "임대 호실 전체"
+        },
+        {
+         "__typename": "BasicListItem",
+         "title": "침대 1개"
+        },
+        {
+         "__typename": "BasicListItem",
+         "title": "욕실 1개"
+        }
+       ],
+       "listingTitle": "낙성대역3분거리 역세권숙소 207",
+       "discountCopy": null,
+       "localizedLocation": "서울, 한국",
+       "thumbnail": {
+        "__typename": "Image",
+        "baseUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg"
+       },
+       "maxGuestCapacity": 1,
+       "inlineCalendarLoggingEventData": {
+        "__typename": "CalendarLoggingEventData",
+        "clearDatesButton": {
+         "__typename": "BasicListItem",
+         "title": "날짜 지우기",
+         "loggingEventData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.inlineCalendar.clearDates",
+          "experiments": null,
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": "inlineCalendar",
+          "component": "clearDates"
+         }
+        },
+        "saveDatesButton": null,
+        "datesInputLoggingEventData": null,
+        "selectDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectDate"
+        },
+        "previousMonthLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.monthsNavPrevious",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "monthsNavPrevious"
+        },
+        "nextMonthLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.monthsNavNext",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "monthsNavNext"
+        },
+        "checkInDateInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.checkInInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "checkInInput"
+        },
+        "checkOutDateInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.checkOutInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "checkOutInput"
+        },
+        "guestInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.guestInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "guestInput"
+        },
+        "cancellationPolicyLoggingEventData": null,
+        "changeDatesButtonLoggingEventData": null,
+        "selectCheckOutOnlyDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectCheckOutOnlyDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectCheckOutOnlyDate"
+        },
+        "selectMaxNightsViolationDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectMaxNightsViolationDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectMaxNightsViolationDate"
+        },
+        "selectMinNightsViolationDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectMinNightsViolationDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectMinNightsViolationDate"
+        },
+        "selectUnavailableForCheckInDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectUnavailableForCheckInDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectUnavailableForCheckInDate"
+        },
+        "selectUnavailableForCheckoutDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.inlineCalendar.selectUnavailableForCheckoutDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "inlineCalendar",
+         "component": "selectUnavailableForCheckoutDate"
+        }
+       },
+       "drawerCalendarLoggingEventData": {
+        "__typename": "CalendarLoggingEventData",
+        "clearDatesButton": {
+         "__typename": "BasicListItem",
+         "title": "날짜 지우기",
+         "loggingEventData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.drawer.clearDates",
+          "experiments": null,
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": "drawer",
+          "component": "clearDates"
+         }
+        },
+        "saveDatesButton": null,
+        "datesInputLoggingEventData": null,
+        "selectDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.selectDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "selectDate"
+        },
+        "previousMonthLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.monthsNavPrevious",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "monthsNavPrevious"
+        },
+        "nextMonthLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.monthsNavNext",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "monthsNavNext"
+        },
+        "checkInDateInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.checkInInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "checkInInput"
+        },
+        "checkOutDateInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.checkOutInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "checkOutInput"
+        },
+        "guestInputLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.guestInput",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "guestInput"
+        },
+        "cancellationPolicyLoggingEventData": null,
+        "changeDatesButtonLoggingEventData": null,
+        "selectCheckOutOnlyDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.selectCheckOutOnlyDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "selectCheckOutOnlyDate"
+        },
+        "selectMaxNightsViolationDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.selectMaxNightsViolationDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "selectMaxNightsViolationDate"
+        },
+        "selectMinNightsViolationDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.selectMinNightsViolationDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "selectMinNightsViolationDate"
+        },
+        "selectUnavailableForCheckInDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.selectUnavailableForCheckInDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "selectUnavailableForCheckInDate"
+        },
+        "selectUnavailableForCheckoutDateLoggingEventData": {
+         "__typename": "LoggingEventData",
+         "loggingId": "pdp.drawer.selectUnavailableForCheckoutDate",
+         "experiments": null,
+         "eventData": null,
+         "eventDataSchemaName": null,
+         "section": "drawer",
+         "component": "selectUnavailableForCheckoutDate"
+        }
+       }
+      }
+     },
+     {
+      "__typename": "SectionContainer",
+      "id": "U2VjdGlvbkNvbnRhaW5lcjo1Njc3NTIwMDQwMjU1Nzk3MDI=",
+      "sectionComponentType": "BOOK_IT_CALENDAR_SHEET",
+      "sectionContentStatus": "NOT_COMPLETE",
+      "sectionId": "BOOK_IT_CALENDAR_SHEET",
+      "errors": null,
+      "sectionDependencies": [
+       "BOOKING"
+      ],
+      "enableDependencies": null,
+      "disableDependencies": null,
+      "loggingData": {
+       "__typename": "LoggingEventData",
+       "loggingId": "pdp_platform.book_it_calendar_sheet",
+       "experiments": [],
+       "eventData": null,
+       "eventDataSchemaName": null,
+       "section": null,
+       "component": null
+      },
+      "e2eLoggingSession": null,
+      "mutationMetadata": null,
+      "pluginPointId": "BOOK_IT_CALENDAR_SHEET",
+      "section": {
+       "__typename": "BookItSection",
+       "subpageIdToOpen": null,
+       "showPriceBreakdown": false,
+       "cancellationPolicyLoggingEventData": null,
+       "calendarTitle": null,
+       "calendarSubtitle": null,
+       "descriptionItems": null,
+       "discountCopy": null,
+       "maxGuestCapacity": null,
+       "maxPlusValue": null,
+       "tripDetailsLoggingEventData": null,
+       "reviewItem": {
+        "__typename": "BasicListItem",
+        "accessibilityLabel": "후기 24개로부터 5점 만점에 4.75점을 받은 숙소입니다.",
+        "action": null,
+        "icon": "COMPACT_STAR",
+        "subtitle": null,
+        "title": "4.75"
+       },
+       "available": null,
+       "structuredDisplayPrice": null,
+       "discountData": null,
+       "bookItButtonByPlacement": null,
+       "cancellationPolicies": null,
+       "cancellationPolicyForDisplay": null,
+       "localizedUnavailabilityMessage": null,
+       "localizedUnavailabilityMessagePositionString": null,
+       "priceDisclaimer": null,
+       "selectedDatesLink": null,
+       "selectedNights": null,
+       "bookItButtonLayout": null,
+       "productItemDetail": null,
+       "ratePlanLoggingEventData": null,
+       "ratePlanTitle": null,
+       "promotionBanner": null,
+       "guestDisclaimer": null,
+       "petsAllowed": null,
+       "petDetails": null,
+       "adultsPicker": null,
+       "childrenPicker": null,
+       "infantsPicker": null,
+       "canInstantBook": null,
+       "highlightBanner": null,
+       "integratedPillMessageType": null,
+       "integratedPill": null,
+       "initialPillMessageType": null,
+       "initialPill": null,
+       "priceDetailPills": null,
+       "availabilityPriceDetailEntry": null,
+       "priceDetailLoggingEventData": null,
+       "vPoint": null,
+       "bookItPlacement": "CALENDAR_SHEET",
+       "priceMerchandisingMessage": null
+      }
+     }
+    ],
+    "sectionsV2": [],
+    "screens": [
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "DESCRIPTION",
+      "screenProperties": {
+       "__typename": "ScreenProperties",
+       "modalType": "CONTEXT_SHEET_FULL",
+       "transitionType": "CONTEXTUAL_GROW",
+       "modalTitle": "숙소 설명",
+       "unstyled": null
+      },
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "DESCRIPTION_MODAL",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 16,
+          "bottomPaddingPoints": 32,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "DESCRIPTION_MODAL",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 16,
+          "bottomPaddingPoints": 32,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "PROFESSIONAL_HOST_DETAILS",
+      "screenProperties": {
+       "__typename": "ScreenProperties",
+       "modalType": "CONTEXT_SHEET_FITTED",
+       "transitionType": "CONTEXTUAL_GROW",
+       "modalTitle": "사업자 정보",
+       "unstyled": null
+      },
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "NAV",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "NAV",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "WHAT_COUNTS_AS_A_PET_MODAL",
+      "screenProperties": {
+       "__typename": "ScreenProperties",
+       "modalType": "CONTEXT_SHEET",
+       "transitionType": null,
+       "modalTitle": "보조동물",
+       "unstyled": null
+      },
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "WHAT_COUNTS_AS_A_PET_MODAL",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "NONE",
+           "lineWidth": null,
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 0,
+          "bottomPaddingPoints": 0,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "WHAT_COUNTS_AS_A_PET_MODAL",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "NONE",
+           "lineWidth": null,
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 0,
+          "bottomPaddingPoints": 0,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "ROOT",
+      "screenProperties": null,
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "BELOW_SIDEBAR",
+        "layout": "SIDEBAR",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "LOCATION_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 48,
+          "bottomPaddingPoints": 48,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "REVIEWS_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 48,
+          "bottomPaddingPoints": 48,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "AMENITIES_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 48,
+          "bottomPaddingPoints": 48,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "AVAILABILITY_CALENDAR_INLINE",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 48,
+          "bottomPaddingPoints": 48,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "MEET_YOUR_HOST",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 40,
+          "bottomPaddingPoints": 40,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "POLICIES_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 48,
+          "bottomPaddingPoints": 48,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "SIMILAR_LISTINGS_CAROUSEL",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 40,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "SEO_LINKS_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 48,
+          "bottomPaddingPoints": 48,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": {
+           "__typename": "Color",
+           "hex": null,
+           "dls19": "FAINT"
+          },
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "SIDEBAR",
+        "layout": "SIDEBAR",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "BOOK_IT_SIDEBAR",
+          "divider": null,
+          "border": {
+           "__typename": "Border",
+           "lineStyle": "THIN",
+           "shadow": "SECONDARY",
+           "color": null,
+           "hoverColor": null,
+           "paddingPoints": 24,
+           "leftOnly": null,
+           "rightOnly": null,
+           "topRounded": null,
+           "sides": null,
+           "bottomRounded": null,
+           "cornerRadiusPoints": null,
+           "padding": null
+          },
+          "topMarginPoints": 32,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "REPORT_TO_AIRBNB",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": 24,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": {
+         "__typename": "PlacementStyle",
+         "backgroundColor": null,
+         "border": {
+          "__typename": "Border",
+          "lineStyle": "NONE",
+          "shadow": null,
+          "color": null,
+          "hoverColor": null,
+          "paddingPoints": null,
+          "leftOnly": null,
+          "rightOnly": null,
+          "topRounded": null,
+          "sides": null,
+          "bottomRounded": null,
+          "cornerRadiusPoints": null,
+          "padding": null
+         },
+         "bottomMarginPoints": null,
+         "bottomPadding": null,
+         "bottomPaddingPoints": 48,
+         "fixedWidthPoints": null,
+         "span": 4,
+         "topMarginPoints": null,
+         "topPadding": null,
+         "topPaddingPoints": null
+        },
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "NAV",
+        "layout": "SIDEBAR",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "NAV_DEFAULT",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "BOOK_IT_NAV",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "ALONG_SIDEBAR",
+        "layout": "SIDEBAR",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "OVERVIEW_DEFAULT_V2",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 32,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "GUEST_FAVORITE_BANNER",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "NONE",
+           "lineWidth": null,
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 0,
+          "bottomPaddingPoints": 0,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "MESSAGE_BANNER",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 32,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "HIGHLIGHTS_COMPACT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 32,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "HOST_OVERVIEW_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 24,
+          "bottomPaddingPoints": 24,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "DESCRIPTION_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 48,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": {
+         "__typename": "PlacementStyle",
+         "backgroundColor": null,
+         "border": null,
+         "bottomMarginPoints": null,
+         "bottomPadding": null,
+         "bottomPaddingPoints": null,
+         "fixedWidthPoints": null,
+         "span": 7,
+         "topMarginPoints": null,
+         "topPadding": null,
+         "topPaddingPoints": null
+        },
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "TOP",
+        "layout": "SIDEBAR",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "TITLE_DEFAULT",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 24,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "HERO_DEFAULT",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 24,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "FLOATING_FOOTER",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "BOOK_IT_FLOATING_FOOTER",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 16,
+          "bottomPaddingPoints": 16,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": null,
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "NAV",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "NAV_MOBILE",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "HERO_DEFAULT",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "TITLE_DEFAULT",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 24,
+          "bottomPaddingPoints": 24,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "OVERVIEW_DEFAULT_V2",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "NONE",
+           "lineWidth": null,
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 0,
+          "bottomPaddingPoints": 24,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "GUEST_FAVORITE_BANNER",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "NONE",
+           "lineWidth": null,
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 0,
+          "bottomPaddingPoints": 0,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "HIGHLIGHTS_COMPACT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 24,
+          "bottomPaddingPoints": 24,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "MESSAGE_BANNER",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 32,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "HOST_OVERVIEW_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 24,
+          "bottomPaddingPoints": 24,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "DESCRIPTION_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 32,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "LOCATION_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 24,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "REVIEWS_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "NONE",
+           "lineWidth": null,
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 0,
+          "bottomPaddingPoints": 0,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "AMENITIES_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "NONE",
+           "lineWidth": null,
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 24,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "MEET_YOUR_HOST",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 0,
+          "bottomPaddingPoints": 0,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "AVAILABILITY_CALENDAR_INLINE",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 24,
+          "bottomPaddingPoints": 24,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "POLICIES_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 24,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "SIMILAR_LISTINGS_CAROUSEL",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THIN",
+           "lineWidth": "LONG",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 40,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "CONTAINED",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "SEO_LINKS_DEFAULT",
+          "divider": {
+           "__typename": "Divider",
+           "lineStyle": "THICK",
+           "lineWidth": "FULL_WIDTH",
+           "lineColor": null,
+           "topPadding": null,
+           "paddingBelowDivider": null
+          },
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": 32,
+          "bottomPaddingPoints": 32,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "PRICE_DETAIL_MODAL",
+      "screenProperties": null,
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "BOOK_IT_FLOATING_FOOTER",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": null,
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "POLICIES_DEFAULT",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": null,
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "BOOK_IT_FLOATING_FOOTER",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": null,
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "POLICIES_DEFAULT",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": null,
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "INDIVIDUAL_HOST_PROMPT",
+      "screenProperties": {
+       "__typename": "ScreenProperties",
+       "modalType": "CONTEXT_SHEET_FITTED",
+       "transitionType": "CONTEXTUAL_GROW",
+       "modalTitle": "알아두실 사항",
+       "unstyled": null
+      },
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "NAV",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "NAV",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "TRANSLATION_PROMPT",
+      "screenProperties": {
+       "__typename": "ScreenProperties",
+       "modalType": "CONTEXT_SHEET_FITTED",
+       "transitionType": "CONTEXTUAL_GROW",
+       "modalTitle": "번역",
+       "unstyled": null
+      },
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "NAV",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "NAV",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "CANCELLATION_POLICY_PICKER",
+      "screenProperties": {
+       "__typename": "ScreenProperties",
+       "modalType": "CONTEXT_SHEET_FITTED",
+       "transitionType": "CONTEXTUAL_GROW",
+       "modalTitle": "환불 정책을 선택하세요",
+       "unstyled": true
+      },
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "PHOTO_TOUR_SCROLLABLE",
+      "screenProperties": {
+       "__typename": "ScreenProperties",
+       "modalType": "FULL_SCREEN_MODAL",
+       "transitionType": "CONTEXTUAL_GROW",
+       "modalTitle": null,
+       "unstyled": true
+      },
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "PHOTO_TOUR_SCROLLABLE_MODAL",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "PHOTO_TOUR_SCROLLABLE_MODAL",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "NON_EXPERIENCED_GUEST_LEARN_MORE_MODAL",
+      "screenProperties": {
+       "__typename": "ScreenProperties",
+       "modalType": "CONTEXT_SHEET_FULL",
+       "transitionType": "CONTEXTUAL_GROW",
+       "modalTitle": null,
+       "unstyled": null
+      },
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "CALENDAR",
+      "screenProperties": null,
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "AVAILABILITY_CALENDAR_DEFAULT",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "BOOK_IT_CALENDAR_SHEET",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "AVAILABILITY_CALENDAR_DEFAULT",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         },
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "BOOK_IT_CALENDAR_SHEET",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "EDUCATION",
+      "screenProperties": null,
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "FLOATING_FOOTER",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "BOOK_IT_FLOATING_FOOTER",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "FLOATING_FOOTER",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [
+         {
+          "__typename": "SectionDetail",
+          "sectionId": "BOOK_IT_FLOATING_FOOTER",
+          "divider": null,
+          "border": null,
+          "topMarginPoints": null,
+          "topPaddingPoints": null,
+          "bottomPaddingPoints": null,
+          "bottomMarginPoints": null,
+          "backgroundColorNew": null,
+          "horizontalPadding": "FULL_WIDTH",
+          "maxWidth": null
+         }
+        ],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     },
+     {
+      "__typename": "ScreenContainer",
+      "screenId": "ACCESSIBILITY",
+      "screenProperties": {
+       "__typename": "ScreenProperties",
+       "modalType": "FULL_SCREEN_MODAL",
+       "transitionType": null,
+       "modalTitle": null,
+       "unstyled": null
+      },
+      "e2eLoggingSessions": null,
+      "screenContentStatus": "COMPLETE",
+      "screenContext": null,
+      "onLoadScreenAction": null,
+      "sectionPlacements": [
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "WIDE",
+        "mediaType": null
+       },
+       {
+        "__typename": "SectionPlacement",
+        "placement": "MAIN",
+        "layout": "SINGLE_COLUMN",
+        "sectionDetails": [],
+        "style": null,
+        "formFactor": "COMPACT",
+        "mediaType": null
+       }
+      ]
+     }
+    ],
+    "screensV2": [],
+    "flows": [],
+    "metadata": {
+     "__typename": "StayPDPMetadata",
+     "pdpType": "MARKETPLACE",
+     "pageTitle": null,
+     "isElvisListing": false,
+     "errorData": null,
+     "sharingConfig": {
+      "__typename": "PdpSharingConfig",
+      "title": "임대 호실 · 서울 · ★4.75 · 침실 1개 · 침대 1개 · 욕실 1개",
+      "propertyType": "임대 호실 전체",
+      "personCapacity": 1,
+      "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg",
+      "shareUrl": "https://www.airbnb.co.kr/rooms/1482267316113778051?unique_share_id=5b94b286-1daf-4508-b4c0-c1c4371dfb20&viralityEntryPoint=1&s=76",
+      "reviewCount": 24,
+      "starRating": 4.75
+     },
+     "loggingContext": {
+      "__typename": "PdpLoggingContext",
+      "eventDataLogging": {
+       "__typename": "PdpEventData",
+       "listingId": "1482267316113778051",
+       "page": "p3",
+       "pdpPageType": 1,
+       "listingLat": 37.4787,
+       "listingLng": 126.9618,
+       "homeTier": 1,
+       "roomType": "Entire home/apt",
+       "personCapacity": 1,
+       "descriptionLanguage": "ko",
+       "isSuperhost": false,
+       "amenities": [],
+       "accuracyRating": 4.92,
+       "checkinRating": 4.96,
+       "cleanlinessRating": 4.75,
+       "communicationRating": 4.83,
+       "locationRating": 4.88,
+       "valueRating": 4.83,
+       "guestSatisfactionOverall": 4.75,
+       "visibleReviewCount": "24",
+       "propertyId": null
+      }
+     },
+     "clientLoggingContext": {
+      "__typename": "StayPDPLoggingContext",
+      "productId": "1482267316113778051",
+      "pdpType": "MARKETPLACE"
+     },
+     "seoFeatures": {
+      "__typename": "SeoFeatures",
+      "androidAlternateUrl": "android-app://com.airbnb.android/airbnb/rooms/1482267316113778051",
+      "androidDeeplink": "airbnb://rooms/1482267316113778051",
+      "canonicalUrl": "https://www.airbnb.co.kr/rooms/1482267316113778051",
+      "iphoneDeeplink": "airbnb://rooms/1482267316113778051",
+      "metaDescription": "2026년 8월 14일 · 임대 호실 전체 · º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다. - 지하철역까지 도보 3분. - 버스 정류장까지 도보 1분 거리. -인천공항 리무진 버스 정류장도 5분 거리에 위치. - 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치. - 지하철 2호선을 ...",
+      "title": "",
+      "breadcrumbDetails": [],
+      "ogTags": {
+       "__typename": "SeoOgTags",
+       "ogDescription": "낙성대역3분거리 역세권숙소 207",
+       "ogImage": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg?im_w=720&width=720&quality=70&auto=webp",
+       "ogTitle": "임대 호실 · 서울 · ★4.75 · 침실 1개 · 침대 1개 · 욕실 1개",
+       "ogType": "airbedandbreakfast:listing",
+       "ogUrl": "https://www.airbnb.co.kr/rooms/1482267316113778051",
+       "ogImageHeight": null,
+       "ogImageWidth": null,
+       "ogVideoUrl": null,
+       "ogVideoHeight": null,
+       "ogVideoWidth": null
+      },
+      "propertySearchUrl": null,
+      "relImageSrc": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg?im_w=720&width=720&quality=70&auto=webp",
+      "twitterTags": {
+       "__typename": "SeoTwitterTags",
+       "twitterCard": "photo",
+       "twitterDescription": null,
+       "twitterImage": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg?im_w=720&width=720&quality=70&auto=webp",
+       "twitterTitle": null,
+       "twitterUrl": "https://www.airbnb.co.kr/rooms/1482267316113778051"
+      },
+      "indexInSearchEngines": true
+     },
+     "bookingPrefetchData": {
+      "__typename": "PdpBookingPrefetchData",
+      "barPrice": null,
+      "canInstantBook": null,
+      "cancellationPolicies": [
+       {
+        "__typename": "LegacyPdpCancellationSection",
+        "cancellation_policy_price_type": null,
+        "book_it_module_tooltip": "10월 19일 전까지 무료 취소가 가능합니다. 10월 20일 체크인 전에 취소하면 부분 환불을 받으실 수 있습니다.",
+        "cancellation_policy_id": 3,
+        "localized_cancellation_policy_name": "유연"
+       }
+      ],
+      "p3CancellationSection": null,
+      "price": null,
+      "productRateSections": [],
+      "productItemDetail": null,
+      "ratePlanLoggingEventData": null
+     },
+     "wishlistItems": []
+    },
+    "sbuiData": {
+     "__typename": "StayPDPSBUIData",
+     "sectionConfiguration": {
+      "__typename": "StayPDPSectionConfiguration",
+      "root": {
+       "__typename": "PlacementGroupsPerFormFactor",
+       "sections": [
+        {
+         "__typename": "SectionDataContainer",
+         "sectionId": "OVERVIEW_DEFAULT_V2",
+         "loggingData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.overview_default_v2",
+          "experiments": null,
+          "eventData": {
+           "productId": "U3RheUxpc3Rpbmc6MTQ4MjI2NzMxNjExMzc3ODA1MQ==",
+           "pdpImpressionId": "p3_1786715855_P3_RmQHLgwHkPU35",
+           "pdpContext": {
+            "isGuestFavorite": "false",
+            "hasListingSize": "false"
+           }
+          },
+          "eventDataSchemaName": "Pdp.v5.ClientEventData",
+          "section": null,
+          "component": null
+         },
+         "sectionData": {
+          "__typename": "PdpOverviewV2Section"
+         }
+        },
+        {
+         "__typename": "SectionDataContainer",
+         "sectionId": "HOST_OVERVIEW_DEFAULT",
+         "loggingData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp.host_overview_default",
+          "experiments": null,
+          "eventData": {
+           "productId": "U3RheUxpc3Rpbmc6MTQ4MjI2NzMxNjExMzc3ODA1MQ==",
+           "pdpImpressionId": "p3_1786715855_P3_RmQHLgwHkPU35",
+           "pdpContext": {
+            "isSuperHost": "false",
+            "hostId": "668996147"
+           }
+          },
+          "eventDataSchemaName": "Pdp.v5.ClientEventData",
+          "section": null,
+          "component": null
+         },
+         "sectionData": {
+          "__typename": "PdpHostOverviewDefaultSection"
+         }
+        },
+        {
+         "__typename": "SectionDataContainer",
+         "sectionId": "LUXE_BANNER",
+         "loggingData": {
+          "__typename": "LoggingEventData",
+          "loggingId": "pdp_platform.luxe_banner",
+          "experiments": null,
+          "eventData": null,
+          "eventDataSchemaName": null,
+          "section": null,
+          "component": null
+         },
+         "sectionData": {
+          "__typename": "PdpLuxeBannerSection"
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  }
+ },
+ "node": {
+  "__typename": "DemandStayListing",
+  "bnbProperty": null,
+  "pdpPresentation": {
+   "__typename": "DemandStayListingPdpPresentationContainer",
+   "businessDetails": null,
+   "luxeBannerDescription": "검증된 퀄리티의 특별한 숙소",
+   "accessibilityFeatures": {
+    "__typename": "MediaTour",
+    "name": "접근성 편의",
+    "translationDisclaimer": "한국어로 번역하기",
+    "stops": []
+   },
+   "amenities": {
+    "__typename": "StaysPdpAmenitiesDetails",
+    "title": "숙소 편의시설",
+    "subtitle": null,
+    "overridePreviewTitle": null,
+    "prioritizeShowingAllPreviewAmenities": false,
+    "previewAmenitiesGroups": [
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": null,
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "available": true,
+        "title": "주방",
+        "icon": "SYSTEM_COOKING_BASICS"
+       },
+       {
+        "__typename": "AmenityItem",
+        "available": true,
+        "title": "와이파이",
+        "icon": "SYSTEM_WI_FI"
+       },
+       {
+        "__typename": "AmenityItem",
+        "available": true,
+        "title": "업무 전용 공간",
+        "icon": "SYSTEM_WORKSPACE"
+       },
+       {
+        "__typename": "AmenityItem",
+        "available": true,
+        "title": "건물 부지 내 무료 주차",
+        "icon": "SYSTEM_MAPS_CAR_RENTAL"
+       },
+       {
+        "__typename": "AmenityItem",
+        "available": true,
+        "title": "세탁기",
+        "icon": "SYSTEM_WASHER"
+       },
+       {
+        "__typename": "AmenityItem",
+        "available": true,
+        "title": "에어컨",
+        "icon": "SYSTEM_SNOWFLAKE"
+       },
+       {
+        "__typename": "AmenityItem",
+        "available": true,
+        "title": "헤어드라이어",
+        "icon": "SYSTEM_HAIRDRYER"
+       },
+       {
+        "__typename": "AmenityItem",
+        "available": true,
+        "title": "냉장고",
+        "icon": "SYSTEM_REFRIGERATOR"
+       },
+       {
+        "__typename": "AmenityItem",
+        "available": true,
+        "title": "숙소 건물 외부 보안 카메라",
+        "icon": "SYSTEM_SURVEILLANCE"
+       },
+       {
+        "__typename": "AmenityItem",
+        "available": false,
+        "title": "일산화탄소 경보기",
+        "icon": "SYSTEM_NO_DETECTOR_CO2"
+       }
+      ]
+     }
+    ],
+    "seeAllAmenitiesGroups": [
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": "욕실",
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_bathroom_45_1482267316113778051-0",
+        "available": true,
+        "title": "헤어드라이어",
+        "icon": "SYSTEM_HAIRDRYER",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_bathroom_41_1482267316113778051-0",
+        "available": true,
+        "title": "샴푸",
+        "icon": "SYSTEM_SHAMPOO",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_bathroom_79_1482267316113778051-0",
+        "available": true,
+        "title": "보디클렌저",
+        "icon": "SYSTEM_SOAP",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_bathroom_77_1482267316113778051-0",
+        "available": true,
+        "title": "온수",
+        "icon": "SYSTEM_HOT_WATER",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       }
+      ]
+     },
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": "침실 및 세탁 시설",
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_bedroom_laundry_33_1482267316113778051-0",
+        "available": true,
+        "title": "세탁기",
+        "icon": "SYSTEM_WASHER",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       }
+      ]
+     },
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": "냉난방",
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_heating_cooling_5_1482267316113778051-0",
+        "available": true,
+        "title": "에어컨",
+        "icon": "SYSTEM_SNOWFLAKE",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_heating_cooling_30_1482267316113778051-0",
+        "available": true,
+        "title": "난방",
+        "icon": "SYSTEM_THERMOMETER",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       }
+      ]
+     },
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": "숙소 안전",
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "id": "security_camera_9999_1482267316113778051",
+        "available": true,
+        "title": "숙소 건물 외부 보안 카메라",
+        "icon": "SYSTEM_SURVEILLANCE",
+        "subtitle": {
+         "__typename": "PdpUGCText",
+         "content": {
+          "__typename": "UGCText",
+          "localizedStringWithTranslationPreference": "주차장, 1층현관, 각층 복도",
+          "localizedString": "주차장, 1층현관, 각층 복도",
+          "source": "주차장, 1층현관, 각층 복도"
+         }
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_home_safety_35_1482267316113778051-0",
+        "available": true,
+        "title": "화재경보기",
+        "icon": "SYSTEM_DETECTOR_SMOKE",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       }
+      ]
+     },
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": "인터넷 및 업무 공간",
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_internet_office_4_1482267316113778051-0",
+        "available": true,
+        "title": "와이파이",
+        "icon": "SYSTEM_WI_FI",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_internet_office_47_1482267316113778051-0",
+        "available": true,
+        "title": "업무 전용 공간",
+        "icon": "SYSTEM_WORKSPACE",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       }
+      ]
+     },
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": "주방 및 식사 공간",
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_kitchen_dining_8_1482267316113778051-0",
+        "available": true,
+        "title": "주방",
+        "icon": "SYSTEM_COOKING_BASICS",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": "게스트가 요리를 할 수 있는 공간"
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_kitchen_dining_91_1482267316113778051-0",
+        "available": true,
+        "title": "냉장고",
+        "icon": "SYSTEM_REFRIGERATOR",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_kitchen_dining_89_1482267316113778051-0",
+        "available": true,
+        "title": "전자레인지",
+        "icon": "SYSTEM_MICROWAVE",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_kitchen_dining_308_1482267316113778051-0",
+        "available": true,
+        "title": "냉동고",
+        "icon": "SYSTEM_REFRIGERATOR",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       }
+      ]
+     },
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": "주차장 및 기타 시설",
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_parking_facilities_9_1482267316113778051-0",
+        "available": true,
+        "title": "건물 부지 내 무료 주차",
+        "icon": "SYSTEM_MAPS_CAR_RENTAL",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       }
+      ]
+     },
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": "서비스",
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_services_51_1482267316113778051-0",
+        "available": true,
+        "title": "셀프 체크인",
+        "icon": "SYSTEM_KEY",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_v3_services_53_1482267316113778051-0",
+        "available": true,
+        "title": "디지털 도어록",
+        "icon": "SYSTEM_BUZZER",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": "게스트가 현관문 비밀번호를 입력하여 직접 체크인합니다"
+        }
+       }
+      ]
+     },
+     {
+      "__typename": "AmenityItemsGroup",
+      "title": "숙소에 없는 시설",
+      "amenities": [
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_unavailable_1_1482267316113778051-0",
+        "available": false,
+        "title": "TV",
+        "icon": "SYSTEM_NO_TV",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_unavailable_34_1482267316113778051-0",
+        "available": false,
+        "title": "건조기",
+        "icon": "SYSTEM_NO_DRYER",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_unavailable_40_1482267316113778051-0",
+        "available": false,
+        "title": "필수용품",
+        "icon": "SYSTEM_NO_ESSENTIALS",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": ""
+        }
+       },
+       {
+        "__typename": "AmenityItem",
+        "id": "pdp_unavailable_36_1482267316113778051-0",
+        "available": false,
+        "title": "일산화탄소 경보기",
+        "icon": "SYSTEM_NO_DETECTOR_CO2",
+        "subtitle": {
+         "__typename": "LocalizedText",
+         "text": "이 숙소에는 일산화탄소 경보기가 없을 수 있습니다. 문의 사항이 있다면 호스트에게 연락하세요."
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "localizedLocation": "서울, 한국",
+   "availabilityCalendarDescriptionItems": [
+    "임대 호실 전체",
+    "침대 1개",
+    "욕실 1개"
+   ],
+   "bathroomsTour": {
+    "__typename": "MediaTour",
+    "name": "What’s the bathroom like",
+    "stops": []
+   },
+   "descriptions": {
+    "__typename": "DemandStayListingPdpPresentationDescriptions",
+    "isVetted": false,
+    "longDescriptionHtml": {
+     "__typename": "UGCText",
+     "localizedStringWithTranslationPreference": "º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다.<br />- 지하철역까지 도보 3분.<br />- 버스 정류장까지 도보 1분 거리.<br />-인천공항 리무진 버스 정류장도 5분 거리에 위치.<br />- 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치.<br />- 지하철 2호선을 이용하면 강남, 홍대 등 주요 지역으로의 접근성이 <br />  뛰어납니다.<br /><br />º  숙소 앞에는 다양한 편의시설이 가까이에 있습니다:<br />- 편의점 2개(건물 바로 앞)<br />- 커피숍<br />- 서브웨이<br />- KFC<br />- 한솥도시락<br /><br />º  호스트가 상주중인 건물로 요청이나 문의 사항 바로바로 해결할 수 <br />   있습니다.<br /><br /><b>등록 세부 정보</b><br />발급 지역: 서울특별시, 관악구<br />허가 유형: 외국인관광도시민박업<br />허가번호: 2024000167",
+     "localizedString": "º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다.<br />- 지하철역까지 도보 3분.<br />- 버스 정류장까지 도보 1분 거리.<br />-인천공항 리무진 버스 정류장도 5분 거리에 위치.<br />- 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치.<br />- 지하철 2호선을 이용하면 강남, 홍대 등 주요 지역으로의 접근성이 <br />  뛰어납니다.<br /><br />º  숙소 앞에는 다양한 편의시설이 가까이에 있습니다:<br />- 편의점 2개(건물 바로 앞)<br />- 커피숍<br />- 서브웨이<br />- KFC<br />- 한솥도시락<br /><br />º  호스트가 상주중인 건물로 요청이나 문의 사항 바로바로 해결할 수 <br />   있습니다.<br /><br /><b>등록 세부 정보</b><br />발급 지역: 서울특별시, 관악구<br />허가 유형: 외국인관광도시민박업<br />허가번호: 2024000167",
+     "source": "º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다.<br />- 지하철역까지 도보 3분.<br />- 버스 정류장까지 도보 1분 거리.<br />-인천공항 리무진 버스 정류장도 5분 거리에 위치.<br />- 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치.<br />- 지하철 2호선을 이용하면 강남, 홍대 등 주요 지역으로의 접근성이 <br />  뛰어납니다.<br /><br />º  숙소 앞에는 다양한 편의시설이 가까이에 있습니다:<br />- 편의점 2개(건물 바로 앞)<br />- 커피숍<br />- 서브웨이<br />- KFC<br />- 한솥도시락<br /><br />º  호스트가 상주중인 건물로 요청이나 문의 사항 바로바로 해결할 수 <br />   있습니다.<br /><br /><b>등록 세부 정보</b><br />발급 지역: 서울특별시, 관악구<br />허가 유형: 외국인관광도시민박업<br />허가번호: 2024000167"
+    },
+    "modalTitle": "숙소 설명",
+    "shortDescriptionHtml": {
+     "__typename": "PdpUGCText",
+     "content": {
+      "__typename": "UGCText",
+      "localizedStringWithTranslationPreference": "º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다.<br />- 지하철역까지 도보 3분.<br />- 버스 정류장까지 도보 1분 거리.<br />-인천공항 리무진 버스 정류장도 5분 거리에 위치.<br />- 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치.<br />- 지하철 2호선을 이용하면 강남, 홍대 등 주요 지역으로의 접근성이 <br />  뛰어납니다.<br /><br />º  숙소 앞에는 다양한 편의시설이 가까이에 있습니다:<br />- 편의점 2개(건물 바로 앞)<br />- 커피숍<br />- 서브웨이<br />- KFC<br />- 한솥도시락<br /><br />º  호스트가 상주중인 건물로 요청이나 문의 사항 바로바로 해결할 수 <br />   있습니다.",
+      "localizedString": "º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다.<br />- 지하철역까지 도보 3분.<br />- 버스 정류장까지 도보 1분 거리.<br />-인천공항 리무진 버스 정류장도 5분 거리에 위치.<br />- 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치.<br />- 지하철 2호선을 이용하면 강남, 홍대 등 주요 지역으로의 접근성이 <br />  뛰어납니다.<br /><br />º  숙소 앞에는 다양한 편의시설이 가까이에 있습니다:<br />- 편의점 2개(건물 바로 앞)<br />- 커피숍<br />- 서브웨이<br />- KFC<br />- 한솥도시락<br /><br />º  호스트가 상주중인 건물로 요청이나 문의 사항 바로바로 해결할 수 <br />   있습니다.",
+      "source": "º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다.<br />- 지하철역까지 도보 3분.<br />- 버스 정류장까지 도보 1분 거리.<br />-인천공항 리무진 버스 정류장도 5분 거리에 위치.<br />- 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치.<br />- 지하철 2호선을 이용하면 강남, 홍대 등 주요 지역으로의 접근성이 <br />  뛰어납니다.<br /><br />º  숙소 앞에는 다양한 편의시설이 가까이에 있습니다:<br />- 편의점 2개(건물 바로 앞)<br />- 커피숍<br />- 서브웨이<br />- KFC<br />- 한솥도시락<br /><br />º  호스트가 상주중인 건물로 요청이나 문의 사항 바로바로 해결할 수 <br />   있습니다."
+     }
+    },
+    "title": null
+   },
+   "title": {
+    "__typename": "PdpUGCText",
+    "content": {
+     "__typename": "UGCText",
+     "localizedStringWithTranslationPreference": "낙성대역3분거리 역세권숙소 207",
+     "localizedString": "낙성대역3분거리 역세권숙소 207",
+     "source": "낙성대역3분거리 역세권숙소 207"
+    }
+   },
+   "heroMedia": {
+    "__typename": "HeroItemConnection",
+    "edges": [
+     {
+      "__typename": "HeroItemEdge",
+      "node": {
+       "__typename": "HeroImageItem",
+       "image": {
+        "__typename": "ImageEntity",
+        "altText": null,
+        "id": "SW1hZ2VFbnRpdHk6MjI4NTk4NDE5OQ==",
+        "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg",
+        "caption": null,
+        "assetMetadata": {
+         "__typename": "ImageAssetMetadata",
+         "aspectRatio": 1.3333333333333333,
+         "orientation": "LANDSCAPE",
+         "originalWidth": 4000,
+         "originalHeight": 3000
+        },
+        "tags": [
+         {
+          "__typename": "MediaTag",
+          "name": "Other"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Bedroom"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Photo Ranker v2"
+         }
+        ],
+        "moderatedUri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg"
+       }
+      }
+     },
+     {
+      "__typename": "HeroItemEdge",
+      "node": {
+       "__typename": "HeroImageItem",
+       "image": {
+        "__typename": "ImageEntity",
+        "altText": null,
+        "id": "SW1hZ2VFbnRpdHk6MjI4NTk4NDIwNQ==",
+        "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/903960fc-a72b-4cc0-a54c-da358091340a.jpeg",
+        "caption": null,
+        "assetMetadata": {
+         "__typename": "ImageAssetMetadata",
+         "aspectRatio": 1.3333333333333333,
+         "orientation": "LANDSCAPE",
+         "originalWidth": 4000,
+         "originalHeight": 3000
+        },
+        "tags": [
+         {
+          "__typename": "MediaTag",
+          "name": "Laundry_room"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Kitchen"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Photo Ranker v2"
+         }
+        ],
+        "moderatedUri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/903960fc-a72b-4cc0-a54c-da358091340a.jpeg"
+       }
+      }
+     },
+     {
+      "__typename": "HeroItemEdge",
+      "node": {
+       "__typename": "HeroImageItem",
+       "image": {
+        "__typename": "ImageEntity",
+        "altText": null,
+        "id": "SW1hZ2VFbnRpdHk6MjI4NTk4NDE5MQ==",
+        "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/bfe17cff-2f46-424b-900b-5d74bee55b39.jpeg",
+        "caption": null,
+        "assetMetadata": {
+         "__typename": "ImageAssetMetadata",
+         "aspectRatio": 1.3333333333333333,
+         "orientation": "LANDSCAPE",
+         "originalWidth": 4000,
+         "originalHeight": 3000
+        },
+        "tags": [
+         {
+          "__typename": "MediaTag",
+          "name": "Half_bathroom"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Full_bathroom"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Photo Ranker v2"
+         }
+        ],
+        "moderatedUri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/bfe17cff-2f46-424b-900b-5d74bee55b39.jpeg"
+       }
+      }
+     },
+     {
+      "__typename": "HeroItemEdge",
+      "node": {
+       "__typename": "HeroImageItem",
+       "image": {
+        "__typename": "ImageEntity",
+        "altText": null,
+        "id": "SW1hZ2VFbnRpdHk6MjI4NTk4NDE5OA==",
+        "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/fa25580d-89e4-4c8f-aea4-f786a51d2551.jpeg",
+        "caption": null,
+        "assetMetadata": {
+         "__typename": "ImageAssetMetadata",
+         "aspectRatio": 1.3333333333333333,
+         "orientation": "LANDSCAPE",
+         "originalWidth": 4000,
+         "originalHeight": 3000
+        },
+        "tags": [
+         {
+          "__typename": "MediaTag",
+          "name": "Kitchen"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Office"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Photo Ranker v2"
+         }
+        ],
+        "moderatedUri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/fa25580d-89e4-4c8f-aea4-f786a51d2551.jpeg"
+       }
+      }
+     },
+     {
+      "__typename": "HeroItemEdge",
+      "node": {
+       "__typename": "HeroImageItem",
+       "image": {
+        "__typename": "ImageEntity",
+        "altText": null,
+        "id": "SW1hZ2VFbnRpdHk6MjI4NTk4NDE5Nw==",
+        "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/117e0356-15e1-4f62-a3d8-46c1889d5611.jpeg",
+        "caption": null,
+        "assetMetadata": {
+         "__typename": "ImageAssetMetadata",
+         "aspectRatio": 0.75,
+         "orientation": "PORTRAIT",
+         "originalWidth": 720,
+         "originalHeight": 960
+        },
+        "tags": [
+         {
+          "__typename": "MediaTag",
+          "name": "Exterior"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Other"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Photo Ranker v2"
+         }
+        ],
+        "moderatedUri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/117e0356-15e1-4f62-a3d8-46c1889d5611.jpeg"
+       }
+      }
+     },
+     {
+      "__typename": "HeroItemEdge",
+      "node": {
+       "__typename": "HeroImageItem",
+       "image": {
+        "__typename": "ImageEntity",
+        "altText": null,
+        "id": "SW1hZ2VFbnRpdHk6MjI4NTk4NDE2Nw==",
+        "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/5112253f-21ad-4a4d-a30e-aaec1fd1602a.jpeg",
+        "caption": null,
+        "assetMetadata": {
+         "__typename": "ImageAssetMetadata",
+         "aspectRatio": 0.75,
+         "orientation": "PORTRAIT",
+         "originalWidth": 720,
+         "originalHeight": 960
+        },
+        "tags": [
+         {
+          "__typename": "MediaTag",
+          "name": "Other"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Living_room"
+         },
+         {
+          "__typename": "MediaTag",
+          "name": "Photo Ranker v2"
+         }
+        ],
+        "moderatedUri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/5112253f-21ad-4a4d-a30e-aaec1fd1602a.jpeg"
+       }
+      }
+     }
+    ]
+   },
+   "highlights": [
+    {
+     "__typename": "ListingPdpHighlight",
+     "type": "LISTING_CLOSE_TO_POI",
+     "headline": {
+      "__typename": "LocalizedContent",
+      "localizedContent": "낙성대역 근처"
+     },
+     "body": null,
+     "icon": {
+      "__typename": "IconWrapper",
+      "iconContent": "SYSTEM_MAPS_SUBWAY_STATION"
+     },
+     "interaction": null
+    },
+    {
+     "__typename": "ListingPdpHighlight",
+     "type": "LISTING_SELF_CHECKIN",
+     "headline": {
+      "__typename": "LocalizedContent",
+      "localizedContent": "셀프 체크인"
+     },
+     "body": null,
+     "icon": {
+      "__typename": "IconWrapper",
+      "iconContent": "SYSTEM_CHECK_IN"
+     },
+     "interaction": null
+    },
+    {
+     "__typename": "ListingPdpHighlight",
+     "type": "LISTING_FREE_PARKING_AMENITY",
+     "headline": {
+      "__typename": "LocalizedContent",
+      "localizedContent": "무료 주차 공간"
+     },
+     "body": null,
+     "icon": {
+      "__typename": "IconWrapper",
+      "iconContent": "SYSTEM_MAPS_CAR_RENTAL"
+     },
+     "interaction": null
+    },
+    {
+     "__typename": "ListingPdpHighlight",
+     "type": "LISTING_AC_AMENITY",
+     "headline": {
+      "__typename": "LocalizedContent",
+      "localizedContent": "에어컨"
+     },
+     "body": null,
+     "icon": {
+      "__typename": "IconWrapper",
+      "iconContent": "SYSTEM_SNOWFLAKE"
+     },
+     "interaction": null
+    },
+    {
+     "__typename": "ListingPdpHighlight",
+     "type": "LISTING_WASHER_AMENITY",
+     "headline": {
+      "__typename": "LocalizedContent",
+      "localizedContent": "세탁기"
+     },
+     "body": null,
+     "icon": {
+      "__typename": "IconWrapper",
+      "iconContent": "SYSTEM_WASHER"
+     },
+     "interaction": null
+    },
+    {
+     "__typename": "ListingPdpHighlight",
+     "type": "LISTING_KITCHEN_AMENITIES",
+     "headline": {
+      "__typename": "LocalizedContent",
+      "localizedContent": "주방"
+     },
+     "body": null,
+     "icon": {
+      "__typename": "IconWrapper",
+      "iconContent": "SYSTEM_COOKING_BASICS"
+     },
+     "interaction": null
+    }
+   ],
+   "disclaimers": {
+    "__typename": "PDPDisclaimers",
+    "highlights": null
+   },
+   "quality": {
+    "__typename": "StaysPdpPresentationQuality",
+    "isGuestFavorite": false,
+    "listingRatingStats": {
+     "__typename": "DemandEntityRatingStats",
+     "overallRatingStats": {
+      "__typename": "DemandReviewRatingStats",
+      "ratingAverage": 4.75,
+      "ratingCount": "24"
+     }
+    },
+    "isNewListing": false,
+    "allowsDisplayBottomQualityInformation": true,
+    "isViewedByHost": false,
+    "specialTreatmentCountry": "NONE",
+    "hasFewReviews": false,
+    "qualityScorePercentileBucket": null,
+    "hostRatingCount": "450",
+    "supportsCategoryRatings": true,
+    "categoryRatings": [
+     {
+      "__typename": "CategoryRating",
+      "categoryType": "CLEANLINESS",
+      "localizedRating": "4.8",
+      "label": "청결도",
+      "accessibilityLabel": "청결도 항목에서 5점 만점 중 4.8점을 받았습니다.",
+      "percentage": 0.96
+     },
+     {
+      "__typename": "CategoryRating",
+      "categoryType": "ACCURACY",
+      "localizedRating": "4.9",
+      "label": "정확도",
+      "accessibilityLabel": "정확도 항목에서 5점 만점 중 4.9점을 받았습니다.",
+      "percentage": 0.9800000000000001
+     },
+     {
+      "__typename": "CategoryRating",
+      "categoryType": "CHECKIN",
+      "localizedRating": "5.0",
+      "label": "체크인",
+      "accessibilityLabel": "체크인 항목에서 5점 만점 중 5.0점을 받았습니다.",
+      "percentage": 1
+     },
+     {
+      "__typename": "CategoryRating",
+      "categoryType": "COMMUNICATION",
+      "localizedRating": "4.8",
+      "label": "의사소통",
+      "accessibilityLabel": "의사소통 항목에서 5점 만점 중 4.8점을 받았습니다.",
+      "percentage": 0.96
+     },
+     {
+      "__typename": "CategoryRating",
+      "categoryType": "LOCATION",
+      "localizedRating": "4.9",
+      "label": "위치",
+      "accessibilityLabel": "위치 항목에서 5점 만점 중 4.9점을 받았습니다.",
+      "percentage": 0.9800000000000001
+     },
+     {
+      "__typename": "CategoryRating",
+      "categoryType": "VALUE",
+      "localizedRating": "4.8",
+      "label": "가격 대비 만족도",
+      "accessibilityLabel": "가격 대비 만족도 항목에서 5점 만점 중 4.8점을 받았습니다.",
+      "percentage": 0.96
+     }
+    ],
+    "ratingDistribution": [
+     {
+      "__typename": "CategoryRating",
+      "label": "5",
+      "localizedRating": "88%",
+      "percentage": 0.875,
+      "accessibilityLabel": "88%의 후기에서 5점의 별점을 받았습니다."
+     },
+     {
+      "__typename": "CategoryRating",
+      "label": "4",
+      "localizedRating": "4%",
+      "percentage": 0.041666666666666664,
+      "accessibilityLabel": "4%의 후기에서 4점의 별점을 받았습니다."
+     },
+     {
+      "__typename": "CategoryRating",
+      "label": "3",
+      "localizedRating": "4%",
+      "percentage": 0.041666666666666664,
+      "accessibilityLabel": "4%의 후기에서 3점의 별점을 받았습니다."
+     },
+     {
+      "__typename": "CategoryRating",
+      "label": "2",
+      "localizedRating": "4%",
+      "percentage": 0.041666666666666664,
+      "accessibilityLabel": "4%의 후기에서 2점의 별점을 받았습니다."
+     },
+     {
+      "__typename": "CategoryRating",
+      "label": "1",
+      "localizedRating": "0%",
+      "percentage": 0,
+      "accessibilityLabel": "0%의 후기에서 1점의 별점을 받았습니다."
+     }
+    ],
+    "disclaimerLocation": "UNDER_SUBTITLE",
+    "reviewTags": [
+     {
+      "__typename": "ReviewTag",
+      "name": "GETTING_AROUND",
+      "count": 9,
+      "localizedName": "교통 편의성",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/1d5a4065-220e-4d80-b44f-019dd4a0ae68.png"
+      }
+     },
+     {
+      "__typename": "ReviewTag",
+      "name": "SOLO_TRAVEL",
+      "count": 2,
+      "localizedName": "나홀로 여행",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/56397560-415d-4bf3-8a65-3c575244fa0e.png"
+      }
+     },
+     {
+      "__typename": "ReviewTag",
+      "name": "NEARBY",
+      "count": 6,
+      "localizedName": "인근 시설",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/9a063063-76d9-401e-b8e7-8992e32a38f7.png"
+      }
+     },
+     {
+      "__typename": "ReviewTag",
+      "name": "VALUE",
+      "count": 8,
+      "localizedName": "가격 대비 만족",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/0fac3584-3372-4300-bf9f-03f557ff1fc2.png"
+      }
+     },
+     {
+      "__typename": "ReviewTag",
+      "name": "LOCATION",
+      "count": 6,
+      "localizedName": "위치",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/481a6680-46b2-4c94-91e9-d7917d97b660.png"
+      }
+     },
+     {
+      "__typename": "ReviewTag",
+      "name": "BATHROOM",
+      "count": 4,
+      "localizedName": "욕실",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/aaf8701c-bfe8-4d81-a168-e62cf1efb091.png"
+      }
+     },
+     {
+      "__typename": "ReviewTag",
+      "name": "COMFORT",
+      "count": 4,
+      "localizedName": "편안함",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/e4546c79-fd9d-412c-862b-7faade48f32e.png"
+      }
+     },
+     {
+      "__typename": "ReviewTag",
+      "name": "CLEANLINESS",
+      "count": 4,
+      "localizedName": "청결",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b0d9a4f0-26d1-4d4d-a269-4884338ab168.png"
+      }
+     },
+     {
+      "__typename": "ReviewTag",
+      "name": "HOSPITALITY",
+      "count": 6,
+      "localizedName": "친절한 환대",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/b5957392-bf60-4304-8666-c030859eebf7.png"
+      }
+     },
+     {
+      "__typename": "ReviewTag",
+      "name": "CONDITION",
+      "count": 3,
+      "localizedName": "상태",
+      "icon": {
+       "__typename": "Image",
+       "baseUrl": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Review-AI-Synthesis/original/aa73c8e3-75cd-4130-8a7f-df014c5d5e61.png"
+      }
+     }
+    ],
+    "reviewSortSelectOptions": [
+     {
+      "__typename": "ReviewSortSelectOption",
+      "title": "관련성 높은 순",
+      "reviewsSortType": "BEST_QUALITY"
+     },
+     {
+      "__typename": "ReviewSortSelectOption",
+      "title": "최신순",
+      "reviewsSortType": "MOST_RECENT"
+     },
+     {
+      "__typename": "ReviewSortSelectOption",
+      "title": "높은 평점순",
+      "reviewsSortType": "RATING_DESC"
+     },
+     {
+      "__typename": "ReviewSortSelectOption",
+      "title": "낮은 평점순",
+      "reviewsSortType": "RATING_ASC"
+     }
+    ],
+    "guestFavoriteDescription": "에어비앤비 게스트에게 가장 사랑받는 숙소",
+    "reviewsCountUnit": "개"
+   },
+   "location": {
+    "__typename": "StaysPdpLocation",
+    "subtitle": "서울, 한국",
+    "homeIconIdentifier": "COMPACT_HOUSE",
+    "latitude": 37.4787,
+    "longitude": 126.9618,
+    "isExactLocation": true,
+    "defaultZoomLevel": 14,
+    "categoryConfigs": null,
+    "exactAddress": null,
+    "verificationDetails": {
+     "__typename": "StaysPdpLocationVerificationDetails",
+     "isVerified": false,
+     "verifiedListingText": null,
+     "verifiedHelpHtml": null,
+     "verifiedHelpLinkText": null,
+     "verifiedHelpModalContent": null
+    },
+    "previewLocationDetails": [],
+    "seeAllLocationDetails": null,
+    "nearbyPlacesData": null
+   },
+   "addOnServices": [],
+   "hostInfo": {
+    "__typename": "StaysPdpHostInfo",
+    "passportData": {
+     "__typename": "PassportCardData",
+     "name": "필용",
+     "userId": "RGVtYW5kVXNlcjo2Njg5OTYxNDc=",
+     "contextualUserId": "Q29udGV4dHVhbFVzZXI6MTQ3MDY3ODAyNzM0MjA1NjE5OA==",
+     "titleText": "호스트",
+     "profilePictureUrl": "https://a0.muscache.com/im/pictures/user/User/original/84f81fce-4eb6-469a-99e4-154c97ae5d73.jpeg",
+     "profileLoggingId": null,
+     "isSuperhost": false,
+     "isVerified": true,
+     "stats": [
+      {
+       "__typename": "HostStat",
+       "label": "후기",
+       "value": "450",
+       "a11yValue": "후기 450개",
+       "type": "REVIEW_COUNT"
+      },
+      {
+       "__typename": "HostStat",
+       "label": "평점",
+       "value": "4.67",
+       "a11yValue": "평점 4.67점(5점 만점)",
+       "type": "RATING"
+      },
+      {
+       "__typename": "HostStat",
+       "label": "호스팅 경력(년)",
+       "value": "2",
+       "a11yValue": "호스팅 경력 2년",
+       "type": "YEARS_HOSTING"
+      }
+     ],
+     "ratingCount": 450,
+     "ratingAverage": 4.67,
+     "timeAsHost": {
+      "__typename": "TimeAsUser",
+      "years": 1,
+      "months": 7
+     },
+     "profileA11yLabel": "호스트 필용님에 대해 자세히 알아보세요."
+    },
+    "highlights": [],
+    "responseRateText": "응답률: 99%",
+    "responseTimeText": "1시간 이내에 응답",
+    "canBeMessaged": true,
+    "isAirbnbManaged": false,
+    "about": null,
+    "overview": {
+     "__typename": "StaysPdpHostOverview",
+     "title": {
+      "__typename": "LocalizedText",
+      "text": "호스트: 필용 님"
+     },
+     "items": [
+      {
+       "__typename": "LocalizedText",
+       "text": "호스팅 경력 2년"
+      }
+     ]
+    }
+   },
+   "sharingConfig": {
+    "__typename": "DemandStayListingPdpPresentationSharingConfig",
+    "imageUrl": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg",
+    "propertyType": "임대 호실 전체",
+    "ugcTitle": {
+     "__typename": "PdpUGCText",
+     "content": {
+      "__typename": "UGCText",
+      "localizedStringWithTranslationPreference": "임대 호실 · 서울 · ★4.75 · 침실 1개 · 침대 1개 · 욕실 1개",
+      "localizedString": "임대 호실 · 서울 · ★4.75 · 침실 1개 · 침대 1개 · 욕실 1개",
+      "source": "임대 호실 · 서울 · ★4.75 · 침실 1개 · 침대 1개 · 욕실 1개"
+     }
+    },
+    "shareUrl": "https://www.airbnb.co.kr/rooms/1482267316113778051?unique_share_id=a0c60fce-c82e-4fc7-bcb7-918b47adac38&viralityEntryPoint=1&s=76"
+   },
+   "personCapacity": 1,
+   "reportTermsDisclaimer": null,
+   "seoLinks": {
+    "__typename": "StaysPdpSeoLinks",
+    "title": " 및 인근의 다른 옵션 살펴보기",
+    "breadcrumbs": [
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "에어비앤비",
+      "path": "/"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "대한민국",
+      "path": "/south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "서울",
+      "path": "/seoul-region-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "서울",
+      "path": "/seoul-south-korea/stays"
+     }
+    ],
+    "nearbyCityLinks": [
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "부산",
+      "subtitle": "휴가지 숙소",
+      "path": "/busan-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "제주",
+      "subtitle": "휴가지 숙소",
+      "path": "/jeju-si-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "서귀포시",
+      "subtitle": "휴가지 숙소",
+      "path": "/seogwipo-si-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "인천",
+      "subtitle": "휴가지 숙소",
+      "path": "/incheon-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "경주시",
+      "subtitle": "휴가지 숙소",
+      "path": "/gyeongju-si-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "대전",
+      "subtitle": "휴가지 숙소",
+      "path": "/daejeon-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "대구",
+      "subtitle": "휴가지 숙소",
+      "path": "/daegu-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "강릉시",
+      "subtitle": "휴가지 숙소",
+      "path": "/gangneung-si-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "속초시",
+      "subtitle": "휴가지 숙소",
+      "path": "/sokcho-si-south-korea/stays"
+     }
+    ],
+    "otherStaysLinks": [
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "서울의 휴가지 숙소",
+      "path": "/seoul-south-korea/stays"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "서울의 장기 숙박 숙소",
+      "path": "/seoul-south-korea/stays/monthly"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "서울의 아파트 휴가지 숙소",
+      "path": "/seoul-south-korea/stays/apartments"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "서울의 아파트 휴가지 숙소",
+      "path": "/seoul-region-south-korea/stays/apartments"
+     },
+     {
+      "__typename": "StaysPdpSeoLink",
+      "title": "대한민국의 아파트 휴가지 숙소",
+      "path": "/south-korea/stays/apartments"
+     }
+    ]
+   },
+   "sleepingArrangements": null,
+   "overview": {
+    "__typename": "StaysPdpOverview",
+    "title": "한국의 임대 호실 전체",
+    "items": [
+     "최대 인원 1명",
+     "침실 1개",
+     "침대 1개",
+     "욕실 1개"
+    ],
+    "reviewsInfoLayout": "STANDARD"
+   },
+   "mediaTour": {
+    "__typename": "MediaTour",
+    "name": null,
+    "stops": [
+     {
+      "__typename": "MediaTourStop",
+      "id": "1482267316113778051",
+      "name": null,
+      "items": [
+       {
+        "__typename": "ImageMediaTourItem",
+        "image": {
+         "__typename": "ImageEntity",
+         "altText": null,
+         "id": "SW1hZ2VFbnRpdHk6MjE5MTQyMzc2NTIxMTM2NjQ5NQ==",
+         "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg",
+         "caption": null,
+         "assetMetadata": {
+          "__typename": "ImageAssetMetadata",
+          "aspectRatio": 1.3333333333333333,
+          "orientation": "LANDSCAPE",
+          "originalWidth": 4000,
+          "originalHeight": 3000
+         },
+         "tags": null,
+         "imageId": "2285984199"
+        }
+       },
+       {
+        "__typename": "ImageMediaTourItem",
+        "image": {
+         "__typename": "ImageEntity",
+         "altText": null,
+         "id": "SW1hZ2VFbnRpdHk6LTQ3MjY1MDcyMjA1NTk3MzgxMDI=",
+         "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/903960fc-a72b-4cc0-a54c-da358091340a.jpeg",
+         "caption": null,
+         "assetMetadata": {
+          "__typename": "ImageAssetMetadata",
+          "aspectRatio": 1.3333333333333333,
+          "orientation": "LANDSCAPE",
+          "originalWidth": 4000,
+          "originalHeight": 3000
+         },
+         "tags": null,
+         "imageId": "2285984205"
+        }
+       },
+       {
+        "__typename": "ImageMediaTourItem",
+        "image": {
+         "__typename": "ImageEntity",
+         "altText": null,
+         "id": "SW1hZ2VFbnRpdHk6LTIyOTU1NjA1MjE3OTMzMjY2MjI=",
+         "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/bfe17cff-2f46-424b-900b-5d74bee55b39.jpeg",
+         "caption": null,
+         "assetMetadata": {
+          "__typename": "ImageAssetMetadata",
+          "aspectRatio": 1.3333333333333333,
+          "orientation": "LANDSCAPE",
+          "originalWidth": 4000,
+          "originalHeight": 3000
+         },
+         "tags": null,
+         "imageId": "2285984191"
+        }
+       },
+       {
+        "__typename": "ImageMediaTourItem",
+        "image": {
+         "__typename": "ImageEntity",
+         "altText": null,
+         "id": "SW1hZ2VFbnRpdHk6LTczOTUyMTE1NTQ3MzUzNjA4MDU=",
+         "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/fa25580d-89e4-4c8f-aea4-f786a51d2551.jpeg",
+         "caption": null,
+         "assetMetadata": {
+          "__typename": "ImageAssetMetadata",
+          "aspectRatio": 1.3333333333333333,
+          "orientation": "LANDSCAPE",
+          "originalWidth": 4000,
+          "originalHeight": 3000
+         },
+         "tags": null,
+         "imageId": "2285984198"
+        }
+       },
+       {
+        "__typename": "ImageMediaTourItem",
+        "image": {
+         "__typename": "ImageEntity",
+         "altText": null,
+         "id": "SW1hZ2VFbnRpdHk6MzI3MzgyMzk1NDc4NjY2OTkyNA==",
+         "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/117e0356-15e1-4f62-a3d8-46c1889d5611.jpeg",
+         "caption": null,
+         "assetMetadata": {
+          "__typename": "ImageAssetMetadata",
+          "aspectRatio": 0.75,
+          "orientation": "PORTRAIT",
+          "originalWidth": 720,
+          "originalHeight": 960
+         },
+         "tags": null,
+         "imageId": "2285984197"
+        }
+       },
+       {
+        "__typename": "ImageMediaTourItem",
+        "image": {
+         "__typename": "ImageEntity",
+         "altText": null,
+         "id": "SW1hZ2VFbnRpdHk6LTM3NjIzMjY4OTY0ODQ3MTY1MDg=",
+         "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/5112253f-21ad-4a4d-a30e-aaec1fd1602a.jpeg",
+         "caption": null,
+         "assetMetadata": {
+          "__typename": "ImageAssetMetadata",
+          "aspectRatio": 0.75,
+          "orientation": "PORTRAIT",
+          "originalWidth": 720,
+          "originalHeight": 960
+         },
+         "tags": null,
+         "imageId": "2285984167"
+        }
+       }
+      ],
+      "description": null
+     }
+    ]
+   },
+   "pdpEducation": null,
+   "pdpType": "MARKETPLACE",
+   "seoFeatures": {
+    "__typename": "StaysPdpSeoFeatures",
+    "title": {
+     "__typename": "LocalizedText",
+     "text": ""
+    },
+    "metaDescription": {
+     "__typename": "PdpUGCText",
+     "content": {
+      "__typename": "UGCText",
+      "localizedStringWithTranslationPreference": "2026년 8월 14일 · 임대 호실 전체 · º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다. - 지하철역까지 도보 3분. - 버스 정류장까지 도보 1분 거리. -인천공항 리무진 버스 정류장도 5분 거리에 위치. - 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치. - 지하철 2호선을 ...",
+      "localizedString": "2026년 8월 14일 · 임대 호실 전체 · º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다. - 지하철역까지 도보 3분. - 버스 정류장까지 도보 1분 거리. -인천공항 리무진 버스 정류장도 5분 거리에 위치. - 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치. - 지하철 2호선을 ...",
+      "source": "2026년 8월 14일 · 임대 호실 전체 · º 중심부에 위치하여 최고의 접근성을 자랑하는 숙소입니다. - 지하철역까지 도보 3분. - 버스 정류장까지 도보 1분 거리. -인천공항 리무진 버스 정류장도 5분 거리에 위치. - 서울대학교를 출입하는 마을버스 정류장도 5분 거리 내에 위치. - 지하철 2호선을 ..."
+     }
+    },
+    "canonicalUrl": "https://www.airbnb.co.kr/rooms/1482267316113778051",
+    "indexInSearchEngines": true,
+    "relImageSrc": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg?im_w=720&width=720&quality=70&auto=webp",
+    "androidAlternateUrl": "android-app://com.airbnb.android/airbnb/rooms/1482267316113778051",
+    "androidDeeplink": "airbnb://rooms/1482267316113778051",
+    "iphoneDeeplink": "airbnb://rooms/1482267316113778051",
+    "ogTags": {
+     "__typename": "StaysPdpSeoOgTags",
+     "ogTitle": {
+      "__typename": "PdpUGCText",
+      "content": {
+       "__typename": "UGCText",
+       "localizedStringWithTranslationPreference": "임대 호실 · 서울 · ★4.75 · 침실 1개 · 침대 1개 · 욕실 1개",
+       "localizedString": "임대 호실 · 서울 · ★4.75 · 침실 1개 · 침대 1개 · 욕실 1개",
+       "source": "임대 호실 · 서울 · ★4.75 · 침실 1개 · 침대 1개 · 욕실 1개"
+      }
+     },
+     "ogDescription": {
+      "__typename": "PdpUGCText",
+      "content": {
+       "__typename": "UGCText",
+       "localizedStringWithTranslationPreference": "낙성대역3분거리 역세권숙소 207",
+       "localizedString": "낙성대역3분거리 역세권숙소 207",
+       "source": "낙성대역3분거리 역세권숙소 207"
+      }
+     },
+     "ogImage": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg?im_w=720&width=720&quality=70&auto=webp",
+     "ogType": "airbedandbreakfast:listing",
+     "ogUrl": "https://www.airbnb.co.kr/rooms/1482267316113778051"
+    },
+    "twitterTags": {
+     "__typename": "StaysPdpSeoTwitterTags",
+     "twitterCard": "photo",
+     "twitterImage": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg?im_w=720&width=720&quality=70&auto=webp",
+     "twitterUrl": "https://www.airbnb.co.kr/rooms/1482267316113778051"
+    }
+   }
+  },
+  "personCapacity": 1,
+  "contextualizedMedia": {
+   "__typename": "MediaEntityConnection",
+   "edges": [
+    {
+     "__typename": "MediaEntityEdge",
+     "node": {
+      "__typename": "ImageEntity",
+      "uri": "https://a0.muscache.com/im/pictures/hosting/Hosting-1482267316113778051/original/aace19f3-822a-4cc0-ba88-7931a84993e4.jpeg",
+      "moderatedUri": null
+     }
+    }
+   ]
+  },
+  "description": {
+   "__typename": "DemandStayListingDescription",
+   "name": {
+    "__typename": "UGCText",
+    "localizedStringWithTranslationPreference": "낙성대역3분거리 역세권숙소 207",
+    "localizedString": "낙성대역3분거리 역세권숙소 207",
+    "source": "낙성대역3분거리 역세권숙소 207"
+   }
+  },
+  "isHotelPropertyEnabled": false,
+  "isLuxe": false,
+  "propertyType": "APARTMENT",
+  "travelGuides": {
+   "__typename": "DemandStayListingToTravelGuideConnection",
+   "edges": []
+  },
+  "cohosts": [
+   {
+    "__typename": "ContextualUser",
+    "id": "Q29udGV4dHVhbFVzZXI6MTQ3MDY3ODAxNzAxNDQyMzg5OA==",
+    "displayFirstName": "필용",
+    "userRepresentationUrl": {
+     "__typename": "UserRepresentationUrl",
+     "profilePictureUrl": "https://a0.muscache.com/im/Portrait/Avatars/v2/orange?im_w=240&im_t=%ED%95%84%EC%9A%A9&im_s=52&im_f=AirbnbCerealKoreanSemiBold.ttf&im_c=8f3400&script=korean"
+    },
+    "isSuperHost": false
+   }
+  ],
+  "listingRatingStats": {
+   "__typename": "DemandEntityRatingStats",
+   "overallRatingStats": {
+    "__typename": "DemandReviewRatingStats",
+    "ratingCount": "24",
+    "ratingAverage": 4.75
+   },
+   "categoryRatingStats": [
+    {
+     "__typename": "DemandCategoryRatingStats",
+     "categoryTypeA": "CHECKIN",
+     "value": {
+      "__typename": "DemandReviewRatingStats",
+      "ratingAverage": 4.96
+     }
+    },
+    {
+     "__typename": "DemandCategoryRatingStats",
+     "categoryTypeA": "ACCURACY",
+     "value": {
+      "__typename": "DemandReviewRatingStats",
+      "ratingAverage": 4.92
+     }
+    },
+    {
+     "__typename": "DemandCategoryRatingStats",
+     "categoryTypeA": "LOCATION",
+     "value": {
+      "__typename": "DemandReviewRatingStats",
+      "ratingAverage": 4.88
+     }
+    },
+    {
+     "__typename": "DemandCategoryRatingStats",
+     "categoryTypeA": "COMMUNICATION",
+     "value": {
+      "__typename": "DemandReviewRatingStats",
+      "ratingAverage": 4.83
+     }
+    },
+    {
+     "__typename": "DemandCategoryRatingStats",
+     "categoryTypeA": "VALUE",
+     "value": {
+      "__typename": "DemandReviewRatingStats",
+      "ratingAverage": 4.83
+     }
+    },
+    {
+     "__typename": "DemandCategoryRatingStats",
+     "categoryTypeA": "CLEANLINESS",
+     "value": {
+      "__typename": "DemandReviewRatingStats",
+      "ratingAverage": 4.75
+     }
+    }
+   ]
+  },
+  "isPrivateUrlEnabled": null,
+  "reportedStatusForViewer": "NOT_REPORTED",
+  "contextualPrimaryHost": {
+   "__typename": "ContextualUser",
+   "id": "Q29udGV4dHVhbFVzZXI6MTQ3MDY3ODAyNzM0MjA1NjE5OA==",
+   "userRatingStats": {
+    "__typename": "UserRatingStats",
+    "ratingStats": {
+     "__typename": "ReviewRatingStats",
+     "ratingCount": "450"
+    }
+   }
+  },
+  "isElvisListing": false,
+  "contextualizedGuestFavorites": {
+   "__typename": "GuestFavorite",
+   "isGuestFavorite": false
+  },
+  "spaceType": "ENTIRE_HOME",
+  "metadataDescription": {
+   "__typename": "DemandStayListingDescription",
+   "summary": {
+    "__typename": "UGCText",
+    "sourceLocale": "ko"
+   }
+  },
+  "location": {
+   "__typename": "DemandStayListingLocation",
+   "coordinate": {
+    "__typename": "Coordinate",
+    "latitude": 37.4787,
+    "longitude": 126.9618
+   }
+  },
+  "wishlistItems": []
+ }
+}
