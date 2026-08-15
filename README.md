@@ -12,7 +12,7 @@ Claude Code가 이 문서들을 입력으로 새 서비스를 구현하는 것�
 | 1 | 33m2 게스트(임차인) 모드 | ✅ 완료 |
 | 2 | 33m2 임대인 모드 | ✅ 완료 |
 | 3 | Airbnb 게스트 모드 | ✅ 완료 |
-| 4 | Airbnb 호스트 모드 | 🟡 위저드 1~7단계 완료 · 8단계(사진) 이후 차단 |
+| 4 | Airbnb 호스트 모드 | 🟢 GraphQL 오퍼레이션·화면으로 클론 레벨 (실화면 일부 제약) |
 | 5 | 두 서비스 비교 분석 | ✅ 완료 |
 | 6 | Claude Code용 명세 세트 | ✅ 완료 |
 | — | 새 서비스 명세 | ⬜ 방향성 확정 후 |
@@ -48,6 +48,9 @@ _synthesis/
   host/
     screens-and-model.md         호스트 화면 · 등록 위저드 5단계 · 정산 · 수수료 역산
 airbnb/
+  graphql-api.md                 ★★ GraphQL API 1,363 오퍼레이션 (Q751·M612)
+  data-model.md                  ★ GraphQL 타입·Input 566·enum
+  flows-and-screens.md           ★ 예약·리뷰·메시징 플로우 · 화면 1,756
   design-system.md               DLS 토큰 — 팔레트 349 · 타이포 104 · CSS변수 1,615
   guest/
     screens-and-api.md           GraphQL 아키텍처 · 검색 · PDP · 여행/메시지/계정
@@ -60,6 +63,7 @@ airbnb/
 _shared/captures/                기계 판독용 원본 JSON + 모바일 UI 덤프
   33m2.i18n.ko.json · 33m2.room.4684.json · 33m2.design-tokens.json
   airbnb.pdp.sections.json · airbnb.search.json · airbnb.design-tokens.json
+  airbnb.graphql-operations.txt(1,363) · airbnb.graphql-inputs.txt(566)
   mobile/  (Android uiautomator XML 20+ · 스크린샷)
 ```
 

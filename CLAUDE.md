@@ -35,7 +35,8 @@
 | **모바일 앱 (2차 런칭)** | `_synthesis/mobile-apps.md` ★ |
 | 디자인 시스템 | `33m2/design-system.md` · `airbnb/design-system.md` |
 | UI 문구·i18n | `33m2/i18n-reference.md` (79 네임스페이스/1,876키) |
-| Airbnb (참고) | `airbnb/guest/{listing-entity,pdp-sections,search-filters,checkout}.md` |
+| Airbnb API/모델 | `airbnb/graphql-api.md` ★★ · `airbnb/data-model.md` · `airbnb/flows-and-screens.md` |
+| Airbnb 게스트 상세 | `airbnb/guest/{listing-entity,pdp-sections,search-filters,checkout}.md` |
 
 ---
 
@@ -86,6 +87,8 @@ Airbnb 사진            = 최소 5장
 33m2 쓰기 API       = REST (웹 Server Action은 REST 래퍼) — 계약요청/승인/거절/취소/환불/퇴실확인/리뷰답글
 33m2 앱 = 네이티브 Kotlin+OkHttp · Airbnb 앱 = Apollo GraphQL
 Airbnb 건물 유형       = 31종 · 33m2 = 12종
+Airbnb GraphQL API = 1,363 오퍼레이션(Q751·M612) + Input 566 (airbnb/graphql-api.md)
+Airbnb 예약상태     = NEW·INQUIRY·PENDING·PREAPPROVED·ACCEPTED·CONFIRMED·DECLINED·CANCELLED·COMPLETED·AT_CHECKPOINT
 ```
 
 ---
