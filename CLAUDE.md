@@ -24,7 +24,9 @@
 | 계약 도메인·상태머신·서브플로우 | `33m2/DOMAIN.md` ★ |
 | 요금 계산 산식 | `33m2/guest/flows.md` §FLOW-G03, `_synthesis/comparison.md` §2 |
 | **데이터 모델 (전체)** | `33m2/data-model.md` ★ (179 DTO/1,045필드) · `33m2/zod-schemas.md` (웹) |
-| **API 엔드포인트 (전체)** | `33m2/api-endpoints.md` ★ (159개) · `33m2/api.md` (규약·의미) |
+| **API 계약 (단일 진실)** | `33m2/api-contract.md` ★★ (180 메서드 verb·path·body·resp) |
+| API 보조 | `33m2/api-endpoints.md`(경로) · `33m2/api.md`(규약·의미) |
+| **클론 가능성 검증** | `_synthesis/CLONE-READINESS.md` ★ |
 | 인증·계정·본인인증 | `33m2/auth-and-account.md` |
 | enum·에러코드 | `33m2/enums.md` |
 | 호스트 입력 모델 | `33m2/host/screens-and-model.md` §SCR-H03 |
@@ -78,8 +80,9 @@
    15일 전: 무료/10%/20% · 8일 전: 20%/30%/50% · 1일 전: 40%/50%/70% · 당일 이후: 취소 불가
 33m2 매물 사진         = 최소 6장 / 최대 20장
 Airbnb 사진            = 최소 5장
-33m2 앱 REST API   = 159 엔드포인트 (APK 추출, 33m2/api-endpoints.md)
-33m2 데이터 모델    = 179 DTO / 1,045 필드 (APK @SerializedName, 33m2/data-model.md)
+33m2 REST API      = 180 메서드 확정 (Retrofit 인터페이스, 33m2/api-contract.md)
+                     GET 103 · POST 56 · PUT 17 · DELETE 4
+33m2 DTO           = 228개 (응답 179 + 요청 49) / 1,185 필드
 33m2 쓰기 API       = REST (웹 Server Action은 REST 래퍼) — 계약요청/승인/거절/취소/환불/퇴실확인/리뷰답글
 33m2 앱 = 네이티브 Kotlin+OkHttp · Airbnb 앱 = Apollo GraphQL
 Airbnb 건물 유형       = 31종 · 33m2 = 12종

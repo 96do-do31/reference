@@ -192,9 +192,20 @@ POST /v1/host/contract/reviews/{contractId}/replies    ← ★ 답글 작성
 | `/v1/chat/messages` | 메시지 (발송/조회) |
 | `/v1/chat/scheduled` · `/{id}` · `/connectable-rooms` | **자동 메시지** 관리 |
 
-**Firebase RDB 경로 힌트** (APK 문자열): `threads`, `messages`, `chatRoomId`, `chattingId`, `chatId`
-채팅 상세 이벤트 타입: `chat_detail_{approval, change_response, extend_lease, inspection, move_in, move_out, payment}`
-> 메시지 스트림 = RDB, 메타·액션·자동메시지 = REST. `firebase-token`은 `/v1/user/me/firebase-token`으로 발급.
+**Firebase RDB 구조** ✅ (APK 모델 클래스 확정)
+```
+messagequeue/{cid}/{msgKey} → ChattingItem{ msgKey, item: ChatItem }
+  ChatItem{ chatData, creationDate, loginMode, systemMessage, systemTitle,
+            systemMessageButton: ChatButton, translations[] }
+  ChatButton{ type: ChatButtonType(INFO|RE_REQUEST_CONTRACT|…), target, parameters[] }
+{cid}/last_message_time   ← 스레드 정렬
+{cid}/activity            ← 온라인/타이핑 추정
+```
+- 시스템 메시지에 **액션 버튼 임베드**(계약 재요청 등). 계약 이벤트를 채팅 카드로 표시.
+- `translations[]` 메시지별 번역 캐시(외국인), `loginMode`로 화자 구분.
+- RDB 인증 토큰: `GET /v1/user/me/firebase-token`.
+> 메시지 스트림 = RDB, 스레드 메타·액션·자동메시지·번역요청 = REST(`/v1/chat/*`).
+> 상세 스키마는 `33m2/api-contract.md` §8 + `data-model.md`.
 
 ---
 

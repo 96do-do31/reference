@@ -1,0 +1,2573 @@
+[
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/reviews/{contractId}/popup/read",
+"resp": "v",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/accounts/bank-codes",
+"resp": "List<BankItem>",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/estimate",
+"resp": "GuestContractEstimateResult",
+"path_params": [],
+"query": [
+[
+"query",
+"rid",
+"int"
+],
+[
+"query",
+"isExtend",
+"boolean"
+],
+[
+"query",
+"startDate",
+"String"
+],
+[
+"query",
+"endDate",
+"String"
+],
+[
+"query",
+"initialContractId",
+"Integer"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/support/inquiries",
+"resp": "MyInquiriesData",
+"path_params": [],
+"query": [
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/{rid}/schedules",
+"resp": "RoomScheduleData",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [
+[
+"query",
+"year",
+"int"
+],
+[
+"query",
+"month",
+"int"
+],
+[
+"query",
+"currentInitialContractId",
+"Integer"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/contracts/schedule-changes/{scheduleId}",
+"resp": "ChangeScheduleRequestData",
+"path_params": [
+[
+"path",
+"scheduleId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/{rid}/preview",
+"resp": "RoomDetailInfoResult",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/host/rooms/{rid}",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": "RoomInfoOverView"
+},
+{
+"verb": "PUT",
+"path": "/v1/host/rooms/{rid}/description",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": "HouseDescriptionInfo"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}",
+"resp": "GuestContractDetailResult",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/{initialContractId}/check-in",
+"resp": "GuestContractItem",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": "GuestCheckInRequest"
+},
+{
+"verb": "DELETE",
+"path": "/v1/rooms/{rid}/favorites",
+"resp": "NewAirBridgeEventDataResult",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/contracts/masters/actions/count",
+"resp": "HostContractActionCountResult",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/contracts/masters/status/count",
+"resp": "HostContractMasterStatusCount",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/host/rooms/{rid}/options",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": "HouseOptionInfo"
+},
+{
+"verb": "POST",
+"path": "/v1/user/logout",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/{rid}/contract-availability",
+"resp": "SimpleBooleanResult",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [
+[
+"query",
+"startDate",
+"String"
+],
+[
+"query",
+"endDate",
+"String"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/recommend/search-keywords",
+"resp": "RecommendSearchKeywords",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/hosts/{hostUid}",
+"resp": "HostRoomListResult",
+"path_params": [
+[
+"path",
+"hostUid",
+"int"
+]
+],
+"query": [
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/host/contracts/schedule-changes/{scheduleId}/rejection",
+"resp": "v",
+"path_params": [
+[
+"path",
+"scheduleId",
+"int"
+]
+],
+"query": [],
+"body": "RejectionScheduleChangeRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/host/contracts/{initialContractId}/hold-checkout",
+"resp": "HostContractItem",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": "ArrayReasonRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/reviews/{initialContractId}",
+"resp": "v",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": "ScoreReviewUpdateRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/contracts/recent-reviews",
+"resp": "List<RecentReviewItem>",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/{type}/notification-settings/channels",
+"resp": "v",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [],
+"body": "NotificationUpdateRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/{rid}/space-info",
+"resp": "HouseSpaceInfo",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/settlements/rooms",
+"resp": "List<RoomBasicInfo>",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/host/contract/reviews/{contractId}/replies",
+"resp": "v",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": "SimpleStringRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/notifications",
+"resp": "ArrayList<GuestContractNotificationItem>",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms",
+"resp": "HostRoomListData",
+"path_params": [],
+"query": [
+[
+"query",
+"keyword",
+"String"
+],
+[
+"query",
+"statusFilter",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/user/me",
+"resp": "UserMe",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/{type}/notification-settings/do-not-disturb",
+"resp": "v",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [],
+"body": "DoNotDisturbUpdateRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/contracts/simple-review-templates",
+"resp": "List<SimpleReviewData>",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/find-id",
+"resp": "FindMemberIdResult",
+"path_params": [],
+"query": [],
+"body": "FindUserIdRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/accounts/verification",
+"resp": "BankInfoCheckResult",
+"path_params": [],
+"query": [],
+"body": "BankInfoCheckRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/need-review",
+"resp": "TenantReviewManageItem",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}/refund-card",
+"resp": "RefundCardInfo",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/support/{type}/faq-categories",
+"resp": "FaqCategoriesResult",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/host/contracts/schedule-changes/{scheduleId}/approval",
+"resp": "v",
+"path_params": [
+[
+"path",
+"scheduleId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/password-reset/email/send",
+"resp": "EmailVerifyCodeResult",
+"path_params": [],
+"query": [],
+"body": "EmailVerifyCodeRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/host/contract/reviews/{contractId}",
+"resp": "LandLordReviewDetail",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/password-reset/email/verify",
+"resp": "EmailVerifyResult",
+"path_params": [],
+"query": [],
+"body": "EmailVerifyRequest"
+},
+{
+"verb": "DELETE",
+"path": "/v1/chat/scheduled/{id}",
+"resp": "v",
+"path_params": [
+[
+"path",
+"id",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/{rid}",
+"resp": "RoomInfoOverView",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/{initialContractId}/check-out",
+"resp": "GuestContractItem",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": "GuestCheckOutRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/cert/mok/send",
+"resp": "MobileCertNumResult",
+"path_params": [],
+"query": [],
+"body": "MobileCertNumRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/host/rooms/{sourceRid}/clone",
+"resp": "RoomCopyResult",
+"path_params": [
+[
+"path",
+"sourceRid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/chat/scheduled/connectable-rooms",
+"resp": "List<ConnectedRoom>",
+"path_params": [],
+"query": [
+[
+"query",
+"keyword",
+"String"
+],
+[
+"query",
+"id",
+"Integer"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/settlements/complete",
+"resp": "SettlementReadySearchInfoResult",
+"path_params": [],
+"query": [
+[
+"query",
+"onlySummary",
+"boolean"
+],
+[
+"query",
+"rid",
+"Integer"
+],
+[
+"query",
+"fromSettlementDate",
+"String"
+],
+[
+"query",
+"toSettlementDate",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/address/validation",
+"resp": "v",
+"path_params": [],
+"query": [
+[
+"query",
+"addrStreet",
+"String"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/{type}/notification-settings",
+"resp": "NotificationSettingResult",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/{contractId}/cancel",
+"resp": "v",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/map/rooms",
+"resp": "MapRoomSearchResult",
+"path_params": [],
+"query": [
+[
+"query",
+"swLat",
+"Double"
+],
+[
+"query",
+"swLng",
+"Double"
+],
+[
+"query",
+"neLat",
+"Double"
+],
+[
+"query",
+"neLng",
+"Double"
+],
+[
+"query",
+"roomMarkerLat",
+"Double"
+],
+[
+"query",
+"roomMarkerLng",
+"Double"
+],
+[
+"query",
+"zoomLevel",
+"Integer"
+],
+[
+"query",
+"startDate",
+"String"
+],
+[
+"query",
+"endDate",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/chat/{cid}/messages/search/hint",
+"resp": "ChattingSearchHintResult",
+"path_params": [
+[
+"path",
+"cid",
+"int"
+]
+],
+"query": [
+[
+"query",
+"keyword",
+"String"
+]
+],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/guest/contracts/{contractId}/receipt-info",
+"resp": "v",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": "ReceiptInfoRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/user/password-reset/validation",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": "PasswordResetValidationRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/cert/email/verify",
+"resp": "EmailVerifyResult",
+"path_params": [],
+"query": [],
+"body": "EmailVerifyRequest"
+},
+{
+"verb": "PUT",
+"path": "/v1/chat/scheduled/{id}",
+"resp": "v",
+"path_params": [
+[
+"path",
+"id",
+"int"
+]
+],
+"query": [],
+"body": "SetScheduledChatMessageRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/need-checkin",
+"resp": "GuestEnterConfirmNeedContractInfo",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}/receipt-info",
+"resp": "ReceiptInfo",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/contracts/{contractId}",
+"resp": "HostContractDetailResult",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}/refund-reasons",
+"resp": "List<CancelReason>",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/contracts/masters/{initialContractId}/care-link",
+"resp": "SimpleStringResult",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/user/me/host-profile",
+"resp": "RefreshTokenResult",
+"path_params": [],
+"query": [],
+"body": "HostProfileUpdateRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/host/contracts/masters/actions/count",
+"resp": "HostActionContractInfoResult",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/host/rooms/{rid}/fee-info",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": "HousePriceInfo"
+},
+{
+"verb": "POST",
+"path": "/v1/surveys/{type}/submit",
+"resp": "v",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [],
+"body": "SurveyRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/cert/phone-number",
+"resp": "SimpleStringResult",
+"path_params": [],
+"query": [
+[
+"query",
+"certNum",
+"String"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/host/rooms/{rid}/deletion",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": "ReasonRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/support/{type}/faqs",
+"resp": "FaqItemListResult",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [
+[
+"query",
+"category",
+"String"
+],
+[
+"query",
+"keyword",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/surveys/{type}",
+"resp": "SurveyListData",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "test/token/expire",
+"resp": "String",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/cert/mok/terms",
+"resp": "MobileCertTermsResult",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/address/search",
+"resp": "AddressSearchResult",
+"path_params": [],
+"query": [
+[
+"query",
+"keyword",
+"String"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/{type}/inbox",
+"resp": "AlarmItemListResult",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [
+[
+"query",
+"categoryCode",
+"String"
+],
+[
+"query",
+"unreadOnly",
+"boolean"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/cert/mok/resend",
+"resp": "MobileCertNumResendResult",
+"path_params": [],
+"query": [],
+"body": "MobileCertNumResendRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/{rid}/fee-info",
+"resp": "HousePriceInfo",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/chat/{cid}/contract-masters",
+"resp": "ChattingExtendContractListResult",
+"path_params": [
+[
+"path",
+"cid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms",
+"resp": "RoomSearchResult",
+"path_params": [],
+"query": [
+[
+"query",
+"keyword",
+"String"
+],
+[
+"query",
+"startDate",
+"String"
+],
+[
+"query",
+"endDate",
+"String"
+],
+[
+"query",
+"sortBy",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/recent/view",
+"resp": "List<RoomListItem>",
+"path_params": [],
+"query": [
+[
+"query",
+"uuid",
+"String"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/chat/{cid}/messages/{msg_idx}/translation",
+"resp": "ChattingTranslationResult",
+"path_params": [
+[
+"path",
+"cid",
+"int"
+]
+],
+"query": [],
+"body": "ChatTranslateRequest"
+},
+{
+"verb": "PUT",
+"path": "/v1/host/rooms/{rid}/space-info",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": "HouseSpaceInfo"
+},
+{
+"verb": "GET",
+"path": "/v1/chat/scheduled/{id}",
+"resp": "ChatScheduledItemDetail",
+"path_params": [
+[
+"path",
+"id",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/me/email/verify",
+"resp": "RefreshTokenResult",
+"path_params": [],
+"query": [],
+"body": "EmailVerifyRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/support/inquiries",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": "InquiriesRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/user/host-conversion/validation",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{initialContractId}/check-out/checklist",
+"resp": "GuestCheckOutCheckListResult",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/recent-views",
+"resp": "MyRoomResult",
+"path_params": [],
+"query": [
+[
+"query",
+"uuid",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}/refund-account",
+"resp": "RefundAccountInfo",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/host/contracts/{contractId}/rejection",
+"resp": "NewAirBridgeEventDataResult",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": "ReasonRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/request",
+"resp": "GuestContractRequestResult",
+"path_params": [],
+"query": [],
+"body": "GuestContractRequest"
+},
+{
+"verb": "PUT",
+"path": "/v1/guest/contracts/{contractId}/deposit-return-account",
+"resp": "v",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": "DepositReturnAccountRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/survey-requirements",
+"resp": "SimpleBooleanResult",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/contents/host/home",
+"resp": "HostHomeDataResult",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v2/host/contracts/masters",
+"resp": "HostContractListResult",
+"path_params": [],
+"query": [
+[
+"query",
+"contractMasterStatus",
+"String"
+],
+[
+"query",
+"fromStartDate",
+"String"
+],
+[
+"query",
+"toStartDate",
+"String"
+],
+[
+"query",
+"fromEndDate",
+"String"
+],
+[
+"query",
+"toEndDate",
+"String"
+],
+[
+"query",
+"roomNameOrAddress",
+"String"
+],
+[
+"query",
+"hostContractActionType",
+"String"
+],
+[
+"query",
+"sortBy",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}/receipt-info/bill-url",
+"resp": "SimpleStringResult",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/{initialContractId}/simple-review",
+"resp": "v",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": "SimpleReviewAddRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/schedule-changes/result",
+"resp": "ScheduleChangeResult",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/join/{joinType}",
+"resp": "JoinResult",
+"path_params": [
+[
+"path",
+"joinType",
+"String"
+]
+],
+"query": [],
+"body": "JoinRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/{rid}/description",
+"resp": "HouseDescriptionInfo",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/favorites",
+"resp": "MyRoomResult",
+"path_params": [],
+"query": [
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "app/config",
+"resp": "?",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/host/rooms/{rid}/visibility",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": "ChangeRoomPublishRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/reviews",
+"resp": "TenantReviewManageResult",
+"path_params": [],
+"query": [
+[
+"query",
+"filter",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/devices/app-installations",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/contract/reviews",
+"resp": "LandLordReviewManageResult",
+"path_params": [],
+"query": [
+[
+"query",
+"rid",
+"Integer"
+],
+[
+"query",
+"replyStatus",
+"String"
+],
+[
+"query",
+"fromDate",
+"String"
+],
+[
+"query",
+"toDate",
+"String"
+],
+[
+"query",
+"sortBy",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/masters/{initialContractId}/schedule-changes",
+"resp": "ChangeScheduleRequestResult",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": "ChangeScheduleRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/masters/{initialContractId}/schedule-changes/availability",
+"resp": "ChangeScheduleAvailableResult",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [
+[
+"query",
+"requestedStartDate",
+"String"
+]
+],
+"body": null
+},
+{
+"verb": "DELETE",
+"path": "/v1/rooms/recent-views",
+"resp": "v",
+"path_params": [],
+"query": [
+[
+"query",
+"uuid",
+"String"
+],
+[
+"query",
+"rid",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/chat/{cid}/actions",
+"resp": "ChattingRoomActions",
+"path_params": [
+[
+"path",
+"cid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/me/email/send",
+"resp": "EmailVerifyCodeResult",
+"path_params": [],
+"query": [],
+"body": "EmailVerifyCodeRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/{rid}/options",
+"resp": "HouseOptionInfo",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/support/{type}/notices/{id}",
+"resp": "NoticeDetailItem",
+"path_params": [
+[
+"path",
+"type",
+"String"
+],
+[
+"path",
+"id",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/cert/mok/verify",
+"resp": "CertNumResult",
+"path_params": [],
+"query": [],
+"body": "MobileCertNumVerifyRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/{mode}/contracts/masters/{initialContractId}/schedule-change/history",
+"resp": "ScheduleChangeHistoryResult",
+"path_params": [
+[
+"path",
+"mode",
+"String"
+],
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/campaigns/events",
+"resp": "EventListResult",
+"path_params": [],
+"query": [
+[
+"query",
+"onlyGuestEvent",
+"boolean"
+],
+[
+"query",
+"onlyHostEvent",
+"boolean"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/contracts/{contractId}/calculated-refund-info",
+"resp": "HostContractCancelRefundInfo",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/password-reset/email",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": "PasswordResetEmailRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/host/contracts/{contractId}/approval",
+"resp": "NewAirBridgeEventDataResult",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/host/rooms",
+"resp": "NewRoomRegistResult",
+"path_params": [],
+"query": [],
+"body": "HouseSpaceInfo"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}/deposit-return-account",
+"resp": "DepositReturnAccount",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/user/me/cert/passport",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": "PassPortUpdateRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/rooms/{rid}/favorites",
+"resp": "NewAirBridgeEventDataResult",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/schedule-changes/{scheduleId}/result/read",
+"resp": "v",
+"path_params": [
+[
+"path",
+"scheduleId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/{contractId}/refund",
+"resp": "v",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": "ContractRefundRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/hosts/{hostUid}/reviews",
+"resp": "LandlordReviewContentsResult",
+"path_params": [
+[
+"path",
+"hostUid",
+"int"
+]
+],
+"query": [
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/me/firebase-token",
+"resp": "SimpleStringResult",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "test/auth",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/{mode}/contracts/masters/{initialContractId}/schedule-change",
+"resp": "ContractScheduleResult",
+"path_params": [
+[
+"path",
+"mode",
+"String"
+],
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/{type}/inbox/categories",
+"resp": "AlarmCategoriesResult",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/chat/{cid}",
+"resp": "ChattingRoomInfo",
+"path_params": [
+[
+"path",
+"cid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/email/validation",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": "CheckEmailValidationRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/{rid}/contract/{contractId}",
+"resp": "RoomDetailInfoResult",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+],
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/{rid}/schedules",
+"resp": "RoomScheduleData",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/contents/guest/home",
+"resp": "GuestHomeDataResult",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/reviews/{initialContractId}",
+"resp": "TenantReviewManageItem",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/host/contracts/{initialContractId}/confirm-checkout",
+"resp": "HostContractItem",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/user/me/cert",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": "CertNumUpdateRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/campaigns/articles",
+"resp": "ArticleResult",
+"path_params": [],
+"query": [
+[
+"query",
+"categoryId",
+"Integer"
+],
+[
+"query",
+"onlyGuestArticle",
+"boolean"
+],
+[
+"query",
+"onlyHostArticle",
+"boolean"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/cert/email/send",
+"resp": "EmailVerifyCodeResult",
+"path_params": [],
+"query": [],
+"body": "EmailVerifyCodeRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/map/search-keywords",
+"resp": "SearchKeywordResult",
+"path_params": [],
+"query": [
+[
+"query",
+"keyword",
+"String"
+],
+[
+"query",
+"maxSize",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/chat/{cid}/contract-period",
+"resp": "v",
+"path_params": [
+[
+"path",
+"cid",
+"int"
+]
+],
+"query": [],
+"body": "StartEndDateRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}/refund/checklist",
+"resp": "RefundCheckListResult",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/{rid}/contract-policy",
+"resp": "HouseContractPolicyInfo",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/masters/{initialContractId}",
+"resp": "GuestContractItem",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/password-reset",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": "PasswordResetRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/user/host-conversion",
+"resp": "RefreshTokenResult",
+"path_params": [],
+"query": [],
+"body": "ChangeToHostRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/chat/{cid}/read",
+"resp": "v",
+"path_params": [
+[
+"path",
+"cid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/chat/scheduled",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": "SetScheduledChatMessageRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/address/details",
+"resp": "AddressDetail",
+"path_params": [],
+"query": [
+[
+"query",
+"address",
+"String"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/settlements/ready",
+"resp": "SettlementReadySearchInfoResult",
+"path_params": [],
+"query": [
+[
+"query",
+"onlySummary",
+"boolean"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/masters",
+"resp": "GuestContractListResult",
+"path_params": [],
+"query": [
+[
+"query",
+"contractMasterStatus",
+"String"
+],
+[
+"query",
+"sortBy",
+"String"
+],
+[
+"query",
+"roomNameOrAddress",
+"String"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/chat/scheduled",
+"resp": "ChatScheduledListResult",
+"path_params": [],
+"query": [
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/contracts/masters/{initialContractId}",
+"resp": "HostContractItem",
+"path_params": [
+[
+"path",
+"initialContractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/settlements/{contractId}",
+"resp": "PayoutDetail",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/cert/passport/ocr",
+"resp": "PassportOcrResult",
+"path_params": [],
+"query": [],
+"body": "PassportOcrRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/guest/contracts/schedule-changes/{scheduleId}/cancel",
+"resp": "v",
+"path_params": [
+[
+"path",
+"scheduleId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "DELETE",
+"path": "/v1/user/me",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}/check-in/checklist",
+"resp": "GuestCheckInInfo",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/campaigns/articles/editor-pick/{loginType}",
+"resp": "List<EditorPick>",
+"path_params": [
+[
+"path",
+"loginType",
+"String"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/contract/reviews/summary",
+"resp": "LandlordReviewSummary",
+"path_params": [],
+"query": [
+[
+"query",
+"rid",
+"Integer"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/login",
+"resp": "LoginResult",
+"path_params": [],
+"query": [],
+"body": "LoginRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/last-active",
+"resp": "RoomContractMoreInfo",
+"path_params": [],
+"query": [
+[
+"query",
+"rid",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "PUT",
+"path": "/v1/user/me/guest-profile",
+"resp": "RefreshTokenResult",
+"path_params": [],
+"query": [],
+"body": "GuestProfileUpdateRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/support/{type}/notices",
+"resp": "NoticeListResult",
+"path_params": [
+[
+"path",
+"type",
+"String"
+]
+],
+"query": [
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/phone-number/validation",
+"resp": "v",
+"path_params": [],
+"query": [],
+"body": "ValidatePhoneNumberRequest"
+},
+{
+"verb": "GET",
+"path": "/v1/campaigns/partnerships",
+"resp": "ArrayList<PartnershipItem>",
+"path_params": [],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/chat/messages",
+"resp": "ChatSendResult",
+"path_params": [],
+"query": [],
+"body": "ChatMessageSendRequest"
+},
+{
+"verb": "POST",
+"path": "/v1/host/rooms/{rid}/schedules/unavailable",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": "RoomScheduleRequestData"
+},
+{
+"verb": "GET",
+"path": "/v1/hosts/{hostUid}/profile",
+"resp": "RoomHostInfo",
+"path_params": [
+[
+"path",
+"hostUid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/{type}/inbox/{id}/read",
+"resp": "v",
+"path_params": [
+[
+"path",
+"type",
+"String"
+],
+[
+"path",
+"id",
+"String"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/{rid}/available-weeks",
+"resp": "RoomContractAvailableWeeks",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [
+[
+"query",
+"startDate",
+"String"
+],
+[
+"query",
+"isExtend",
+"boolean"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/settlements/ready",
+"resp": "SettlementReadySearchInfoResult",
+"path_params": [],
+"query": [
+[
+"query",
+"onlySummary",
+"boolean"
+],
+[
+"query",
+"rid",
+"Integer"
+],
+[
+"query",
+"page",
+"int"
+]
+],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/guest/contracts/{contractId}/deposit-return-card",
+"resp": "DepositReturnCard",
+"path_params": [
+[
+"path",
+"contractId",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/campaigns/{id}",
+"resp": "CampaignDetail",
+"path_params": [
+[
+"path",
+"id",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/host/rooms/{rid}/review-request",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/rooms/{rid}",
+"resp": "RoomDetailInfoResult",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [
+[
+"query",
+"uuid",
+"String"
+]
+],
+"body": null
+},
+{
+"verb": "POST",
+"path": "/v1/user/refresh",
+"resp": "?",
+"path_params": [],
+"query": [],
+"body": "RefreshTokenRequest"
+},
+{
+"verb": "PUT",
+"path": "/v1/host/rooms/{rid}/contract-policy",
+"resp": "v",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": "HouseContractPolicyInfo"
+},
+{
+"verb": "GET",
+"path": "/v1/support/{loginType}/top-faqs",
+"resp": "FaqItemListResult",
+"path_params": [
+[
+"path",
+"loginType",
+"String"
+]
+],
+"query": [],
+"body": null
+},
+{
+"verb": "GET",
+"path": "/v1/host/rooms/{rid}/progress",
+"resp": "RoomInfoProgress",
+"path_params": [
+[
+"path",
+"rid",
+"int"
+]
+],
+"query": [],
+"body": null
+}
+]

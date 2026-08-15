@@ -26,9 +26,13 @@ _synthesis/
   comparison.md                  두 서비스 대조 + 강약점 + 가져올것/버릴것/새로만들것
   permissions.md                 권한 모델 (PERM-01~08)
   mobile-apps.md                 ★ 안드로이드 앱 역설계 (33m2 · Airbnb)
+  CLONE-READINESS.md             ★ 클론 구현 가능성 검증
   api-observed.md                API 명세 · 에러 엔벨로프 · 검색 계약
 33m2/
-  api.md                         ★ API 카탈로그 40+ 엔드포인트
+  api-contract.md                ★★ API 계약 180메서드 (verb·path·body·resp)
+  api-endpoints.md               경로 카탈로그 159개
+  api.md                         API 규약·의미
+  data-model.md                  ★ 응답 DTO 179클래스/1,045필드
   ARCHITECTURE.md                기술 스택 · API 표면 · 도메인 어휘
   faq.md                         FAQ 전문 40건 (비즈니스 규칙)
   DOMAIN.md                      ★ 계약 도메인 — 상태머신 · 서브플로우 · 규칙
