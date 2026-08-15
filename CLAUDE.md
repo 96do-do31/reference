@@ -35,7 +35,7 @@
 | **모바일 앱 (2차 런칭)** | `_synthesis/mobile-apps.md` ★ |
 | 디자인 시스템 | `33m2/design-system.md` · `airbnb/design-system.md` |
 | UI 문구·i18n | `33m2/i18n-reference.md` (79 네임스페이스/1,876키) |
-| Airbnb API/모델 | `airbnb/graphql-api.md` ★★ · `airbnb/data-model.md` · `airbnb/flows-and-screens.md` |
+| Airbnb API/모델 | `airbnb/graphql-api.md` ★★ · `airbnb/data-model.md` · `airbnb/entity-schemas.md` ★ · `airbnb/flows-and-screens.md` |
 | Airbnb 게스트 상세 | `airbnb/guest/{listing-entity,pdp-sections,search-filters,checkout}.md` |
 
 ---

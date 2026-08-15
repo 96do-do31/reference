@@ -19,9 +19,11 @@ Global ID는 base64: `atob("VXNlcjo0OTU0NzA1MjE=")` = `User:495470521`, `StayLis
 
 ---
 
-## 2. Listing (숙소) — `node.pdpPresentation` ✅ 웹 확인
+> **필드 단위 스키마는 `airbnb/entity-schemas.md`** — Listing 198경로 · SearchResult 95 · BookIt 119 · Policies 46 (웹 실측 전개).
 
-27개 필드. 상세는 `airbnb/guest/listing-entity.md` 참조. 요약:
+## 2. Listing (숙소) — `node.pdpPresentation` ✅ 웹 확인 (198 필드 경로)
+
+27개 섹션 / 198 필드 경로. 전체 필드는 `entity-schemas.md`, 요약은 `listing-entity.md`. 요약:
 ```
 amenities · descriptions · title · heroMedia · highlights · localizedLocation
 location · personCapacity · sleepingArrangements · quality · hostInfo

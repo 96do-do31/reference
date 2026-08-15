@@ -50,6 +50,7 @@ _synthesis/
 airbnb/
   graphql-api.md                 ★★ GraphQL API 1,363 오퍼레이션 (Q751·M612)
   data-model.md                  ★ GraphQL 타입·Input 566·enum
+  entity-schemas.md              ★ 응답 필드 스키마 (Listing198·Search95·BookIt119)
   flows-and-screens.md           ★ 예약·리뷰·메시징 플로우 · 화면 1,756
   design-system.md               DLS 토큰 — 팔레트 349 · 타이포 104 · CSS변수 1,615
   guest/
