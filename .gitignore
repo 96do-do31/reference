@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# 에디터 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (사이드카 생성 스크립트용)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node (혹시 도구 설치 시)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# 임시 / 스크래치
+*.tmp
+*.bak
+*.log
+/tmp/
+scratchpad/
+.claude/

@@ -4,6 +4,7 @@
 > **180 메서드 확정** (GET 103 · POST 56 · PUT 17 · DELETE 4). R8 축약 애노테이션 복원: `@ra.f`=GET `@ra.o`=POST `@ra.p`=PUT `@ra.b`=DELETE `@s`=@Path `@t`=@Query `@ra.a`=@Body.
 > 요청/응답 DTO 필드는 `33m2/data-model.md`(응답) · 아래 부록(요청) 참조. 원본: `_shared/captures/33m2.api-full.json`, `33m2.req-dto.json`
 > 이 문서가 **API 단일 진실**입니다. `api-endpoints.md`(경로만)·`api.md`(규약·의미)는 보조.
+> **기계 판독용**: `33m2/openapi.yaml` (OpenAPI 3.1, 이 계약에서 자동생성 — 코드젠/목서버/검증에 사용). 재생성: `python3 _shared/captures/33m2.openapi.gen.py <out.yaml>`.
 
 ## 공통
 - 성공 `{code:"SCSS_001", data:T}` · 에러 `{code, message:{type,content}, data?}` (HTTP 400)

@@ -25,11 +25,14 @@ _synthesis/
   GAP-ANALYSIS.md                완성도 감사 + 보완 계획 + 실행 결과
   comparison.md                  두 서비스 대조 + 강약점 + 가져올것/버릴것/새로만들것
   permissions.md                 권한 모델 (PERM-01~08)
+  responsive-web.md              ★ 웹 반응형 (데스크톱↔모바일, UA쌍 실측)
+  state-machines.md              ★ 상태머신 mermaid (계약 2축 · 예약 라이프사이클)
   mobile-apps.md                 ★ 안드로이드 앱 역설계 (33m2 · Airbnb)
   CLONE-READINESS.md             ★ 클론 구현 가능성 검증
   api-observed.md                API 명세 · 에러 엔벨로프 · 검색 계약
 33m2/
   api-contract.md                ★★ API 계약 180메서드 (verb·path·body·resp)
+  openapi.yaml                   ★ OpenAPI 3.1 사이드카 (자동생성, 161path/178op/235schema)
   api-endpoints.md               경로 카탈로그 159개
   api.md                         API 규약·의미
   data-model.md                  ★ 응답 DTO 179클래스/1,045필드

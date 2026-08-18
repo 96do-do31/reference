@@ -172,6 +172,7 @@
 | 권한 모델 | 55% | 85% | 85% | **88%** | 90% |
 | 디자인 시스템 | 0% | 85% | 85% | **85%** | 85% ✅ |
 | 모바일/앱 | 0% | 0% | 80% | **88%** | 80% ✅ |
+| 웹 반응형 (P4) | 0% | 0% | 30% | **90%** ✅ (UA쌍 실측) | 85% ✅ |
 | **종합 (33m2)** | **30%** | ~85% | ~92% | **~95%** ✅ | 95% |
 | **종합 (Airbnb)** | 30% | ~70% | ~75% | **~76%** | — |
 
@@ -217,18 +218,19 @@
 | **P2** API·에러 | `33m2/zod-schemas.md`(44스키마/463필드), `33m2/enums.md`(52그룹), `_synthesis/api-observed.md` 갱신 | **클라이언트 Zod 스키마 = 서버 계약**. 에러 엔벨로프 실측, 에러코드 103개, 검색 API 계약 완전 확정 |
 | **P3** 디자인 | `33m2/design-system.md`, `_shared/captures/33m2.design-tokens.json` | 타이포 22종·컬러 73종 정확한 수치, Pretendard, Tailwind v4, react-day-picker |
 | **P5** 인증·경계 | `33m2/auth-and-account.md` | 인증 라우트 4종, 공개/보호 경계 실측, 검증 규칙, `VerificationStatus` 6종, 외국인 여권 심사 |
+| **P4** 모바일/반응형 | `_synthesis/responsive-web.md`, `_shared/captures/responsive/*.html`(UA쌍 6) + `_synthesis/mobile-apps.md`(앱 px) | **모바일/데스크톱 UA 쌍 수집으로 웹 반응형 확정**: 33m2=서버 UA 적응형 이중 트리(데스크톱 고정 1080px / 모바일 유동+하단 5탭바), Airbnb=클라이언트 CSS 반응형(744/950/1128). 뷰포트 리사이즈 대신 **UA 스와핑 curl**로 우회 해결 |
 
 ### 🟡 부분 완료
 
 | Phase | 상태 |
 |---|---|
-| **P4** 모바일 | 33m2가 **서버 UA 기반 적응형 렌더링**(`isMobile`, 118KB vs 150KB)임을 확인. 다만 **브라우저 뷰포트 리사이즈가 동작하지 않아 모바일 스크린샷 확보 실패** → 레이아웃 차이는 구조 비교로만 기록 |
-| **P6** 재구성 | 문서는 생성됨. OpenAPI YAML 사이드카는 미작성 |
+| ~~**P4** 모바일~~ → **✅ 완료로 이동** (아래 참조) | — |
+| **P6** 재구성 → **✅ 완료** | **OpenAPI 3.1 사이드카 생성**(`33m2/openapi.yaml`, 161 path/178 op/235 schema, pyyaml 파싱·$ref 무결성 검증) + **상태머신 mermaid**(`_synthesis/state-machines.md`, 계약 2축·일정변경·취소·Airbnb 예약 라이프사이클). 엔티티 필드표=`data-model.md`+openapi, 디자인토큰 JSON=`_shared/captures/*.design-tokens.json`(기존), 컴포넌트 트리=`screens.md`+모바일 XML |
 
 ### ⬜ 잔여
 
 - Airbnb 측 심화 (게스트 GraphQL 스키마 상세, 호스트 위저드 8단계 이후)
 - 33m2 채팅 실시간 프로토콜 (WebSocket/폴링)
 - 33m2 결제 PG 연동 상세
-- OpenAPI 3.1 사이드카
-- 모바일 스크린샷
+- ~~OpenAPI 3.1 사이드카~~ → **완료** `33m2/openapi.yaml` (`_shared/captures/33m2.api-full.json`에서 생성, 재생성 스크립트 아카이브)
+- ~~모바일 스크린샷~~ → **해결**: 웹은 UA쌍 curl로 반응형 트리 실측(`responsive-web.md`), 앱은 uiautomator px 캡처(`mobile-apps.md`)

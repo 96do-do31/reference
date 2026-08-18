@@ -25,6 +25,8 @@
 | 요금 계산 산식 | `33m2/guest/flows.md` §FLOW-G03, `_synthesis/comparison.md` §2 |
 | **데이터 모델 (전체)** | `33m2/data-model.md` ★ (179 DTO/1,045필드) · `33m2/zod-schemas.md` (웹) |
 | **API 계약 (단일 진실)** | `33m2/api-contract.md` ★★ (180 메서드 verb·path·body·resp) |
+| **API 기계판독 (OpenAPI)** | `33m2/openapi.yaml` ★ (3.1, 161 path·178 op·235 schema, 자동생성) |
+| **상태 머신 다이어그램** | `_synthesis/state-machines.md` ★ (mermaid: 계약 2축·예약 라이프사이클) |
 | API 보조 | `33m2/api-endpoints.md`(경로) · `33m2/api.md`(규약·의미) |
 | **클론 가능성 검증** | `_synthesis/CLONE-READINESS.md` ★ |
 | 인증·계정·본인인증 | `33m2/auth-and-account.md` |
@@ -32,6 +34,7 @@
 | 호스트 입력 모델 | `33m2/host/screens-and-model.md` §SCR-H03 |
 | 권한 | `_synthesis/permissions.md` (PERM-01~08) |
 | 화면 인벤토리 | `33m2/guest/screens.md`, `33m2/host/screens-and-model.md` |
+| **웹 반응형 (데스크톱↔모바일)** | `_synthesis/responsive-web.md` ★ |
 | **모바일 앱 (2차 런칭)** | `_synthesis/mobile-apps.md` ★ |
 | 디자인 시스템 | `33m2/design-system.md` · `airbnb/design-system.md` |
 | UI 문구·i18n | `33m2/i18n-reference.md` (79 네임스페이스/1,876키) |
